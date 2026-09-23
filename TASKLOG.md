@@ -40,3 +40,12 @@
 - **關於我們 定位答复**：id 478 舊 post，冇入 menu，但在 post-sitemap（Google/E-E-A-T 用）；prod 2026-08-03 有人後台 save 過但內容無變。
 - **待 Wilson 表決**：staging blog_public noindex 開關。
 - **Prod 待部署 batch**：trust-ladder A/B/C + CFF 移除（prod ADL 垃圾行仍在）+ MARKETING-LOG 更新。
+
+## 2026-09-23 — Trust-ladder + CFF removal PROD DEPLOYED (Wilson GO 10:18)
+
+- **Pre-dep drift (new wp-drift-check.py):** 2 adjudicated diffs cleared first — 7階段 title adopted prod on staging; 關於我們 comments closed on staging (content was identical, prior count incl. comment form — correction logged). staging blog_public=0 (AC+DNH+DNApps) → noindex verified served.
+- **Prod inventory (raw reads via angelcareuser@47.52.68.243 → docker exec angelcare_wordpress):** WP 7.1.2 / Elementor 3.29.2 (same major as staging — safe). Footer render source = 152 (matches staging). ADL render source = 708 template with CFF garbage live. Page 704 has NO _elementor_data on prod (staging 704 dead data confirmed) — CFF token only in 704 post_content. Carer = 840 (ID parity on prod this time — verified before touching).
+- **Files synced (diff = pure ladder additions 69/3 lines, no prod-unique edits lost):** ac-blog.php (md5 f436e300) + templates/single-ac_blog.php (md5 4663a599); php -l clean; originals kept (container /tmp/*.pre-ladder.php + local backup dir).
+- **DB changes (raw $wpdb->update, JSON_UNESCAPED, validated re-read):** 152 prepend strip container; 708 append card + CFF widget removed (1); 840 post_content append [ac_escalation]; 704 post_content CFF token removed (1). CSS regen per-post 152/708 ONLY. Element_cache rows=0 (experiment inactive ✓). WPSC cleared + object cache flushed.
+- **Verify (cache-busted curl + iPhone UA):** home strip=1 · ADL 6 headings intact, CP_CALCULATED=0, 4 ladder campaigns · blog 7階段 2 blocks · carer 2 blocks · raw ac_escalation text = 0 everywhere · only "ac-staging" mention = beacon regex comment (host-adaptive mu-plugin, legit) · full drift re-run: staging↔prod identical on all 5 surfaces.
+- **Backups:** ~/backups/angelcare-prod-20260923/ · Rollback: restore 4 meta/content values + 2 files (md5 in log). Tag: ac-trust-ladder-prod-20260923.
