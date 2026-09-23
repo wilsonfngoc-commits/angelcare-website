@@ -1,0 +1,387 @@
+<?php
+/**
+ * Plugin Name: AC Spacing Fix v1.5 (Staging)
+ * Description:
+ *  1. David Wong quote block fixes on home hero (mobile justify kill, spacing rhythm)
+ *  2. TRP: add img[alt] node accessor so TranslatePress translates image alt attributes
+ *  3. TRP: translate RSS <link> feed titles (blogname + the_title dict lookup)
+ *  4. Button href re-link (option a, Wilson approved 2026-08-05): TRP Free strips the
+ *     <a> wrapper from Elementor buttons, leaving a dead translation-block div.
+ *     This mu-plugin re-attaches the original href + classes + target via JS,
+ *     keyed on the Elementor widget data-id (which survives translation).
+ * Author: CTO
+ * Version: 1.8
+ */
+
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+// ========== 0. TRP: translate img[alt] attributes ==========
+add_filter( 'trp_node_accessors', 'ac_trp_add_alt_accessor', 10, 1 );
+function ac_trp_add_alt_accessor( $accessors ) {
+    if ( ! isset( $accessors['image_alt'] ) ) {
+        $accessors['image_alt'] = array(
+            'selector'  => 'img[alt]',
+            'accessor'  => 'alt',
+            'attribute' => true,
+        );
+    }
+    return $accessors;
+}
+
+// ========== 1. TRP: translate RSS <link> feed titles ==========
+add_action( 'wp_head', 'ac_trp_feed_title_filters', 1 );
+function ac_trp_feed_title_filters() {
+    global $TRP_LANGUAGE;
+    if ( empty( $TRP_LANGUAGE ) || $TRP_LANGUAGE !== 'en_US' ) return;
+    add_filter( 'option_blogname', function( $name ) { return 'AngelCare'; }, 99 );
+    add_filter( 'the_title', function( $title ) {
+        global $wpdb;
+        if ( empty( $title ) ) return $title;
+        $t = trim( wp_strip_all_tags( $title ) );
+        if ( $t === '' ) return $title;
+        if ( ! preg_match( '/[\x{4e00}-\x{9fff}\x{3400}-\x{4dbf}]/u', $t ) ) return $title;
+        $row = $wpdb->get_var( $wpdb->prepare(
+            "SELECT translated FROM {$wpdb->prefix}trp_dictionary_zh_hant_en_us WHERE original = %s AND status = 2 LIMIT 1",
+            $t
+        ) );
+        return $row ? $row : $title;
+    }, 99 );
+}
+
+// ========== 2. Button href re-link (option a) ==========
+// Map: Elementor widget data-id → original {href, class, target}
+function ac_btn_relink_map() {
+    return array(
+        '03e12a2' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '10e0819' => array( 'href' => 'https://angelcare.dnow.hk/en/angelcare-landingpage/', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '19b514e' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=6', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '204d851d' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '28edfa20' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '2c860e0' => array( 'href' => '#', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '315acd2a' => array( 'href' => 'https://easycare.dnow.hk/?page_id=261', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '31e0b516' => array( 'href' => 'https://play.google.com/store/apps/details?id=com.doctornow.easycare', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '353e11e6' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '3a99b8c' => array( 'href' => 'https://angelcare.dnow.hk/en/%e8%83%8c%e6%99%af%e6%95%85%e4%ba%8b/', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '3bcb022' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=9', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '3ce76101' => array( 'href' => 'https://play.google.com/store/apps/details?id=com.doctornow.easycare', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '5326fbd' => array( 'href' => 'https://play.google.com/store/apps/details?id=com.doctornow.easycare', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '58e4875e' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '671fe5ce' => array( 'href' => 'https://play.google.com/store/apps/details?id=com.doctornow.easycare', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '77434c9' => array( 'href' => '#', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '7a361cd' => array( 'href' => 'https://angelcare.dnow.hk/en/download', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '8fbbca4' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=8', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '9dd9402' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=10', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        'd80fcbc' => array( 'href' => 'https://angelcare.dnow.hk/en/%e5%be%9e%e5%b1%85%e5%ae%b6%e5%ae%89%e8%80%81%e5%88%b0%e9%99%a2%e8%88%8d%e5%ae%89%e8%80%81%ef%bc%8c%e5%85%a8%e9%9d%a2%e4%ba%86%e8%a7%a3%e9%95%b7%e8%80%85%e7%85%a7%e8%ad%b7%e9%81%b8%e6%93%87/', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        'da78fb7' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=7', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        'e4f9c22' => array( 'href' => '#', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),    );
+}
+
+add_action( 'wp_footer', 'ac_btn_relink_js', 99 );
+function ac_btn_relink_js() {
+    global $TRP_LANGUAGE;
+    if ( empty( $TRP_LANGUAGE ) || $TRP_LANGUAGE !== 'en_US' ) return;
+    $map = ac_btn_relink_map();
+    if ( empty( $map ) ) return;
+    ?>
+<script id="ac-btn-relink">
+(function () {
+    var MAP = <?php echo json_encode( $map, JSON_UNESCAPED_SLASHES ); ?>;
+    var MARK = 'data-ac-relinked';
+    function relink() {
+        document.querySelectorAll('.elementor-widget-button .elementor-button-wrapper.translation-block').forEach(function (wrapper) {
+            // Never process twice (TRP dynamic translator may re-create wrappers)
+            if (wrapper.getAttribute(MARK)) return;
+            var widget = wrapper.closest('.elementor-widget-button');
+            if (!widget) return;
+            var id = widget.getAttribute('data-id');
+            if (!id || !MAP[id]) return;
+            if (wrapper.querySelector('a[href]')) return;
+            // Skip empty wrappers (avoids dead <a></a> in race conditions)
+            var text = (wrapper.textContent || '').replace(/\s+/g, ' ').trim();
+            if (!text) { wrapper.setAttribute(MARK, '1'); return; }
+            var info = MAP[id];
+            var a = document.createElement('a');
+            a.href = info.href;
+            if (info.class) a.className = info.class;
+            if (info.target) a.target = info.target;
+            if (info.target === '_blank') a.rel = 'noopener noreferrer';
+            // Rebuild full Elementor button structure (icon + content-wrapper + text)
+            var wrap = document.createElement('span');
+            wrap.className = 'elementor-button-content-wrapper';
+            var txt = document.createElement('span');
+            txt.className = 'elementor-button-text';
+            txt.textContent = text;
+            if (id === '315acd2a') {
+                // Header widget: add icon span for the teal gradient badge (design)
+                var ic = document.createElement('span');
+                ic.className = 'elementor-button-icon';
+                ic.setAttribute('aria-hidden', 'true');
+                wrap.appendChild(ic);
+            }
+            wrap.appendChild(txt);
+            a.appendChild(wrap);
+            wrapper.textContent = '';
+            wrapper.classList.remove('translation-block');
+            wrapper.appendChild(a);
+            wrapper.setAttribute(MARK, '1');
+        });
+    }
+
+
+    function boot() {
+        relink();
+        // TRP dynamic translator + Elementor re-render can re-wrap text at any time.
+        // Watch the DOM and re-link anything new, debounced.
+        var timer = null;
+        var observer = new MutationObserver(function () {
+            if (timer) clearTimeout(timer);
+            timer = setTimeout(relink, 150);
+        });
+        observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', boot);
+    } else {
+        boot();
+    }
+})();
+</script>
+    <?php
+}
+
+
+// ========== 4b. Nine Essential Features: per-slide data attributes (all languages) ==========
+add_action( 'wp_footer', 'ac_feat_attrs_js', 100 );
+function ac_feat_attrs_js() {
+    ?>
+<script id="ac-feat-attrs">
+(function () {
+    var MARK = 'data-ac-feat-ready';
+    function apply() {
+        document.querySelectorAll('.elementor-element-015d86b .swiper-slide .elementor-testimonial').forEach(function (t) {
+            if (t.getAttribute(MARK)) return;
+            var cite = t.querySelector('.elementor-testimonial__cite');
+            if (!cite) return;
+            var m = cite.textContent.replace(/\s+/g, ' ').trim().match(/^(\d+)[.、．]\s*(.+?)[:：]?\s*$/);
+            if (!m) return;
+            var num = m[1], cat = m[2];
+            // attr() in CSS reads only the element the pseudo belongs to,
+            // so set the attrs on testimonial (watermark), header (chip) and content (title).
+            t.setAttribute('data-ac-num', num);
+            t.setAttribute('data-ac-cat', cat);
+            var h = t.querySelector('.elementor-testimonial__header');
+            var c = t.querySelector('.elementor-testimonial__content');
+            if (h) { h.setAttribute('data-ac-cat', cat); }
+            if (c) { c.setAttribute('data-ac-num', num); c.setAttribute('data-ac-cat', cat); }
+            t.setAttribute(MARK, '1');
+        });
+    }
+    function boot() {
+        apply();
+        var timer = null;
+        var observer = new MutationObserver(function () {
+            if (timer) clearTimeout(timer);
+            timer = setTimeout(apply, 150);
+        });
+        observer.observe(document.documentElement, { childList: true, subtree: true });
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', boot);
+    } else {
+        boot();
+    }
+})();
+</script>
+    <?php
+}
+
+// ========== 3. CSS (spacing + fallback button visual) ==========
+add_action( 'wp_head', 'ac_spacing_fix_css', 99 );
+
+function ac_spacing_fix_css() {
+    echo '<style id="ac-spacing-fix">' . "\n";
+
+    // ========== 1. Kill mobile justify on David Wong quote (widget 78193198) ==========
+    echo '@media (max-width: 767px) {' . "\n";
+    echo '  .elementor-element-78193198,'
+       . '.elementor-element-78193198 .elementor-widget-container,'
+       . '.elementor-element-78193198 .wp-block-group,'
+       . '.elementor-element-78193198 .wp-block-group p,'
+       . '.elementor-element-78193198 p { text-align: left !important; }' . "\n";
+    echo '}' . "\n";
+
+    echo '.elementor-element-78193198 .wp-block-group p,'
+       . '.elementor-element-78193198 .wp-block-group,'
+       . '.elementor-element-78193198 .elementor-widget-container { text-align: left !important; }' . "\n";
+    echo '.elementor-element-78193198 .wp-block-group { justify-content: flex-start !important; align-items: flex-start !important; }' . "\n";
+
+    // ========== 2. Normalize vertical spacing in David Wong block ==========
+    echo '.elementor-element-891a295 .elementor-icon-box-title { margin-bottom: 4px !important; }' . "\n";
+    echo '.elementor-element-891a295 { margin-bottom: 24px !important; }' . "\n";
+    echo '.elementor-element-78193198 .wp-block-group { margin: 0 !important; padding: 0 !important; }' . "\n";
+    echo '.elementor-element-78193198 { margin-bottom: 16px !important; }' . "\n";
+    echo '.elementor-element-3a99b8c .elementor-widget-container { margin: 0 !important; }' . "\n";
+
+    // ========== 3. Fallback button look (only for buttons JS hasn't re-linked) ==========
+    echo '.elementor-widget-button .elementor-button-wrapper.translation-block {'
+       . 'display: inline-block; padding: 15px 40px; border-radius: 30px;'
+       . 'background-color: #40B4B4; color: #FFFFFF; font-family: Roboto, sans-serif;'
+       . 'font-size: 20px; font-weight: 600; line-height: 1.5; text-align: center;'
+       . 'cursor: pointer; transition: all 0.3s; }' . "\n";
+    echo '.elementor-widget-button .elementor-button-wrapper.translation-block:hover {'
+       . 'background-color: #359a9a; }' . "\n";
+
+
+    // ========== 4. Nine Essential Features redesign (teal v2, Wilson approved) ==========
+    // Section background
+    echo '.elementor-element-632dceb4 { background: linear-gradient(160deg, #eef6f6 0%, #e2f0f2 100%); border-radius: 18px; padding: 16px 12px 14px; }' . "\n";
+    // Header: button 315acd2a -> new-head (icon badge + title + subtitle + gradient rule)
+    echo '.elementor-element-315acd2a .elementor-button { display: flex !important; align-items: center !important; gap: 10px !important; background: transparent !important; border: none !important; box-shadow: none !important; padding: 0 !important; width: 100% !important; justify-content: flex-start !important; border-radius: 0 !important; }' . "\n";
+    echo '.elementor-element-315acd2a .elementor-button-icon { width: 34px !important; height: 34px !important; border-radius: 10px !important; background: linear-gradient(135deg, #4db6b8, #2e8b8b) !important; color: #ffffff !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; box-shadow: 0 2px 8px rgba(46,139,139,.4) !important; margin: 0 !important; font-size: 16px !important; flex: none !important; }' . "\n";
+    echo '.elementor-element-315acd2a .elementor-button-icon svg { display: none !important; }' . "\n";
+    echo '.elementor-element-315acd2a .elementor-button-icon::before { content: "\u2726"; font-size: 16px !important; color: #ffffff !important; line-height: 1; }' . "\n";
+    echo '.elementor-element-315acd2a .elementor-button-content-wrapper { display: flex !important; align-items: center !important; gap: 10px !important; width: 100% !important; }' . "\n";
+    echo '.elementor-element-315acd2a .elementor-button-text { display: flex !important; flex-direction: column !important; font-size: 17px !important; font-weight: 800 !important; color: #3d3733 !important; letter-spacing: .5px !important; line-height: 1.3 !important; }' . "\n";
+    $ac_sub = ( isset( $GLOBALS['TRP_LANGUAGE'] ) && $GLOBALS['TRP_LANGUAGE'] === 'en_US' ) ? '9 ESSENTIAL FUNCTIONS' : '9 大實用功能';
+    echo '.elementor-element-315acd2a .elementor-button-text::after { content: "' . esc_attr( $ac_sub ) . '"; display: block; font-size: 9px; font-weight: 600; color: #a0856b; letter-spacing: 2px; text-transform: uppercase; margin-top: 2px; }' . "\n";
+    echo '.elementor-element-315acd2a .elementor-button-content-wrapper::after { content: ""; flex: 1; height: 2px; background: linear-gradient(90deg, #4db6b8, transparent); border-radius: 1px; margin-left: 12px; }' . "\n";
+    // Cards: reviews widget 015d86b slides -> new-card
+    echo '.elementor-element-015d86b .swiper-slide { padding: 6px; }' . "\n";
+    echo '.elementor-element-015d86b .elementor-testimonial { background: #ffffff !important; border-radius: 14px !important; padding: 14px !important; min-height: 158px !important; box-shadow: 0 4px 14px rgba(46,139,139,.14) !important; border: 1px solid #cfe4e4 !important; position: relative !important; overflow: hidden !important; }' . "\n";
+    // Chip (header pill: icon + category)
+    echo '.elementor-element-015d86b .elementor-testimonial__header { display: inline-flex !important; align-items: center !important; gap: 5px !important; background: #eef6f6 !important; color: #2e8b8b !important; font-size: 8.5px !important; font-weight: 800 !important; padding: 3px 9px !important; border-radius: 20px !important; margin-bottom: 8px !important; }' . "\n";
+    echo '.elementor-element-015d86b .elementor-testimonial__cite { display: none !important; }' . "\n";
+    echo '.elementor-element-015d86b .elementor-testimonial__header::before { content: attr(data-ac-cat); font-style: normal; letter-spacing: .5px; }' . "\n";
+    echo '.elementor-element-015d86b .elementor-testimonial__icon { order: -1 !important; font-size: 10px !important; color: #2e8b8b !important; }' . "\n";
+    echo '.elementor-element-015d86b .elementor-testimonial__icon svg { width: 12px !important; height: 12px !important; fill: currentColor !important; }' . "\n";
+    // Title (number + category)
+    echo '.elementor-element-015d86b .elementor-testimonial__content::before { content: attr(data-ac-num) ". " attr(data-ac-cat); display: block; font-size: 13px; font-weight: 800; color: #3d3733; margin-bottom: 5px; }' . "\n";
+    // Description
+    echo '.elementor-element-015d86b .elementor-testimonial__text { font-size: 9.5px !important; color: #6b6158 !important; line-height: 1.65 !important; }' . "\n";
+    // Big watermark number
+    echo '.elementor-element-015d86b .elementor-testimonial::after { content: attr(data-ac-num); position: absolute; right: 10px; bottom: 6px; font-size: 40px; font-weight: 800; color: #e2f0f2; line-height: 1; z-index: 0; pointer-events: none; }' . "\n";
+    echo '.elementor-element-015d86b .elementor-testimonial__content, .elementor-element-015d86b .elementor-testimonial__header { position: relative; z-index: 1; }' . "\n";
+
+    // ========== 10. Nav menu fixes (Wilson 2026-08-05) ==========
+    // 10a. Hide redundant fixed hamburger/sidebar widget 7561b1b (floats over hero on desktop/tablet;
+    //      desktop nav 36261f8 + mobile header nav c5741a7 already cover navigation)
+    echo '.elementor-element-7561b1b { display: none !important; }' . "\n";
+
+    // 10b. Force explicit horizontal nav item spacing (desktop nav 36261f8 + mobile nav c5741a7)
+    //      so items can never concatenate regardless of Elementor CSS variable state.
+    echo '.elementor-element-36261f8 .elementor-nav-menu--main .elementor-nav-menu > li,'
+       . '.elementor-element-c5741a7 .elementor-nav-menu--main .elementor-nav-menu > li {'
+       . 'margin-left: 0 !important; margin-right: 0 !important; }' . "\n";
+    echo '.elementor-element-36261f8 .elementor-nav-menu--main .elementor-nav-menu > li > a,'
+       . '.elementor-element-c5741a7 .elementor-nav-menu--main .elementor-nav-menu > li > a {'
+       . 'margin-right: 0 !important; margin-left: 0 !important; }' . "\n";
+    echo '.elementor-element-36261f8 .elementor-nav-menu--main .elementor-nav-menu,'
+       . '.elementor-element-c5741a7 .elementor-nav-menu--main .elementor-nav-menu {'
+       . 'display: flex !important; flex-wrap: wrap !important; align-items: center; gap: 30px !important; }' . "\n";
+    // Ensure the toggle is hidden on desktop for the dropdown-mobile navs
+    echo '@media (min-width: 768px) {' . "\n";
+    echo '  .elementor-element-36261f8 .elementor-menu-toggle,'
+       . '.elementor-element-c5741a7 .elementor-menu-toggle { display: none !important; }' . "\n";
+    echo '  .elementor-element-36261f8 .elementor-nav-menu--main,'
+       . '.elementor-element-c5741a7 .elementor-nav-menu--main { display: block !important; }' . "\n";
+    echo '}' . "\n";
+
+
+    // ========== 11. Language toggle (EN/中) + desktop nav visibility (v1.8) ==========
+    // 11a. Desktop main page: pin the desktop header nav bar to the top (hero is fullscreen;
+    //      without this the only above-fold trigger was the floating hamburger 7561b1b, now hidden).
+    echo '@media (min-width: 768px) {' . "\n";
+    echo '  .elementor-element-2cde46b { position: fixed !important; top: 0 !important; left: 0 !important;'
+       . 'right: 0 !important; width: 100% !important; z-index: 999 !important;'
+       . 'background: rgba(255,255,255,0.94) !important; box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important; }' . "\n";
+    echo '}' . "\n";
+    // 11b. Hide the old TRP shortcode language switcher (mobile header widget on main page)
+    echo '.elementor-element-trp-ls-widget { display: none !important; }' . "\n";
+    // 11c. New EN/中 toggle styles (desktop nav + mobile drawer)
+    echo '.ac-ls-item { display: flex; align-items: center; gap: 4px; margin: 0 6px; }' . "\n";
+    echo '.ac-ls-item .ac-ls-link { display: inline-flex; align-items: center; justify-content: center;'
+       . 'min-width: 30px; padding: 4px 11px; border-radius: 14px; font-size: 13px; font-weight: 700;'
+       . 'color: #143852; border: 1.5px solid #40B4B4; background: #fff; text-decoration: none; line-height: 1.4;'
+       . 'transition: all .2s; }' . "\n";
+    echo '.ac-ls-item .ac-ls-link:hover { background: #e6f6f6; }' . "\n";
+    echo '.ac-ls-item .ac-ls-link.ac-ls-active { background: #40B4B4; color: #fff; border-color: #40B4B4; }' . "\n";
+    echo '.ac-ls-item .ac-ls-sep { color: #c9c9c9; font-size: 12px; }' . "\n";
+    // Mobile drawer variant
+    echo '.elementor-nav-menu--dropdown .ac-ls-item { padding: 10px 14px; border-top: 1px solid #ececec; margin-top: 6px; }' . "\n";
+
+    echo '</style>' . "\n";
+}
+
+
+// ========== 12. EN/中 toggle — replaces TRP floating + header switchers (v1.8) ==========
+
+// 12a. Suppress the TRP floating bottom language switcher entirely (all pages)
+add_filter( 'trp_floater_ls_html_v2', function () { return ''; }, 999 );
+
+// 12b. Build toggle URLs + inject EN/中 into nav menus
+add_action( 'wp_footer', 'ac_lang_toggle_inject', 120 );
+function ac_lang_toggle_inject() {
+    if ( ! class_exists( 'TRP_Translate_Press' ) ) return;
+    global $TRP_LANGUAGE;
+    $current_lang = ! empty( $TRP_LANGUAGE ) ? $TRP_LANGUAGE : 'zh_Hant';
+    try {
+        $trp    = TRP_Translate_Press::get_trp_instance();
+        $conv   = $trp->get_component( 'url_converter' );
+        $cur    = $conv->cur_page_url();
+        $en_url = str_replace( '#TRPLINKPROCESSED', '', $conv->get_url_for_language( 'en_US', $cur ) );
+        $zh_url = str_replace( '#TRPLINKPROCESSED', '', $conv->get_url_for_language( 'zh_Hant', $cur ) );
+    } catch ( Throwable $e ) {
+        return;
+    }
+    $data = array(
+        'en'  => esc_url( $en_url ),
+        'zh'  => esc_url( $zh_url ),
+        'cur' => $current_lang,
+    );
+    ?>
+<script id="ac-lang-toggle">
+(function () {
+    var D = <?php echo json_encode( $data ); ?>;
+    var MARK = 'data-ac-ls-ready';
+    function buildItem() {
+        var zhActive = ( D.cur !== 'en_US' ) ? ' ac-ls-active' : '';
+        var enActive = ( D.cur === 'en_US' ) ? ' ac-ls-active' : '';
+        var li = document.createElement('li');
+        li.className = 'menu-item ac-ls-item';
+        li.setAttribute( MARK, '1' );
+        li.setAttribute( 'data-no-translation', '' );
+        li.innerHTML =
+            '<a class="ac-ls-link ac-ls-zh' + zhActive + '" href="' + D.zh + '" data-no-translation>中</a>' +
+            '<span class="ac-ls-sep" data-no-translation>/</span>' +
+            '<a class="ac-ls-link ac-ls-en' + enActive + '" href="' + D.en + '" data-no-translation>EN</a>';
+        return li;
+    }
+    // Target navs: main desktop nav (36261f8), main mobile drawer (c5741a7),
+    // inner desktop nav + drawer (7ccfb07a)
+    var TARGETS = [ 'menu-1-36261f8', 'menu-2-c5741a7', 'menu-1-7ccfb07a', 'menu-2-7ccfb07a' ];
+    function inject() {
+        TARGETS.forEach( function ( id ) {
+            var ul = document.getElementById( id );
+            if ( ! ul ) return;
+            if ( ul.querySelector( '.ac-ls-item' ) ) return;
+            ul.appendChild( buildItem() );
+        } );
+    }
+    function boot() {
+        inject();
+        var timer = null;
+        var obs = new MutationObserver( function () {
+            if ( timer ) clearTimeout( timer );
+            timer = setTimeout( inject, 150 );
+        } );
+        obs.observe( document.documentElement, { childList: true, subtree: true } );
+    }
+    if ( document.readyState === 'loading' ) {
+        document.addEventListener( 'DOMContentLoaded', boot );
+    } else {
+        boot();
+    }
+})();
+</script>
+    <?php
+}

@@ -1,0 +1,5477 @@
+{
+  "_description": "Landing page performance for dashboard. Updated by GA4 agent.",
+  "snapshots": [
+    {
+      "_updated": "2026-09-21T16:15:20.854Z",
+      "period": "last_7_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 29,
+          "users": 23,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 8,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDnfIKgyfdVxOdOEjpHAI6RA55223lleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6WXnUJWQhcKVYLq5UJ0kCn4Ai7Susrn1EQEJNcGuleQdR2PY9sM0BZ4xliDQ_aem_0TNr0ulwg-hYrBE7dHVtTA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDnfIKgyfdVxOdOEjpHAI6RA55223lleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6WXnUJWQhcKVYLq5UJ0kCn4Ai7Susrn1EQEJNcGuleQdR2PY9sM0BZ4xliDQ_aem_0TNr0ulwg-hYrBE7dHVtTA",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDnoMT2--lyMtX9sol5iPAP9dqPXJtleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7_mJ6iudA6gbb7xcujkFKHuRdWFnSACmdFI2h3zgJq9ZJoO5W9owS6swQhag_aem_CZT6f8NM7myn5QxIoSDY5g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDnoMT2--lyMtX9sol5iPAP9dqPXJtleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7_mJ6iudA6gbb7xcujkFKHuRdWFnSACmdFI2h3zgJq9ZJoO5W9owS6swQhag_aem_CZT6f8NM7myn5QxIoSDY5g",
+          "sessions": 2,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDqzP3drAi4bdzbN5ow49f6KXTdFIFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7S1thrVrMj_INDbj6z2FTGzQ23Yo_an508ARDPHpOy2jowOcfJHImDVzZc8A_aem_AVOH6E0Rtg-VHXBllPdskg",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDqzP3drAi4bdzbN5ow49f6KXTdFIFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7S1thrVrMj_INDbj6z2FTGzQ23Yo_an508ARDPHpOy2jowOcfJHImDVzZc8A_aem_AVOH6E0Rtg-VHXBllPdskg",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDsgc4qbV03A1YeZenPMnV7878b1KxleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6sCU2tPkkWV619dU8eKN9TEIEXxAmqmc0hrBrfIskWfxjJ3tWcx14osa8mHQ_aem_u0GX3DojAtFs_Y5n-cyytQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDsgc4qbV03A1YeZenPMnV7878b1KxleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6sCU2tPkkWV619dU8eKN9TEIEXxAmqmc0hrBrfIskWfxjJ3tWcx14osa8mHQ_aem_u0GX3DojAtFs_Y5n-cyytQ",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwRlRTSAUb7iJwZG9mAWZkaWQWUOv23semsb9My03S6j4qkFvsrs1SZ2V4dG4DYWVtAjEwAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6o6SOK3Ne141icOn2d8dT1uVF99uZn-8y_ANg2uIJk_qhK8uswi3LC-AKuqQ_aem_8_90XMBFI30EQ2WhnpUzjQ",
+          "label": "/?fbclid=IwRlRTSAUb7iJwZG9mAWZkaWQWUOv23semsb9My03S6j4qkFvsrs1SZ2V4dG4DYWVtAjEwAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6o6SOK3Ne141icOn2d8dT1uVF99uZn-8y_ANg2uIJk_qhK8uswi3LC-AKuqQ_aem_8_90XMBFI30EQ2WhnpUzjQ",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwVERDUAUaM2hwZG9mBWZkaWQWUOp_oUhWp6vg5GoX2xWh45UqmLJePWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHr8t850WDxfrApD3Ks5OhhGM5n6320emkYwwQHTMl7gwBql_lIojMarfizQ4_aem_kNlhp9sTejER3qWgZy2o2A",
+          "label": "/?fbclid=IwVERDUAUaM2hwZG9mBWZkaWQWUOp_oUhWp6vg5GoX2xWh45UqmLJePWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHr8t850WDxfrApD3Ks5OhhGM5n6320emkYwwQHTMl7gwBql_lIojMarfizQ4_aem_kNlhp9sTejER3qWgZy2o2A",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwcGRvZgFleHRuA2FlbQMxMDAAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEejHPyPDxSKOSkBjLL-7-n9USfBbi-rgiWCfjGTPmsx1Dly2pDQBH5Zt9DbaA_aem_YVWOplYYaYBC0aWl69Gx5g",
+          "label": "/?fbclid=IwcGRvZgFleHRuA2FlbQMxMDAAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEejHPyPDxSKOSkBjLL-7-n9USfBbi-rgiWCfjGTPmsx1Dly2pDQBH5Zt9DbaA_aem_YVWOplYYaYBC0aWl69Gx5g",
+          "sessions": 2,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 2,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=6%2F%2F",
+          "label": "/?cff-form=6%2F%2F",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwY2xjawUaTgtwZG9mBWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsRbAeQ3UW9GfldQupDEWC18mYrvQR-p72c9mIS3_96dAKlRJr58UDxPv6Rt_aem_ukzegG3tQEseX-K4Dazvfg",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwY2xjawUaTgtwZG9mBWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsRbAeQ3UW9GfldQupDEWC18mYrvQR-p72c9mIS3_96dAKlRJr58UDxPv6Rt_aem_ukzegG3tQEseX-K4Dazvfg",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHg-ksvkr5eJ5SZQ2fQyRfFowLkuqmA1ettJY6Y7UjDqKh07ZuCzIaVXQ6E7j_aem_u14a5TxjmcJN2Af7LmKEZw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHg-ksvkr5eJ5SZQ2fQyRfFowLkuqmA1ettJY6Y7UjDqKh07ZuCzIaVXQ6E7j_aem_u14a5TxjmcJN2Af7LmKEZw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgDPmAOoVng_lQsMCv6MoqzEtC6pYyaHtHDZGLox9i6lxRvCnsK9RxE1jcM2_aem_z-LDAA15-C6uvAQ3irbsJA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgDPmAOoVng_lQsMCv6MoqzEtC6pYyaHtHDZGLox9i6lxRvCnsK9RxE1jcM2_aem_z-LDAA15-C6uvAQ3irbsJA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTI41xGZ9Wg7sLLGvdJCLaI--yV5ATzFsw6tc5TMuOpPNEG3hfXGGnM7zPV_aem_5P3TgU1EIoEoQ5TeqRfbBA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTI41xGZ9Wg7sLLGvdJCLaI--yV5ATzFsw6tc5TMuOpPNEG3hfXGGnM7zPV_aem_5P3TgU1EIoEoQ5TeqRfbBA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTYl1qiQbqQNaj1uTP5YZRZrWvfQ-1CkZTszOZ6LZaancMC4ia9mDAObs27_aem_VWcKVD3kBTwnxpFdF7lpag",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTYl1qiQbqQNaj1uTP5YZRZrWvfQ-1CkZTszOZ6LZaancMC4ia9mDAObs27_aem_VWcKVD3kBTwnxpFdF7lpag",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgtW6cr9EPXxF98UkAiC5WwybYXEuwel1h4kuf7SMOUx3w1VHuPwbm5mAPA5_aem_yMevDSXxXKInOMOXdrrauA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgtW6cr9EPXxF98UkAiC5WwybYXEuwel1h4kuf7SMOUx3w1VHuPwbm5mAPA5_aem_yMevDSXxXKInOMOXdrrauA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHh-yNzD5r3ToJy0zC0EASdodRsUhgW9chronvdxS1akANfdEswhIG82n14Uw_aem_HR3P7L5BDrUbZ8H6PRmHdw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHh-yNzD5r3ToJy0zC0EASdodRsUhgW9chronvdxS1akANfdEswhIG82n14Uw_aem_HR3P7L5BDrUbZ8H6PRmHdw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhJo5XbHZAifKaWAYJaKbiZFf6C_euK18amq17ooTTOtKh3yivmANjgu4CqF_aem_6rA4cxMEHgjRVXJLErIkLw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhJo5XbHZAifKaWAYJaKbiZFf6C_euK18amq17ooTTOtKh3yivmANjgu4CqF_aem_6rA4cxMEHgjRVXJLErIkLw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhkT4VIdiFdY-xCU37Gv9ZNJACulytmEsA8G3DpbtZNPIwxrKs9rdWafs1sO_aem_6Uz-Q1CTY-vIRY3Oq-xbaA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhkT4VIdiFdY-xCU37Gv9ZNJACulytmEsA8G3DpbtZNPIwxrKs9rdWafs1sO_aem_6Uz-Q1CTY-vIRY3Oq-xbaA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhtZeI8g1x814gDFHjITjdNQZ0DU9NX6204XzMGu6ssyXQh2UyYab-KbnT76_aem_i-VK-GEBuRh5edtEucphKw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhtZeI8g1x814gDFHjITjdNQZ0DU9NX6204XzMGu6ssyXQh2UyYab-KbnT76_aem_i-VK-GEBuRh5edtEucphKw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHi83pGZpdpb8wjGHQIkzPB6xL-BDnlIgtAgRdSSOkDTsw36-d-Qr4LtvBKHs_aem_MZ2TkFQwBI0xIQyab-fyLA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHi83pGZpdpb8wjGHQIkzPB6xL-BDnlIgtAgRdSSOkDTsw36-d-Qr4LtvBKHs_aem_MZ2TkFQwBI0xIQyab-fyLA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiE1rHr87soXy9HCx-PI9zUJllb9cUiwtlkhSfoOjNXiY_A99ytlUyP_TYeY_aem_pTrPrwjkt6zU-cTlvG0MAA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiE1rHr87soXy9HCx-PI9zUJllb9cUiwtlkhSfoOjNXiY_A99ytlUyP_TYeY_aem_pTrPrwjkt6zU-cTlvG0MAA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibTwT4-IltC_j_EpYiZQaMpyxkIyItwZxE47gxq6tH39ezU_7Lue56YSnXp_aem_N7c1mYkCQx6NT4_evhpn8g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibTwT4-IltC_j_EpYiZQaMpyxkIyItwZxE47gxq6tH39ezU_7Lue56YSnXp_aem_N7c1mYkCQx6NT4_evhpn8g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiksWC-UAshJdhPPb1RZpaBYHbKV_bBOodtBKeTAHJKaVe576I7XNASrY7Rf_aem_beBR2KMjgOvBMdPpCH-R9g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiksWC-UAshJdhPPb1RZpaBYHbKV_bBOodtBKeTAHJKaVe576I7XNASrY7Rf_aem_beBR2KMjgOvBMdPpCH-R9g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj6XwdSV5VIGuw0RNw17QFTbeTIgK_9arbVdNmQYPJrvImrEeMQVnj_-uIdq_aem_G33oYbxoMtiJCxBPlecqpA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj6XwdSV5VIGuw0RNw17QFTbeTIgK_9arbVdNmQYPJrvImrEeMQVnj_-uIdq_aem_G33oYbxoMtiJCxBPlecqpA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj9eUMv_MiGVhyMn2_P9VSFXs9C7tMSBpXbLnOwAng6BYR35a1NOct6h-w3L_aem_s1-BAPBmMD2Fwlgno3CDHw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj9eUMv_MiGVhyMn2_P9VSFXs9C7tMSBpXbLnOwAng6BYR35a1NOct6h-w3L_aem_s1-BAPBmMD2Fwlgno3CDHw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjp0ifmX8i9TXaU9HkbrR3GBRI4HWI_lbTdUkZZtTdKOco5tNIiKPFfpfuQn_aem_rsNKIukdZd7qvHQMUme0ww",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjp0ifmX8i9TXaU9HkbrR3GBRI4HWI_lbTdUkZZtTdKOco5tNIiKPFfpfuQn_aem_rsNKIukdZd7qvHQMUme0ww",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjpENmPbrBTPjHWwsK82NlMe2o8TfmS9jTmOPoWHnhWaAP2Fqrl_Ya8q2e5g_aem_vsx-Nn4ZObtueh3HWVt58w",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjpENmPbrBTPjHWwsK82NlMe2o8TfmS9jTmOPoWHnhWaAP2Fqrl_Ya8q2e5g_aem_vsx-Nn4ZObtueh3HWVt58w",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjy5zkFcRY93nql_wIIftN98B_eaBOk5KNKMLyYy0CYx20NjcWAxAjQZ-jS-_aem_FKz7yCI51RQCv68i4UkSgA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjy5zkFcRY93nql_wIIftN98B_eaBOk5KNKMLyYy0CYx20NjcWAxAjQZ-jS-_aem_FKz7yCI51RQCv68i4UkSgA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk-iE0ihvikoByUfsmYzLnifnE6dRd-VpL7xOSuns0J3ibeAanvqBReGf6s6_aem_SCelGqp25Q0UD2PHIXU34A",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk-iE0ihvikoByUfsmYzLnifnE6dRd-VpL7xOSuns0J3ibeAanvqBReGf6s6_aem_SCelGqp25Q0UD2PHIXU34A",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk6z6rilBEiEGgkwu8b8nhzNH-o7bm1lF_v3H_jdKopBipIAwI1JFSmRcT9__aem_U_8zeM1Dm3eJVmx12m-TVQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk6z6rilBEiEGgkwu8b8nhzNH-o7bm1lF_v3H_jdKopBipIAwI1JFSmRcT9__aem_U_8zeM1Dm3eJVmx12m-TVQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkEaVo_jlyieMBqIxkOFvaiMICYm3IRZzoMofVc8NjlQ4xOfxlpoMyr089-T_aem_t6BpqsWcHIjmn7rCs0Jr1Q",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkEaVo_jlyieMBqIxkOFvaiMICYm3IRZzoMofVc8NjlQ4xOfxlpoMyr089-T_aem_t6BpqsWcHIjmn7rCs0Jr1Q",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkJ4UXNoUhjH_582-gyPZNC0gFoyl9hwgQXBjeU6HcH-YAnNQyRlY7mzilDR_aem_WivhrWWIQJ9h1DZg1RMZeQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkJ4UXNoUhjH_582-gyPZNC0gFoyl9hwgQXBjeU6HcH-YAnNQyRlY7mzilDR_aem_WivhrWWIQJ9h1DZg1RMZeQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkQpXfDS4uZVf-ThYgNW5l5WNxso4iBuTKDhLem324_Rax72TvgIcXvJVj8b_aem_ACwHX2c5ml4L9cEgJEgR-w",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkQpXfDS4uZVf-ThYgNW5l5WNxso4iBuTKDhLem324_Rax72TvgIcXvJVj8b_aem_ACwHX2c5ml4L9cEgJEgR-w",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkRh68BysiyMI_SectIMQOz5DFTxId5q1jdrGXCMn6c5nkA-KFJi3iRZqRwK_aem_RYA2yUxkXzu-S9RyIqBYlA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkRh68BysiyMI_SectIMQOz5DFTxId5q1jdrGXCMn6c5nkA-KFJi3iRZqRwK_aem_RYA2yUxkXzu-S9RyIqBYlA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkWWYrqxcj59v6KzbFjnXOMk3cv9lrB0PJNSQM4QCUf_yGnHIcfFYi4n4i4b_aem_NtCKUu3rKmtvL8y2lp2a7A",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkWWYrqxcj59v6KzbFjnXOMk3cv9lrB0PJNSQM4QCUf_yGnHIcfFYi4n4i4b_aem_NtCKUu3rKmtvL8y2lp2a7A",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-21T16:15:22.229Z",
+      "period": "last_30_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 150,
+          "users": 101,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 37,
+          "users": 32,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 28,
+          "users": 21,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 19,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 18,
+          "users": 15,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 15,
+          "users": 15,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 13,
+          "users": 13,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/居家安老/",
+          "label": "/en/居家安老/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 10,
+          "users": 10,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "label": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "sessions": 9,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》照顧計劃/",
+          "label": "/blog/《長者護理常識》照顧計劃/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧事的7個階段/",
+          "label": "/en/blog/照顧事的7個階段/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的身心準備/",
+          "label": "/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/生理變化及應對方法/",
+          "label": "/blog/生理變化及應對方法/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/",
+          "label": "/download/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/",
+          "label": "/blog/",
+          "sessions": 7,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧預防/",
+          "label": "/blog/照顧預防/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/心理變化及應對方法/",
+          "label": "/en/blog/心理變化及應對方法/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者壓力-自我照顧/",
+          "label": "/en/blog/照顧者壓力-自我照顧/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的自我防護/",
+          "label": "/en/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的身心準備/",
+          "label": "/en/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/生理變化及應對方法/",
+          "label": "/en/blog/生理變化及應對方法/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/安老院考慮/",
+          "label": "/en/安老院考慮/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/廢用症候群/",
+          "label": "/en/廢用症候群/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/長者照護選擇/",
+          "label": "/en/長者照護選擇/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》老人難溝通點算？/",
+          "label": "/blog/《長者護理常識》老人難溝通點算？/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/家居環境改造/",
+          "label": "/blog/家居環境改造/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/pricing-plan/",
+          "label": "/en/pricing-plan/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/全新升級/",
+          "label": "/en/全新升級/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/基本生活能力評估/",
+          "label": "/基本生活能力評估/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/?team_id=555&type=Blood%20Pressure",
+          "label": "/download/?team_id=555&type=Blood%20Pressure",
+          "sessions": 4,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/《長者護理常識》照顧計劃/",
+          "label": "/en/blog/《長者護理常識》照顧計劃/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=6%2F%2F",
+          "label": "/?cff-form=6%2F%2F",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/家居環境改造/",
+          "label": "/en/blog/家居環境改造/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧預防/",
+          "label": "/en/blog/照顧預防/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/主要照顧者：搵唔到人幫手/",
+          "label": "/en/主要照顧者：搵唔到人幫手/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/功能介紹/",
+          "label": "/en/功能介紹/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/主要照顧者：搵唔到人幫手/",
+          "label": "/主要照顧者：搵唔到人幫手/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFmZGlkFlDXiDojf3BGaXiwrNN1Ajitu8Z-DoxleHRuA2FlbQEwAGFkaWQAAC_V5izkNXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR40UBtKqDv-VsT3MvAN_-dex_E_L3TIj2PrQPtWQw3oA42-Fsf0q6Uwi7hNiw_aem_3n2auGcvLs6gN4d9DoR-Ww",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFmZGlkFlDXiDojf3BGaXiwrNN1Ajitu8Z-DoxleHRuA2FlbQEwAGFkaWQAAC_V5izkNXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR40UBtKqDv-VsT3MvAN_-dex_E_L3TIj2PrQPtWQw3oA42-Fsf0q6Uwi7hNiw_aem_3n2auGcvLs6gN4d9DoR-Ww",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDj464Ii8Xt-7OoxAFnI0Hp7WFnjfVleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4Y5t7sd64ZABMKyJovyxBa4O4sx4k7Y0lkRYxGVXK00VRoBHsAeAU-7gKX7Q_aem_y0oOaSXHjtf3L1djoF8v-A",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDj464Ii8Xt-7OoxAFnI0Hp7WFnjfVleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4Y5t7sd64ZABMKyJovyxBa4O4sx4k7Y0lkRYxGVXK00VRoBHsAeAU-7gKX7Q_aem_y0oOaSXHjtf3L1djoF8v-A",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-21T16:15:23.441Z",
+      "period": "last_90_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 512,
+          "users": 300,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 95,
+          "users": 70,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 51,
+          "users": 40,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 45,
+          "users": 41,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 45,
+          "users": 34,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 44,
+          "users": 33,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 44,
+          "users": 40,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 36,
+          "users": 34,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 30,
+          "users": 26,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 28,
+          "users": 26,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "label": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "sessions": 23,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/",
+          "label": "/blog/",
+          "sessions": 22,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/",
+          "label": "/download/",
+          "sessions": 21,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 21,
+          "users": 20,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 19,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/angelcare-landingpage/",
+          "label": "/angelcare-landingpage/",
+          "sessions": 18,
+          "users": 18,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 16,
+          "users": 16,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/恰到好處的照顧之道/",
+          "label": "/blog/恰到好處的照顧之道/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/基本生活能力評估/",
+          "label": "/基本生活能力評估/",
+          "sessions": 12,
+          "users": 12,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/居家安老/",
+          "label": "/en/居家安老/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/主要照顧者：搵唔到人幫手/",
+          "label": "/主要照顧者：搵唔到人幫手/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》照顧計劃/",
+          "label": "/blog/《長者護理常識》照顧計劃/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧事的7個階段/",
+          "label": "/en/blog/照顧事的7個階段/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/en/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/家居環境改造/",
+          "label": "/blog/家居環境改造/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的身心準備/",
+          "label": "/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/生理變化及應對方法/",
+          "label": "/blog/生理變化及應對方法/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/全新升級/",
+          "label": "/en/全新升級/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧預防/",
+          "label": "/blog/照顧預防/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/廢用症候群/",
+          "label": "/en/廢用症候群/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=10%2F",
+          "label": "/?cff-form=10%2F",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/",
+          "label": "/en/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/心理變化及應對方法/",
+          "label": "/en/blog/心理變化及應對方法/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者壓力-自我照顧/",
+          "label": "/en/blog/照顧者壓力-自我照顧/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的自我防護/",
+          "label": "/en/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的身心準備/",
+          "label": "/en/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/生理變化及應對方法/",
+          "label": "/en/blog/生理變化及應對方法/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/pricing-plan/",
+          "label": "/en/pricing-plan/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/安老院考慮/",
+          "label": "/en/安老院考慮/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/長者照護選擇/",
+          "label": "/en/長者照護選擇/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/關於我們/",
+          "label": "/關於我們/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》老人難溝通點算？/",
+          "label": "/blog/《長者護理常識》老人難溝通點算？/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwT01FWASwc65leHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7V-dknoy28hvnzY7BNFHXVHyZllaQXIvATCprhjb-oamLA7efivlx4GAjAww_aem_AXIeYtJsKAx3yplU0IMyLA",
+          "label": "/?fbclid=IwT01FWASwc65leHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7V-dknoy28hvnzY7BNFHXVHyZllaQXIvATCprhjb-oamLA7efivlx4GAjAww_aem_AXIeYtJsKAx3yplU0IMyLA",
+          "sessions": 4,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/?team_id=555&type=Blood%20Pressure",
+          "label": "/download/?team_id=555&type=Blood%20Pressure",
+          "sessions": 4,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/《長者護理常識》照顧計劃/",
+          "label": "/en/blog/《長者護理常識》照顧計劃/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-21T19:10:20.335Z",
+      "period": "last_7_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 29,
+          "users": 23,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 8,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDnfIKgyfdVxOdOEjpHAI6RA55223lleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6WXnUJWQhcKVYLq5UJ0kCn4Ai7Susrn1EQEJNcGuleQdR2PY9sM0BZ4xliDQ_aem_0TNr0ulwg-hYrBE7dHVtTA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDnfIKgyfdVxOdOEjpHAI6RA55223lleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6WXnUJWQhcKVYLq5UJ0kCn4Ai7Susrn1EQEJNcGuleQdR2PY9sM0BZ4xliDQ_aem_0TNr0ulwg-hYrBE7dHVtTA",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDnoMT2--lyMtX9sol5iPAP9dqPXJtleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7_mJ6iudA6gbb7xcujkFKHuRdWFnSACmdFI2h3zgJq9ZJoO5W9owS6swQhag_aem_CZT6f8NM7myn5QxIoSDY5g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDnoMT2--lyMtX9sol5iPAP9dqPXJtleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7_mJ6iudA6gbb7xcujkFKHuRdWFnSACmdFI2h3zgJq9ZJoO5W9owS6swQhag_aem_CZT6f8NM7myn5QxIoSDY5g",
+          "sessions": 2,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDqzP3drAi4bdzbN5ow49f6KXTdFIFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7S1thrVrMj_INDbj6z2FTGzQ23Yo_an508ARDPHpOy2jowOcfJHImDVzZc8A_aem_AVOH6E0Rtg-VHXBllPdskg",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDqzP3drAi4bdzbN5ow49f6KXTdFIFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7S1thrVrMj_INDbj6z2FTGzQ23Yo_an508ARDPHpOy2jowOcfJHImDVzZc8A_aem_AVOH6E0Rtg-VHXBllPdskg",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDsgc4qbV03A1YeZenPMnV7878b1KxleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6sCU2tPkkWV619dU8eKN9TEIEXxAmqmc0hrBrfIskWfxjJ3tWcx14osa8mHQ_aem_u0GX3DojAtFs_Y5n-cyytQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDsgc4qbV03A1YeZenPMnV7878b1KxleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6sCU2tPkkWV619dU8eKN9TEIEXxAmqmc0hrBrfIskWfxjJ3tWcx14osa8mHQ_aem_u0GX3DojAtFs_Y5n-cyytQ",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwRlRTSAUb7iJwZG9mAWZkaWQWUOv23semsb9My03S6j4qkFvsrs1SZ2V4dG4DYWVtAjEwAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6o6SOK3Ne141icOn2d8dT1uVF99uZn-8y_ANg2uIJk_qhK8uswi3LC-AKuqQ_aem_8_90XMBFI30EQ2WhnpUzjQ",
+          "label": "/?fbclid=IwRlRTSAUb7iJwZG9mAWZkaWQWUOv23semsb9My03S6j4qkFvsrs1SZ2V4dG4DYWVtAjEwAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6o6SOK3Ne141icOn2d8dT1uVF99uZn-8y_ANg2uIJk_qhK8uswi3LC-AKuqQ_aem_8_90XMBFI30EQ2WhnpUzjQ",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwVERDUAUaM2hwZG9mBWZkaWQWUOp_oUhWp6vg5GoX2xWh45UqmLJePWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHr8t850WDxfrApD3Ks5OhhGM5n6320emkYwwQHTMl7gwBql_lIojMarfizQ4_aem_kNlhp9sTejER3qWgZy2o2A",
+          "label": "/?fbclid=IwVERDUAUaM2hwZG9mBWZkaWQWUOp_oUhWp6vg5GoX2xWh45UqmLJePWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHr8t850WDxfrApD3Ks5OhhGM5n6320emkYwwQHTMl7gwBql_lIojMarfizQ4_aem_kNlhp9sTejER3qWgZy2o2A",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwcGRvZgFleHRuA2FlbQMxMDAAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEejHPyPDxSKOSkBjLL-7-n9USfBbi-rgiWCfjGTPmsx1Dly2pDQBH5Zt9DbaA_aem_YVWOplYYaYBC0aWl69Gx5g",
+          "label": "/?fbclid=IwcGRvZgFleHRuA2FlbQMxMDAAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEejHPyPDxSKOSkBjLL-7-n9USfBbi-rgiWCfjGTPmsx1Dly2pDQBH5Zt9DbaA_aem_YVWOplYYaYBC0aWl69Gx5g",
+          "sessions": 2,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 2,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=6%2F%2F",
+          "label": "/?cff-form=6%2F%2F",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwY2xjawUaTgtwZG9mBWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsRbAeQ3UW9GfldQupDEWC18mYrvQR-p72c9mIS3_96dAKlRJr58UDxPv6Rt_aem_ukzegG3tQEseX-K4Dazvfg",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwY2xjawUaTgtwZG9mBWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsRbAeQ3UW9GfldQupDEWC18mYrvQR-p72c9mIS3_96dAKlRJr58UDxPv6Rt_aem_ukzegG3tQEseX-K4Dazvfg",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHg-ksvkr5eJ5SZQ2fQyRfFowLkuqmA1ettJY6Y7UjDqKh07ZuCzIaVXQ6E7j_aem_u14a5TxjmcJN2Af7LmKEZw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHg-ksvkr5eJ5SZQ2fQyRfFowLkuqmA1ettJY6Y7UjDqKh07ZuCzIaVXQ6E7j_aem_u14a5TxjmcJN2Af7LmKEZw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgDPmAOoVng_lQsMCv6MoqzEtC6pYyaHtHDZGLox9i6lxRvCnsK9RxE1jcM2_aem_z-LDAA15-C6uvAQ3irbsJA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgDPmAOoVng_lQsMCv6MoqzEtC6pYyaHtHDZGLox9i6lxRvCnsK9RxE1jcM2_aem_z-LDAA15-C6uvAQ3irbsJA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTI41xGZ9Wg7sLLGvdJCLaI--yV5ATzFsw6tc5TMuOpPNEG3hfXGGnM7zPV_aem_5P3TgU1EIoEoQ5TeqRfbBA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTI41xGZ9Wg7sLLGvdJCLaI--yV5ATzFsw6tc5TMuOpPNEG3hfXGGnM7zPV_aem_5P3TgU1EIoEoQ5TeqRfbBA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTYl1qiQbqQNaj1uTP5YZRZrWvfQ-1CkZTszOZ6LZaancMC4ia9mDAObs27_aem_VWcKVD3kBTwnxpFdF7lpag",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTYl1qiQbqQNaj1uTP5YZRZrWvfQ-1CkZTszOZ6LZaancMC4ia9mDAObs27_aem_VWcKVD3kBTwnxpFdF7lpag",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgtW6cr9EPXxF98UkAiC5WwybYXEuwel1h4kuf7SMOUx3w1VHuPwbm5mAPA5_aem_yMevDSXxXKInOMOXdrrauA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgtW6cr9EPXxF98UkAiC5WwybYXEuwel1h4kuf7SMOUx3w1VHuPwbm5mAPA5_aem_yMevDSXxXKInOMOXdrrauA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHh-yNzD5r3ToJy0zC0EASdodRsUhgW9chronvdxS1akANfdEswhIG82n14Uw_aem_HR3P7L5BDrUbZ8H6PRmHdw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHh-yNzD5r3ToJy0zC0EASdodRsUhgW9chronvdxS1akANfdEswhIG82n14Uw_aem_HR3P7L5BDrUbZ8H6PRmHdw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhJo5XbHZAifKaWAYJaKbiZFf6C_euK18amq17ooTTOtKh3yivmANjgu4CqF_aem_6rA4cxMEHgjRVXJLErIkLw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhJo5XbHZAifKaWAYJaKbiZFf6C_euK18amq17ooTTOtKh3yivmANjgu4CqF_aem_6rA4cxMEHgjRVXJLErIkLw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhkT4VIdiFdY-xCU37Gv9ZNJACulytmEsA8G3DpbtZNPIwxrKs9rdWafs1sO_aem_6Uz-Q1CTY-vIRY3Oq-xbaA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhkT4VIdiFdY-xCU37Gv9ZNJACulytmEsA8G3DpbtZNPIwxrKs9rdWafs1sO_aem_6Uz-Q1CTY-vIRY3Oq-xbaA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhtZeI8g1x814gDFHjITjdNQZ0DU9NX6204XzMGu6ssyXQh2UyYab-KbnT76_aem_i-VK-GEBuRh5edtEucphKw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhtZeI8g1x814gDFHjITjdNQZ0DU9NX6204XzMGu6ssyXQh2UyYab-KbnT76_aem_i-VK-GEBuRh5edtEucphKw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHi83pGZpdpb8wjGHQIkzPB6xL-BDnlIgtAgRdSSOkDTsw36-d-Qr4LtvBKHs_aem_MZ2TkFQwBI0xIQyab-fyLA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHi83pGZpdpb8wjGHQIkzPB6xL-BDnlIgtAgRdSSOkDTsw36-d-Qr4LtvBKHs_aem_MZ2TkFQwBI0xIQyab-fyLA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiE1rHr87soXy9HCx-PI9zUJllb9cUiwtlkhSfoOjNXiY_A99ytlUyP_TYeY_aem_pTrPrwjkt6zU-cTlvG0MAA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiE1rHr87soXy9HCx-PI9zUJllb9cUiwtlkhSfoOjNXiY_A99ytlUyP_TYeY_aem_pTrPrwjkt6zU-cTlvG0MAA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibTwT4-IltC_j_EpYiZQaMpyxkIyItwZxE47gxq6tH39ezU_7Lue56YSnXp_aem_N7c1mYkCQx6NT4_evhpn8g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibTwT4-IltC_j_EpYiZQaMpyxkIyItwZxE47gxq6tH39ezU_7Lue56YSnXp_aem_N7c1mYkCQx6NT4_evhpn8g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiksWC-UAshJdhPPb1RZpaBYHbKV_bBOodtBKeTAHJKaVe576I7XNASrY7Rf_aem_beBR2KMjgOvBMdPpCH-R9g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiksWC-UAshJdhPPb1RZpaBYHbKV_bBOodtBKeTAHJKaVe576I7XNASrY7Rf_aem_beBR2KMjgOvBMdPpCH-R9g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj6XwdSV5VIGuw0RNw17QFTbeTIgK_9arbVdNmQYPJrvImrEeMQVnj_-uIdq_aem_G33oYbxoMtiJCxBPlecqpA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj6XwdSV5VIGuw0RNw17QFTbeTIgK_9arbVdNmQYPJrvImrEeMQVnj_-uIdq_aem_G33oYbxoMtiJCxBPlecqpA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj9eUMv_MiGVhyMn2_P9VSFXs9C7tMSBpXbLnOwAng6BYR35a1NOct6h-w3L_aem_s1-BAPBmMD2Fwlgno3CDHw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj9eUMv_MiGVhyMn2_P9VSFXs9C7tMSBpXbLnOwAng6BYR35a1NOct6h-w3L_aem_s1-BAPBmMD2Fwlgno3CDHw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjp0ifmX8i9TXaU9HkbrR3GBRI4HWI_lbTdUkZZtTdKOco5tNIiKPFfpfuQn_aem_rsNKIukdZd7qvHQMUme0ww",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjp0ifmX8i9TXaU9HkbrR3GBRI4HWI_lbTdUkZZtTdKOco5tNIiKPFfpfuQn_aem_rsNKIukdZd7qvHQMUme0ww",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjpENmPbrBTPjHWwsK82NlMe2o8TfmS9jTmOPoWHnhWaAP2Fqrl_Ya8q2e5g_aem_vsx-Nn4ZObtueh3HWVt58w",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjpENmPbrBTPjHWwsK82NlMe2o8TfmS9jTmOPoWHnhWaAP2Fqrl_Ya8q2e5g_aem_vsx-Nn4ZObtueh3HWVt58w",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjy5zkFcRY93nql_wIIftN98B_eaBOk5KNKMLyYy0CYx20NjcWAxAjQZ-jS-_aem_FKz7yCI51RQCv68i4UkSgA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjy5zkFcRY93nql_wIIftN98B_eaBOk5KNKMLyYy0CYx20NjcWAxAjQZ-jS-_aem_FKz7yCI51RQCv68i4UkSgA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk-iE0ihvikoByUfsmYzLnifnE6dRd-VpL7xOSuns0J3ibeAanvqBReGf6s6_aem_SCelGqp25Q0UD2PHIXU34A",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk-iE0ihvikoByUfsmYzLnifnE6dRd-VpL7xOSuns0J3ibeAanvqBReGf6s6_aem_SCelGqp25Q0UD2PHIXU34A",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk6z6rilBEiEGgkwu8b8nhzNH-o7bm1lF_v3H_jdKopBipIAwI1JFSmRcT9__aem_U_8zeM1Dm3eJVmx12m-TVQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk6z6rilBEiEGgkwu8b8nhzNH-o7bm1lF_v3H_jdKopBipIAwI1JFSmRcT9__aem_U_8zeM1Dm3eJVmx12m-TVQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk8SKvJIiaCCV9SCVYc6R95aX0eQQX7RPZ46TAcZ6MJZsSxnntPkQlZaB8Uc_aem__brw5sPRcOyAl7M8H6nYbw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk8SKvJIiaCCV9SCVYc6R95aX0eQQX7RPZ46TAcZ6MJZsSxnntPkQlZaB8Uc_aem__brw5sPRcOyAl7M8H6nYbw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkEaVo_jlyieMBqIxkOFvaiMICYm3IRZzoMofVc8NjlQ4xOfxlpoMyr089-T_aem_t6BpqsWcHIjmn7rCs0Jr1Q",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkEaVo_jlyieMBqIxkOFvaiMICYm3IRZzoMofVc8NjlQ4xOfxlpoMyr089-T_aem_t6BpqsWcHIjmn7rCs0Jr1Q",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkJ4UXNoUhjH_582-gyPZNC0gFoyl9hwgQXBjeU6HcH-YAnNQyRlY7mzilDR_aem_WivhrWWIQJ9h1DZg1RMZeQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkJ4UXNoUhjH_582-gyPZNC0gFoyl9hwgQXBjeU6HcH-YAnNQyRlY7mzilDR_aem_WivhrWWIQJ9h1DZg1RMZeQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkQpXfDS4uZVf-ThYgNW5l5WNxso4iBuTKDhLem324_Rax72TvgIcXvJVj8b_aem_ACwHX2c5ml4L9cEgJEgR-w",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkQpXfDS4uZVf-ThYgNW5l5WNxso4iBuTKDhLem324_Rax72TvgIcXvJVj8b_aem_ACwHX2c5ml4L9cEgJEgR-w",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkRh68BysiyMI_SectIMQOz5DFTxId5q1jdrGXCMn6c5nkA-KFJi3iRZqRwK_aem_RYA2yUxkXzu-S9RyIqBYlA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkRh68BysiyMI_SectIMQOz5DFTxId5q1jdrGXCMn6c5nkA-KFJi3iRZqRwK_aem_RYA2yUxkXzu-S9RyIqBYlA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-21T19:10:22.217Z",
+      "period": "last_30_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 150,
+          "users": 101,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 37,
+          "users": 32,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 28,
+          "users": 21,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 19,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 18,
+          "users": 15,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 15,
+          "users": 15,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 13,
+          "users": 13,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/居家安老/",
+          "label": "/en/居家安老/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 10,
+          "users": 10,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "label": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "sessions": 9,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》照顧計劃/",
+          "label": "/blog/《長者護理常識》照顧計劃/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧事的7個階段/",
+          "label": "/en/blog/照顧事的7個階段/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的身心準備/",
+          "label": "/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/生理變化及應對方法/",
+          "label": "/blog/生理變化及應對方法/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/",
+          "label": "/download/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/",
+          "label": "/blog/",
+          "sessions": 7,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧預防/",
+          "label": "/blog/照顧預防/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/心理變化及應對方法/",
+          "label": "/en/blog/心理變化及應對方法/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者壓力-自我照顧/",
+          "label": "/en/blog/照顧者壓力-自我照顧/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的自我防護/",
+          "label": "/en/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的身心準備/",
+          "label": "/en/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/生理變化及應對方法/",
+          "label": "/en/blog/生理變化及應對方法/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/安老院考慮/",
+          "label": "/en/安老院考慮/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/廢用症候群/",
+          "label": "/en/廢用症候群/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/長者照護選擇/",
+          "label": "/en/長者照護選擇/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》老人難溝通點算？/",
+          "label": "/blog/《長者護理常識》老人難溝通點算？/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/家居環境改造/",
+          "label": "/blog/家居環境改造/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/pricing-plan/",
+          "label": "/en/pricing-plan/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/全新升級/",
+          "label": "/en/全新升級/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/基本生活能力評估/",
+          "label": "/基本生活能力評估/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/?team_id=555&type=Blood%20Pressure",
+          "label": "/download/?team_id=555&type=Blood%20Pressure",
+          "sessions": 4,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/《長者護理常識》照顧計劃/",
+          "label": "/en/blog/《長者護理常識》照顧計劃/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=6%2F%2F",
+          "label": "/?cff-form=6%2F%2F",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/家居環境改造/",
+          "label": "/en/blog/家居環境改造/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧預防/",
+          "label": "/en/blog/照顧預防/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/主要照顧者：搵唔到人幫手/",
+          "label": "/en/主要照顧者：搵唔到人幫手/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/功能介紹/",
+          "label": "/en/功能介紹/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/主要照顧者：搵唔到人幫手/",
+          "label": "/主要照顧者：搵唔到人幫手/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFmZGlkFlDXiDojf3BGaXiwrNN1Ajitu8Z-DoxleHRuA2FlbQEwAGFkaWQAAC_V5izkNXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR40UBtKqDv-VsT3MvAN_-dex_E_L3TIj2PrQPtWQw3oA42-Fsf0q6Uwi7hNiw_aem_3n2auGcvLs6gN4d9DoR-Ww",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFmZGlkFlDXiDojf3BGaXiwrNN1Ajitu8Z-DoxleHRuA2FlbQEwAGFkaWQAAC_V5izkNXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR40UBtKqDv-VsT3MvAN_-dex_E_L3TIj2PrQPtWQw3oA42-Fsf0q6Uwi7hNiw_aem_3n2auGcvLs6gN4d9DoR-Ww",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDj464Ii8Xt-7OoxAFnI0Hp7WFnjfVleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4Y5t7sd64ZABMKyJovyxBa4O4sx4k7Y0lkRYxGVXK00VRoBHsAeAU-7gKX7Q_aem_y0oOaSXHjtf3L1djoF8v-A",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDj464Ii8Xt-7OoxAFnI0Hp7WFnjfVleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4Y5t7sd64ZABMKyJovyxBa4O4sx4k7Y0lkRYxGVXK00VRoBHsAeAU-7gKX7Q_aem_y0oOaSXHjtf3L1djoF8v-A",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-21T19:10:23.902Z",
+      "period": "last_90_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 512,
+          "users": 300,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 95,
+          "users": 70,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 51,
+          "users": 40,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 45,
+          "users": 41,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 45,
+          "users": 34,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 44,
+          "users": 33,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 44,
+          "users": 40,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 36,
+          "users": 34,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 30,
+          "users": 26,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 28,
+          "users": 26,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "label": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "sessions": 23,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/",
+          "label": "/blog/",
+          "sessions": 22,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/",
+          "label": "/download/",
+          "sessions": 21,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 21,
+          "users": 20,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 19,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/angelcare-landingpage/",
+          "label": "/angelcare-landingpage/",
+          "sessions": 18,
+          "users": 18,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 16,
+          "users": 16,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/恰到好處的照顧之道/",
+          "label": "/blog/恰到好處的照顧之道/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/基本生活能力評估/",
+          "label": "/基本生活能力評估/",
+          "sessions": 12,
+          "users": 12,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/居家安老/",
+          "label": "/en/居家安老/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/主要照顧者：搵唔到人幫手/",
+          "label": "/主要照顧者：搵唔到人幫手/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》照顧計劃/",
+          "label": "/blog/《長者護理常識》照顧計劃/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧事的7個階段/",
+          "label": "/en/blog/照顧事的7個階段/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/en/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/家居環境改造/",
+          "label": "/blog/家居環境改造/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的身心準備/",
+          "label": "/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/生理變化及應對方法/",
+          "label": "/blog/生理變化及應對方法/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/全新升級/",
+          "label": "/en/全新升級/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧預防/",
+          "label": "/blog/照顧預防/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/廢用症候群/",
+          "label": "/en/廢用症候群/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=10%2F",
+          "label": "/?cff-form=10%2F",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/",
+          "label": "/en/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/心理變化及應對方法/",
+          "label": "/en/blog/心理變化及應對方法/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者壓力-自我照顧/",
+          "label": "/en/blog/照顧者壓力-自我照顧/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的自我防護/",
+          "label": "/en/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的身心準備/",
+          "label": "/en/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/生理變化及應對方法/",
+          "label": "/en/blog/生理變化及應對方法/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/pricing-plan/",
+          "label": "/en/pricing-plan/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/安老院考慮/",
+          "label": "/en/安老院考慮/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/長者照護選擇/",
+          "label": "/en/長者照護選擇/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/關於我們/",
+          "label": "/關於我們/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》老人難溝通點算？/",
+          "label": "/blog/《長者護理常識》老人難溝通點算？/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwT01FWASwc65leHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7V-dknoy28hvnzY7BNFHXVHyZllaQXIvATCprhjb-oamLA7efivlx4GAjAww_aem_AXIeYtJsKAx3yplU0IMyLA",
+          "label": "/?fbclid=IwT01FWASwc65leHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7V-dknoy28hvnzY7BNFHXVHyZllaQXIvATCprhjb-oamLA7efivlx4GAjAww_aem_AXIeYtJsKAx3yplU0IMyLA",
+          "sessions": 4,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/?team_id=555&type=Blood%20Pressure",
+          "label": "/download/?team_id=555&type=Blood%20Pressure",
+          "sessions": 4,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/《長者護理常識》照顧計劃/",
+          "label": "/en/blog/《長者護理常識》照顧計劃/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-22T16:15:21.874Z",
+      "period": "last_7_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 26,
+          "users": 22,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 8,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "",
+          "label": "Unknown",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiaIsXBx38aaMyDuqkiVh-GsaFxESbfykpnofOGv1Bk7bWJjYob35kUKUZdE_aem_IIFgdBiIf3q2wPuTkYnrNQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiaIsXBx38aaMyDuqkiVh-GsaFxESbfykpnofOGv1Bk7bWJjYob35kUKUZdE_aem_IIFgdBiIf3q2wPuTkYnrNQ",
+          "sessions": 2,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDqzP3drAi4bdzbN5ow49f6KXTdFIFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7S1thrVrMj_INDbj6z2FTGzQ23Yo_an508ARDPHpOy2jowOcfJHImDVzZc8A_aem_AVOH6E0Rtg-VHXBllPdskg",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDqzP3drAi4bdzbN5ow49f6KXTdFIFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7S1thrVrMj_INDbj6z2FTGzQ23Yo_an508ARDPHpOy2jowOcfJHImDVzZc8A_aem_AVOH6E0Rtg-VHXBllPdskg",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDsgc4qbV03A1YeZenPMnV7878b1KxleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6sCU2tPkkWV619dU8eKN9TEIEXxAmqmc0hrBrfIskWfxjJ3tWcx14osa8mHQ_aem_u0GX3DojAtFs_Y5n-cyytQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDsgc4qbV03A1YeZenPMnV7878b1KxleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6sCU2tPkkWV619dU8eKN9TEIEXxAmqmc0hrBrfIskWfxjJ3tWcx14osa8mHQ_aem_u0GX3DojAtFs_Y5n-cyytQ",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwRlRTSAUb7iJwZG9mAWZkaWQWUOv23semsb9My03S6j4qkFvsrs1SZ2V4dG4DYWVtAjEwAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6o6SOK3Ne141icOn2d8dT1uVF99uZn-8y_ANg2uIJk_qhK8uswi3LC-AKuqQ_aem_8_90XMBFI30EQ2WhnpUzjQ",
+          "label": "/?fbclid=IwRlRTSAUb7iJwZG9mAWZkaWQWUOv23semsb9My03S6j4qkFvsrs1SZ2V4dG4DYWVtAjEwAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6o6SOK3Ne141icOn2d8dT1uVF99uZn-8y_ANg2uIJk_qhK8uswi3LC-AKuqQ_aem_8_90XMBFI30EQ2WhnpUzjQ",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwVERDUAUaM2hwZG9mBWZkaWQWUOp_oUhWp6vg5GoX2xWh45UqmLJePWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHr8t850WDxfrApD3Ks5OhhGM5n6320emkYwwQHTMl7gwBql_lIojMarfizQ4_aem_kNlhp9sTejER3qWgZy2o2A",
+          "label": "/?fbclid=IwVERDUAUaM2hwZG9mBWZkaWQWUOp_oUhWp6vg5GoX2xWh45UqmLJePWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHr8t850WDxfrApD3Ks5OhhGM5n6320emkYwwQHTMl7gwBql_lIojMarfizQ4_aem_kNlhp9sTejER3qWgZy2o2A",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=6%2F%2F",
+          "label": "/?cff-form=6%2F%2F",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwY2xjawUaTgtwZG9mBWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsRbAeQ3UW9GfldQupDEWC18mYrvQR-p72c9mIS3_96dAKlRJr58UDxPv6Rt_aem_ukzegG3tQEseX-K4Dazvfg",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwY2xjawUaTgtwZG9mBWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsRbAeQ3UW9GfldQupDEWC18mYrvQR-p72c9mIS3_96dAKlRJr58UDxPv6Rt_aem_ukzegG3tQEseX-K4Dazvfg",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHg-ksvkr5eJ5SZQ2fQyRfFowLkuqmA1ettJY6Y7UjDqKh07ZuCzIaVXQ6E7j_aem_u14a5TxjmcJN2Af7LmKEZw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHg-ksvkr5eJ5SZQ2fQyRfFowLkuqmA1ettJY6Y7UjDqKh07ZuCzIaVXQ6E7j_aem_u14a5TxjmcJN2Af7LmKEZw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgDPmAOoVng_lQsMCv6MoqzEtC6pYyaHtHDZGLox9i6lxRvCnsK9RxE1jcM2_aem_z-LDAA15-C6uvAQ3irbsJA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgDPmAOoVng_lQsMCv6MoqzEtC6pYyaHtHDZGLox9i6lxRvCnsK9RxE1jcM2_aem_z-LDAA15-C6uvAQ3irbsJA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTI41xGZ9Wg7sLLGvdJCLaI--yV5ATzFsw6tc5TMuOpPNEG3hfXGGnM7zPV_aem_5P3TgU1EIoEoQ5TeqRfbBA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTI41xGZ9Wg7sLLGvdJCLaI--yV5ATzFsw6tc5TMuOpPNEG3hfXGGnM7zPV_aem_5P3TgU1EIoEoQ5TeqRfbBA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTYl1qiQbqQNaj1uTP5YZRZrWvfQ-1CkZTszOZ6LZaancMC4ia9mDAObs27_aem_VWcKVD3kBTwnxpFdF7lpag",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTYl1qiQbqQNaj1uTP5YZRZrWvfQ-1CkZTszOZ6LZaancMC4ia9mDAObs27_aem_VWcKVD3kBTwnxpFdF7lpag",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgtW6cr9EPXxF98UkAiC5WwybYXEuwel1h4kuf7SMOUx3w1VHuPwbm5mAPA5_aem_yMevDSXxXKInOMOXdrrauA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgtW6cr9EPXxF98UkAiC5WwybYXEuwel1h4kuf7SMOUx3w1VHuPwbm5mAPA5_aem_yMevDSXxXKInOMOXdrrauA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHh-yNzD5r3ToJy0zC0EASdodRsUhgW9chronvdxS1akANfdEswhIG82n14Uw_aem_HR3P7L5BDrUbZ8H6PRmHdw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHh-yNzD5r3ToJy0zC0EASdodRsUhgW9chronvdxS1akANfdEswhIG82n14Uw_aem_HR3P7L5BDrUbZ8H6PRmHdw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhkT4VIdiFdY-xCU37Gv9ZNJACulytmEsA8G3DpbtZNPIwxrKs9rdWafs1sO_aem_6Uz-Q1CTY-vIRY3Oq-xbaA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhkT4VIdiFdY-xCU37Gv9ZNJACulytmEsA8G3DpbtZNPIwxrKs9rdWafs1sO_aem_6Uz-Q1CTY-vIRY3Oq-xbaA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhtZeI8g1x814gDFHjITjdNQZ0DU9NX6204XzMGu6ssyXQh2UyYab-KbnT76_aem_i-VK-GEBuRh5edtEucphKw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhtZeI8g1x814gDFHjITjdNQZ0DU9NX6204XzMGu6ssyXQh2UyYab-KbnT76_aem_i-VK-GEBuRh5edtEucphKw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHi83pGZpdpb8wjGHQIkzPB6xL-BDnlIgtAgRdSSOkDTsw36-d-Qr4LtvBKHs_aem_MZ2TkFQwBI0xIQyab-fyLA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHi83pGZpdpb8wjGHQIkzPB6xL-BDnlIgtAgRdSSOkDTsw36-d-Qr4LtvBKHs_aem_MZ2TkFQwBI0xIQyab-fyLA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiE1rHr87soXy9HCx-PI9zUJllb9cUiwtlkhSfoOjNXiY_A99ytlUyP_TYeY_aem_pTrPrwjkt6zU-cTlvG0MAA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiE1rHr87soXy9HCx-PI9zUJllb9cUiwtlkhSfoOjNXiY_A99ytlUyP_TYeY_aem_pTrPrwjkt6zU-cTlvG0MAA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibTwT4-IltC_j_EpYiZQaMpyxkIyItwZxE47gxq6tH39ezU_7Lue56YSnXp_aem_N7c1mYkCQx6NT4_evhpn8g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibTwT4-IltC_j_EpYiZQaMpyxkIyItwZxE47gxq6tH39ezU_7Lue56YSnXp_aem_N7c1mYkCQx6NT4_evhpn8g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiksWC-UAshJdhPPb1RZpaBYHbKV_bBOodtBKeTAHJKaVe576I7XNASrY7Rf_aem_beBR2KMjgOvBMdPpCH-R9g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiksWC-UAshJdhPPb1RZpaBYHbKV_bBOodtBKeTAHJKaVe576I7XNASrY7Rf_aem_beBR2KMjgOvBMdPpCH-R9g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj6XwdSV5VIGuw0RNw17QFTbeTIgK_9arbVdNmQYPJrvImrEeMQVnj_-uIdq_aem_G33oYbxoMtiJCxBPlecqpA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj6XwdSV5VIGuw0RNw17QFTbeTIgK_9arbVdNmQYPJrvImrEeMQVnj_-uIdq_aem_G33oYbxoMtiJCxBPlecqpA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj9eUMv_MiGVhyMn2_P9VSFXs9C7tMSBpXbLnOwAng6BYR35a1NOct6h-w3L_aem_s1-BAPBmMD2Fwlgno3CDHw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj9eUMv_MiGVhyMn2_P9VSFXs9C7tMSBpXbLnOwAng6BYR35a1NOct6h-w3L_aem_s1-BAPBmMD2Fwlgno3CDHw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjp0ifmX8i9TXaU9HkbrR3GBRI4HWI_lbTdUkZZtTdKOco5tNIiKPFfpfuQn_aem_rsNKIukdZd7qvHQMUme0ww",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjp0ifmX8i9TXaU9HkbrR3GBRI4HWI_lbTdUkZZtTdKOco5tNIiKPFfpfuQn_aem_rsNKIukdZd7qvHQMUme0ww",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjpENmPbrBTPjHWwsK82NlMe2o8TfmS9jTmOPoWHnhWaAP2Fqrl_Ya8q2e5g_aem_vsx-Nn4ZObtueh3HWVt58w",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjpENmPbrBTPjHWwsK82NlMe2o8TfmS9jTmOPoWHnhWaAP2Fqrl_Ya8q2e5g_aem_vsx-Nn4ZObtueh3HWVt58w",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjy5zkFcRY93nql_wIIftN98B_eaBOk5KNKMLyYy0CYx20NjcWAxAjQZ-jS-_aem_FKz7yCI51RQCv68i4UkSgA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjy5zkFcRY93nql_wIIftN98B_eaBOk5KNKMLyYy0CYx20NjcWAxAjQZ-jS-_aem_FKz7yCI51RQCv68i4UkSgA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk-iE0ihvikoByUfsmYzLnifnE6dRd-VpL7xOSuns0J3ibeAanvqBReGf6s6_aem_SCelGqp25Q0UD2PHIXU34A",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk-iE0ihvikoByUfsmYzLnifnE6dRd-VpL7xOSuns0J3ibeAanvqBReGf6s6_aem_SCelGqp25Q0UD2PHIXU34A",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk6z6rilBEiEGgkwu8b8nhzNH-o7bm1lF_v3H_jdKopBipIAwI1JFSmRcT9__aem_U_8zeM1Dm3eJVmx12m-TVQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk6z6rilBEiEGgkwu8b8nhzNH-o7bm1lF_v3H_jdKopBipIAwI1JFSmRcT9__aem_U_8zeM1Dm3eJVmx12m-TVQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk8SKvJIiaCCV9SCVYc6R95aX0eQQX7RPZ46TAcZ6MJZsSxnntPkQlZaB8Uc_aem__brw5sPRcOyAl7M8H6nYbw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk8SKvJIiaCCV9SCVYc6R95aX0eQQX7RPZ46TAcZ6MJZsSxnntPkQlZaB8Uc_aem__brw5sPRcOyAl7M8H6nYbw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkEaVo_jlyieMBqIxkOFvaiMICYm3IRZzoMofVc8NjlQ4xOfxlpoMyr089-T_aem_t6BpqsWcHIjmn7rCs0Jr1Q",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkEaVo_jlyieMBqIxkOFvaiMICYm3IRZzoMofVc8NjlQ4xOfxlpoMyr089-T_aem_t6BpqsWcHIjmn7rCs0Jr1Q",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkJ4UXNoUhjH_582-gyPZNC0gFoyl9hwgQXBjeU6HcH-YAnNQyRlY7mzilDR_aem_WivhrWWIQJ9h1DZg1RMZeQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkJ4UXNoUhjH_582-gyPZNC0gFoyl9hwgQXBjeU6HcH-YAnNQyRlY7mzilDR_aem_WivhrWWIQJ9h1DZg1RMZeQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkQpXfDS4uZVf-ThYgNW5l5WNxso4iBuTKDhLem324_Rax72TvgIcXvJVj8b_aem_ACwHX2c5ml4L9cEgJEgR-w",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkQpXfDS4uZVf-ThYgNW5l5WNxso4iBuTKDhLem324_Rax72TvgIcXvJVj8b_aem_ACwHX2c5ml4L9cEgJEgR-w",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkRh68BysiyMI_SectIMQOz5DFTxId5q1jdrGXCMn6c5nkA-KFJi3iRZqRwK_aem_RYA2yUxkXzu-S9RyIqBYlA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkRh68BysiyMI_SectIMQOz5DFTxId5q1jdrGXCMn6c5nkA-KFJi3iRZqRwK_aem_RYA2yUxkXzu-S9RyIqBYlA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkWWYrqxcj59v6KzbFjnXOMk3cv9lrB0PJNSQM4QCUf_yGnHIcfFYi4n4i4b_aem_NtCKUu3rKmtvL8y2lp2a7A",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkWWYrqxcj59v6KzbFjnXOMk3cv9lrB0PJNSQM4QCUf_yGnHIcfFYi4n4i4b_aem_NtCKUu3rKmtvL8y2lp2a7A",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHl-LRhcnF-NtGQOzoELej_LugngweV9Js9fGfS1mFR4ygaTXZCwWQPJ5sNl8_aem_n2YZw9Nb2SySsA88vWhGOQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHl-LRhcnF-NtGQOzoELej_LugngweV9Js9fGfS1mFR4ygaTXZCwWQPJ5sNl8_aem_n2YZw9Nb2SySsA88vWhGOQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-22T16:15:23.109Z",
+      "period": "last_30_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 147,
+          "users": 101,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 35,
+          "users": 30,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 27,
+          "users": 20,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 19,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 18,
+          "users": 15,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 16,
+          "users": 16,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/居家安老/",
+          "label": "/en/居家安老/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》照顧計劃/",
+          "label": "/blog/《長者護理常識》照顧計劃/",
+          "sessions": 10,
+          "users": 10,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 10,
+          "users": 10,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "label": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "sessions": 9,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧事的7個階段/",
+          "label": "/en/blog/照顧事的7個階段/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的身心準備/",
+          "label": "/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/生理變化及應對方法/",
+          "label": "/blog/生理變化及應對方法/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/",
+          "label": "/download/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧預防/",
+          "label": "/blog/照顧預防/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/安老院考慮/",
+          "label": "/en/安老院考慮/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/心理變化及應對方法/",
+          "label": "/en/blog/心理變化及應對方法/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者壓力-自我照顧/",
+          "label": "/en/blog/照顧者壓力-自我照顧/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的自我防護/",
+          "label": "/en/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的身心準備/",
+          "label": "/en/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/生理變化及應對方法/",
+          "label": "/en/blog/生理變化及應對方法/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/廢用症候群/",
+          "label": "/en/廢用症候群/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/長者照護選擇/",
+          "label": "/en/長者照護選擇/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/",
+          "label": "/blog/",
+          "sessions": 5,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》老人難溝通點算？/",
+          "label": "/blog/《長者護理常識》老人難溝通點算？/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/家居環境改造/",
+          "label": "/blog/家居環境改造/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/pricing-plan/",
+          "label": "/en/pricing-plan/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/全新升級/",
+          "label": "/en/全新升級/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/基本生活能力評估/",
+          "label": "/基本生活能力評估/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/?team_id=555&type=Blood%20Pressure",
+          "label": "/download/?team_id=555&type=Blood%20Pressure",
+          "sessions": 4,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/《長者護理常識》照顧計劃/",
+          "label": "/en/blog/《長者護理常識》照顧計劃/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧預防/",
+          "label": "/en/blog/照顧預防/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=6%2F%2F",
+          "label": "/?cff-form=6%2F%2F",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/家居環境改造/",
+          "label": "/en/blog/家居環境改造/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/主要照顧者：搵唔到人幫手/",
+          "label": "/en/主要照顧者：搵唔到人幫手/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/功能介紹/",
+          "label": "/en/功能介紹/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/主要照顧者：搵唔到人幫手/",
+          "label": "/主要照顧者：搵唔到人幫手/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "",
+          "label": "Unknown",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFmZGlkFlDXiDojf3BGaXiwrNN1Ajitu8Z-DoxleHRuA2FlbQEwAGFkaWQAAC_V5izkNXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR40UBtKqDv-VsT3MvAN_-dex_E_L3TIj2PrQPtWQw3oA42-Fsf0q6Uwi7hNiw_aem_3n2auGcvLs6gN4d9DoR-Ww",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFmZGlkFlDXiDojf3BGaXiwrNN1Ajitu8Z-DoxleHRuA2FlbQEwAGFkaWQAAC_V5izkNXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR40UBtKqDv-VsT3MvAN_-dex_E_L3TIj2PrQPtWQw3oA42-Fsf0q6Uwi7hNiw_aem_3n2auGcvLs6gN4d9DoR-Ww",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-22T16:15:24.545Z",
+      "period": "last_90_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 508,
+          "users": 299,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 94,
+          "users": 69,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 51,
+          "users": 40,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 45,
+          "users": 42,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 44,
+          "users": 33,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 44,
+          "users": 33,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 42,
+          "users": 38,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 36,
+          "users": 34,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 30,
+          "users": 26,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 28,
+          "users": 26,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "label": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "sessions": 23,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/",
+          "label": "/blog/",
+          "sessions": 22,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 22,
+          "users": 21,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/",
+          "label": "/download/",
+          "sessions": 21,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 19,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 17,
+          "users": 17,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/angelcare-landingpage/",
+          "label": "/angelcare-landingpage/",
+          "sessions": 16,
+          "users": 16,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/恰到好處的照顧之道/",
+          "label": "/blog/恰到好處的照顧之道/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/基本生活能力評估/",
+          "label": "/基本生活能力評估/",
+          "sessions": 12,
+          "users": 12,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/居家安老/",
+          "label": "/en/居家安老/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/主要照顧者：搵唔到人幫手/",
+          "label": "/主要照顧者：搵唔到人幫手/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》照顧計劃/",
+          "label": "/blog/《長者護理常識》照顧計劃/",
+          "sessions": 10,
+          "users": 10,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧事的7個階段/",
+          "label": "/en/blog/照顧事的7個階段/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/en/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/家居環境改造/",
+          "label": "/blog/家居環境改造/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的身心準備/",
+          "label": "/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/生理變化及應對方法/",
+          "label": "/blog/生理變化及應對方法/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/全新升級/",
+          "label": "/en/全新升級/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧預防/",
+          "label": "/blog/照顧預防/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/安老院考慮/",
+          "label": "/en/安老院考慮/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/廢用症候群/",
+          "label": "/en/廢用症候群/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=10%2F",
+          "label": "/?cff-form=10%2F",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/",
+          "label": "/en/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/心理變化及應對方法/",
+          "label": "/en/blog/心理變化及應對方法/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者壓力-自我照顧/",
+          "label": "/en/blog/照顧者壓力-自我照顧/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的自我防護/",
+          "label": "/en/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的身心準備/",
+          "label": "/en/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/生理變化及應對方法/",
+          "label": "/en/blog/生理變化及應對方法/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/pricing-plan/",
+          "label": "/en/pricing-plan/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/長者照護選擇/",
+          "label": "/en/長者照護選擇/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/關於我們/",
+          "label": "/關於我們/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》老人難溝通點算？/",
+          "label": "/blog/《長者護理常識》老人難溝通點算？/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwT01FWASwc65leHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7V-dknoy28hvnzY7BNFHXVHyZllaQXIvATCprhjb-oamLA7efivlx4GAjAww_aem_AXIeYtJsKAx3yplU0IMyLA",
+          "label": "/?fbclid=IwT01FWASwc65leHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7V-dknoy28hvnzY7BNFHXVHyZllaQXIvATCprhjb-oamLA7efivlx4GAjAww_aem_AXIeYtJsKAx3yplU0IMyLA",
+          "sessions": 4,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/?team_id=555&type=Blood%20Pressure",
+          "label": "/download/?team_id=555&type=Blood%20Pressure",
+          "sessions": 4,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/《長者護理常識》照顧計劃/",
+          "label": "/en/blog/《長者護理常識》照顧計劃/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-22T19:10:22.159Z",
+      "period": "last_7_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 29,
+          "users": 25,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 8,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "",
+          "label": "Unknown",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiaIsXBx38aaMyDuqkiVh-GsaFxESbfykpnofOGv1Bk7bWJjYob35kUKUZdE_aem_IIFgdBiIf3q2wPuTkYnrNQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiaIsXBx38aaMyDuqkiVh-GsaFxESbfykpnofOGv1Bk7bWJjYob35kUKUZdE_aem_IIFgdBiIf3q2wPuTkYnrNQ",
+          "sessions": 2,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDqzP3drAi4bdzbN5ow49f6KXTdFIFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7S1thrVrMj_INDbj6z2FTGzQ23Yo_an508ARDPHpOy2jowOcfJHImDVzZc8A_aem_AVOH6E0Rtg-VHXBllPdskg",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDqzP3drAi4bdzbN5ow49f6KXTdFIFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR7S1thrVrMj_INDbj6z2FTGzQ23Yo_an508ARDPHpOy2jowOcfJHImDVzZc8A_aem_AVOH6E0Rtg-VHXBllPdskg",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDsgc4qbV03A1YeZenPMnV7878b1KxleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6sCU2tPkkWV619dU8eKN9TEIEXxAmqmc0hrBrfIskWfxjJ3tWcx14osa8mHQ_aem_u0GX3DojAtFs_Y5n-cyytQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgVmZGlkFlDsgc4qbV03A1YeZenPMnV7878b1KxleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6sCU2tPkkWV619dU8eKN9TEIEXxAmqmc0hrBrfIskWfxjJ3tWcx14osa8mHQ_aem_u0GX3DojAtFs_Y5n-cyytQ",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwRlRTSAUb7iJwZG9mAWZkaWQWUOv23semsb9My03S6j4qkFvsrs1SZ2V4dG4DYWVtAjEwAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6o6SOK3Ne141icOn2d8dT1uVF99uZn-8y_ANg2uIJk_qhK8uswi3LC-AKuqQ_aem_8_90XMBFI30EQ2WhnpUzjQ",
+          "label": "/?fbclid=IwRlRTSAUb7iJwZG9mAWZkaWQWUOv23semsb9My03S6j4qkFvsrs1SZ2V4dG4DYWVtAjEwAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6o6SOK3Ne141icOn2d8dT1uVF99uZn-8y_ANg2uIJk_qhK8uswi3LC-AKuqQ_aem_8_90XMBFI30EQ2WhnpUzjQ",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwVERDUAUaM2hwZG9mBWZkaWQWUOp_oUhWp6vg5GoX2xWh45UqmLJePWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHr8t850WDxfrApD3Ks5OhhGM5n6320emkYwwQHTMl7gwBql_lIojMarfizQ4_aem_kNlhp9sTejER3qWgZy2o2A",
+          "label": "/?fbclid=IwVERDUAUaM2hwZG9mBWZkaWQWUOp_oUhWp6vg5GoX2xWh45UqmLJePWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABHr8t850WDxfrApD3Ks5OhhGM5n6320emkYwwQHTMl7gwBql_lIojMarfizQ4_aem_kNlhp9sTejER3qWgZy2o2A",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=6%2F%2F",
+          "label": "/?cff-form=6%2F%2F",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwY2xjawUaTgtwZG9mBWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsRbAeQ3UW9GfldQupDEWC18mYrvQR-p72c9mIS3_96dAKlRJr58UDxPv6Rt_aem_ukzegG3tQEseX-K4Dazvfg",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwY2xjawUaTgtwZG9mBWV4dG4DYWVtATAAYWRpZAAAL9ZYm78Fc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsRbAeQ3UW9GfldQupDEWC18mYrvQR-p72c9mIS3_96dAKlRJr58UDxPv6Rt_aem_ukzegG3tQEseX-K4Dazvfg",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHg-ksvkr5eJ5SZQ2fQyRfFowLkuqmA1ettJY6Y7UjDqKh07ZuCzIaVXQ6E7j_aem_u14a5TxjmcJN2Af7LmKEZw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHg-ksvkr5eJ5SZQ2fQyRfFowLkuqmA1ettJY6Y7UjDqKh07ZuCzIaVXQ6E7j_aem_u14a5TxjmcJN2Af7LmKEZw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgDPmAOoVng_lQsMCv6MoqzEtC6pYyaHtHDZGLox9i6lxRvCnsK9RxE1jcM2_aem_z-LDAA15-C6uvAQ3irbsJA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgDPmAOoVng_lQsMCv6MoqzEtC6pYyaHtHDZGLox9i6lxRvCnsK9RxE1jcM2_aem_z-LDAA15-C6uvAQ3irbsJA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTI41xGZ9Wg7sLLGvdJCLaI--yV5ATzFsw6tc5TMuOpPNEG3hfXGGnM7zPV_aem_5P3TgU1EIoEoQ5TeqRfbBA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTI41xGZ9Wg7sLLGvdJCLaI--yV5ATzFsw6tc5TMuOpPNEG3hfXGGnM7zPV_aem_5P3TgU1EIoEoQ5TeqRfbBA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTYl1qiQbqQNaj1uTP5YZRZrWvfQ-1CkZTszOZ6LZaancMC4ia9mDAObs27_aem_VWcKVD3kBTwnxpFdF7lpag",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgTYl1qiQbqQNaj1uTP5YZRZrWvfQ-1CkZTszOZ6LZaancMC4ia9mDAObs27_aem_VWcKVD3kBTwnxpFdF7lpag",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgtW6cr9EPXxF98UkAiC5WwybYXEuwel1h4kuf7SMOUx3w1VHuPwbm5mAPA5_aem_yMevDSXxXKInOMOXdrrauA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgtW6cr9EPXxF98UkAiC5WwybYXEuwel1h4kuf7SMOUx3w1VHuPwbm5mAPA5_aem_yMevDSXxXKInOMOXdrrauA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHh-yNzD5r3ToJy0zC0EASdodRsUhgW9chronvdxS1akANfdEswhIG82n14Uw_aem_HR3P7L5BDrUbZ8H6PRmHdw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHh-yNzD5r3ToJy0zC0EASdodRsUhgW9chronvdxS1akANfdEswhIG82n14Uw_aem_HR3P7L5BDrUbZ8H6PRmHdw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhkT4VIdiFdY-xCU37Gv9ZNJACulytmEsA8G3DpbtZNPIwxrKs9rdWafs1sO_aem_6Uz-Q1CTY-vIRY3Oq-xbaA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhkT4VIdiFdY-xCU37Gv9ZNJACulytmEsA8G3DpbtZNPIwxrKs9rdWafs1sO_aem_6Uz-Q1CTY-vIRY3Oq-xbaA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhlbG4PQoczKm4E7LJxUoq1fzXghGt_JJjxl709aS8VIbA99mBKj0Cn34IFl_aem_emuzmlMAGZ9dqlnN4b5E6g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhlbG4PQoczKm4E7LJxUoq1fzXghGt_JJjxl709aS8VIbA99mBKj0Cn34IFl_aem_emuzmlMAGZ9dqlnN4b5E6g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhtZeI8g1x814gDFHjITjdNQZ0DU9NX6204XzMGu6ssyXQh2UyYab-KbnT76_aem_i-VK-GEBuRh5edtEucphKw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhtZeI8g1x814gDFHjITjdNQZ0DU9NX6204XzMGu6ssyXQh2UyYab-KbnT76_aem_i-VK-GEBuRh5edtEucphKw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHi83pGZpdpb8wjGHQIkzPB6xL-BDnlIgtAgRdSSOkDTsw36-d-Qr4LtvBKHs_aem_MZ2TkFQwBI0xIQyab-fyLA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHi83pGZpdpb8wjGHQIkzPB6xL-BDnlIgtAgRdSSOkDTsw36-d-Qr4LtvBKHs_aem_MZ2TkFQwBI0xIQyab-fyLA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiE1rHr87soXy9HCx-PI9zUJllb9cUiwtlkhSfoOjNXiY_A99ytlUyP_TYeY_aem_pTrPrwjkt6zU-cTlvG0MAA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiE1rHr87soXy9HCx-PI9zUJllb9cUiwtlkhSfoOjNXiY_A99ytlUyP_TYeY_aem_pTrPrwjkt6zU-cTlvG0MAA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibTwT4-IltC_j_EpYiZQaMpyxkIyItwZxE47gxq6tH39ezU_7Lue56YSnXp_aem_N7c1mYkCQx6NT4_evhpn8g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibTwT4-IltC_j_EpYiZQaMpyxkIyItwZxE47gxq6tH39ezU_7Lue56YSnXp_aem_N7c1mYkCQx6NT4_evhpn8g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiksWC-UAshJdhPPb1RZpaBYHbKV_bBOodtBKeTAHJKaVe576I7XNASrY7Rf_aem_beBR2KMjgOvBMdPpCH-R9g",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiksWC-UAshJdhPPb1RZpaBYHbKV_bBOodtBKeTAHJKaVe576I7XNASrY7Rf_aem_beBR2KMjgOvBMdPpCH-R9g",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj6XwdSV5VIGuw0RNw17QFTbeTIgK_9arbVdNmQYPJrvImrEeMQVnj_-uIdq_aem_G33oYbxoMtiJCxBPlecqpA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj6XwdSV5VIGuw0RNw17QFTbeTIgK_9arbVdNmQYPJrvImrEeMQVnj_-uIdq_aem_G33oYbxoMtiJCxBPlecqpA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj9eUMv_MiGVhyMn2_P9VSFXs9C7tMSBpXbLnOwAng6BYR35a1NOct6h-w3L_aem_s1-BAPBmMD2Fwlgno3CDHw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHj9eUMv_MiGVhyMn2_P9VSFXs9C7tMSBpXbLnOwAng6BYR35a1NOct6h-w3L_aem_s1-BAPBmMD2Fwlgno3CDHw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjp0ifmX8i9TXaU9HkbrR3GBRI4HWI_lbTdUkZZtTdKOco5tNIiKPFfpfuQn_aem_rsNKIukdZd7qvHQMUme0ww",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjp0ifmX8i9TXaU9HkbrR3GBRI4HWI_lbTdUkZZtTdKOco5tNIiKPFfpfuQn_aem_rsNKIukdZd7qvHQMUme0ww",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjpENmPbrBTPjHWwsK82NlMe2o8TfmS9jTmOPoWHnhWaAP2Fqrl_Ya8q2e5g_aem_vsx-Nn4ZObtueh3HWVt58w",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjpENmPbrBTPjHWwsK82NlMe2o8TfmS9jTmOPoWHnhWaAP2Fqrl_Ya8q2e5g_aem_vsx-Nn4ZObtueh3HWVt58w",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjy5zkFcRY93nql_wIIftN98B_eaBOk5KNKMLyYy0CYx20NjcWAxAjQZ-jS-_aem_FKz7yCI51RQCv68i4UkSgA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjy5zkFcRY93nql_wIIftN98B_eaBOk5KNKMLyYy0CYx20NjcWAxAjQZ-jS-_aem_FKz7yCI51RQCv68i4UkSgA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk-iE0ihvikoByUfsmYzLnifnE6dRd-VpL7xOSuns0J3ibeAanvqBReGf6s6_aem_SCelGqp25Q0UD2PHIXU34A",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk-iE0ihvikoByUfsmYzLnifnE6dRd-VpL7xOSuns0J3ibeAanvqBReGf6s6_aem_SCelGqp25Q0UD2PHIXU34A",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk6z6rilBEiEGgkwu8b8nhzNH-o7bm1lF_v3H_jdKopBipIAwI1JFSmRcT9__aem_U_8zeM1Dm3eJVmx12m-TVQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk6z6rilBEiEGgkwu8b8nhzNH-o7bm1lF_v3H_jdKopBipIAwI1JFSmRcT9__aem_U_8zeM1Dm3eJVmx12m-TVQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk8SKvJIiaCCV9SCVYc6R95aX0eQQX7RPZ46TAcZ6MJZsSxnntPkQlZaB8Uc_aem__brw5sPRcOyAl7M8H6nYbw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHk8SKvJIiaCCV9SCVYc6R95aX0eQQX7RPZ46TAcZ6MJZsSxnntPkQlZaB8Uc_aem__brw5sPRcOyAl7M8H6nYbw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkEaVo_jlyieMBqIxkOFvaiMICYm3IRZzoMofVc8NjlQ4xOfxlpoMyr089-T_aem_t6BpqsWcHIjmn7rCs0Jr1Q",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkEaVo_jlyieMBqIxkOFvaiMICYm3IRZzoMofVc8NjlQ4xOfxlpoMyr089-T_aem_t6BpqsWcHIjmn7rCs0Jr1Q",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkJ4UXNoUhjH_582-gyPZNC0gFoyl9hwgQXBjeU6HcH-YAnNQyRlY7mzilDR_aem_WivhrWWIQJ9h1DZg1RMZeQ",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkJ4UXNoUhjH_582-gyPZNC0gFoyl9hwgQXBjeU6HcH-YAnNQyRlY7mzilDR_aem_WivhrWWIQJ9h1DZg1RMZeQ",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkQpXfDS4uZVf-ThYgNW5l5WNxso4iBuTKDhLem324_Rax72TvgIcXvJVj8b_aem_ACwHX2c5ml4L9cEgJEgR-w",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkQpXfDS4uZVf-ThYgNW5l5WNxso4iBuTKDhLem324_Rax72TvgIcXvJVj8b_aem_ACwHX2c5ml4L9cEgJEgR-w",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkRh68BysiyMI_SectIMQOz5DFTxId5q1jdrGXCMn6c5nkA-KFJi3iRZqRwK_aem_RYA2yUxkXzu-S9RyIqBYlA",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkRh68BysiyMI_SectIMQOz5DFTxId5q1jdrGXCMn6c5nkA-KFJi3iRZqRwK_aem_RYA2yUxkXzu-S9RyIqBYlA",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkSXHxBzNkWTACfKLgV9YCKbVAk7HxVEA8NTayXC-c2GxPT3BBmcOzCBNCGk_aem_uSGRxEFid93_uS2VJwcflw",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFleHRuA2FlbQEwAGFkaWQAAC_WWJu_BXNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkSXHxBzNkWTACfKLgV9YCKbVAk7HxVEA8NTayXC-c2GxPT3BBmcOzCBNCGk_aem_uSGRxEFid93_uS2VJwcflw",
+          "sessions": 1,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-22T19:10:23.596Z",
+      "period": "last_30_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 150,
+          "users": 102,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 35,
+          "users": 30,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 27,
+          "users": 20,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 19,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 18,
+          "users": 15,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 17,
+          "users": 17,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 16,
+          "users": 16,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/居家安老/",
+          "label": "/en/居家安老/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》照顧計劃/",
+          "label": "/blog/《長者護理常識》照顧計劃/",
+          "sessions": 10,
+          "users": 10,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 10,
+          "users": 10,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "label": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "sessions": 9,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧事的7個階段/",
+          "label": "/en/blog/照顧事的7個階段/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的身心準備/",
+          "label": "/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/生理變化及應對方法/",
+          "label": "/blog/生理變化及應對方法/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/",
+          "label": "/download/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧預防/",
+          "label": "/blog/照顧預防/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/安老院考慮/",
+          "label": "/en/安老院考慮/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/心理變化及應對方法/",
+          "label": "/en/blog/心理變化及應對方法/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者壓力-自我照顧/",
+          "label": "/en/blog/照顧者壓力-自我照顧/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的自我防護/",
+          "label": "/en/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的身心準備/",
+          "label": "/en/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/生理變化及應對方法/",
+          "label": "/en/blog/生理變化及應對方法/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/廢用症候群/",
+          "label": "/en/廢用症候群/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/長者照護選擇/",
+          "label": "/en/長者照護選擇/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/",
+          "label": "/blog/",
+          "sessions": 5,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》老人難溝通點算？/",
+          "label": "/blog/《長者護理常識》老人難溝通點算？/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/家居環境改造/",
+          "label": "/blog/家居環境改造/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/pricing-plan/",
+          "label": "/en/pricing-plan/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/全新升級/",
+          "label": "/en/全新升級/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/基本生活能力評估/",
+          "label": "/基本生活能力評估/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/?team_id=555&type=Blood%20Pressure",
+          "label": "/download/?team_id=555&type=Blood%20Pressure",
+          "sessions": 4,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/《長者護理常識》照顧計劃/",
+          "label": "/en/blog/《長者護理常識》照顧計劃/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧預防/",
+          "label": "/en/blog/照顧預防/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=6%2F%2F",
+          "label": "/?cff-form=6%2F%2F",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/家居環境改造/",
+          "label": "/en/blog/家居環境改造/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/主要照顧者：搵唔到人幫手/",
+          "label": "/en/主要照顧者：搵唔到人幫手/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/功能介紹/",
+          "label": "/en/功能介紹/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/主要照顧者：搵唔到人幫手/",
+          "label": "/主要照顧者：搵唔到人幫手/",
+          "sessions": 3,
+          "users": 3,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "",
+          "label": "Unknown",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFmZGlkFlDXiDojf3BGaXiwrNN1Ajitu8Z-DoxleHRuA2FlbQEwAGFkaWQAAC_V5izkNXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR40UBtKqDv-VsT3MvAN_-dex_E_L3TIj2PrQPtWQw3oA42-Fsf0q6Uwi7hNiw_aem_3n2auGcvLs6gN4d9DoR-Ww",
+          "label": "/?dn=DN-MF-AWR&fbclid=IwcGRvZgFmZGlkFlDXiDojf3BGaXiwrNN1Ajitu8Z-DoxleHRuA2FlbQEwAGFkaWQAAC_V5izkNXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR40UBtKqDv-VsT3MvAN_-dex_E_L3TIj2PrQPtWQw3oA42-Fsf0q6Uwi7hNiw_aem_3n2auGcvLs6gN4d9DoR-Ww",
+          "sessions": 2,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-22T19:10:24.965Z",
+      "period": "last_90_days",
+      "pages": [
+        {
+          "url": "",
+          "path": "/",
+          "label": "/",
+          "sessions": 511,
+          "users": 300,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "(not set)",
+          "label": "(not set)",
+          "sessions": 94,
+          "users": 69,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/廢用症候群/",
+          "label": "/廢用症候群/",
+          "sessions": 51,
+          "users": 40,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/功能介紹/",
+          "label": "/功能介紹/",
+          "sessions": 45,
+          "users": 42,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/pricing-plan/",
+          "label": "/pricing-plan/",
+          "sessions": 44,
+          "users": 33,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/背景故事/",
+          "label": "/背景故事/",
+          "sessions": 44,
+          "users": 33,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/全新升級/",
+          "label": "/全新升級/",
+          "sessions": 43,
+          "users": 39,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 36,
+          "users": 34,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/常見問題/",
+          "label": "/常見問題/",
+          "sessions": 30,
+          "users": 26,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/教學指南/",
+          "label": "/教學指南/",
+          "sessions": 28,
+          "users": 26,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "label": "/blog/e6%81%b0%e5%88%b0%e5%a5%bd%e8%99%95%e7%9a%84%e7%85%a7%e9%a1%a7%e4%b9%8b%e9%81%93/",
+          "sessions": 23,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/長者照護選擇/",
+          "label": "/長者照護選擇/",
+          "sessions": 23,
+          "users": 22,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/",
+          "label": "/blog/",
+          "sessions": 22,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/",
+          "label": "/download/",
+          "sessions": 21,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者壓力-自我照顧/",
+          "label": "/blog/照顧者壓力-自我照顧/",
+          "sessions": 19,
+          "users": 19,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/terms-conditions/",
+          "label": "/terms-conditions/",
+          "sessions": 17,
+          "users": 17,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/angelcare-landingpage/",
+          "label": "/angelcare-landingpage/",
+          "sessions": 16,
+          "users": 16,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧事的7個階段/",
+          "label": "/blog/照顧事的7個階段/",
+          "sessions": 16,
+          "users": 16,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/恰到好處的照顧之道/",
+          "label": "/blog/恰到好處的照顧之道/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/居家安老/",
+          "label": "/居家安老/",
+          "sessions": 14,
+          "users": 14,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/基本生活能力評估/",
+          "label": "/基本生活能力評估/",
+          "sessions": 12,
+          "users": 12,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/angelcare-landingpage/",
+          "label": "/en/angelcare-landingpage/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/居家安老/",
+          "label": "/en/居家安老/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/主要照顧者：搵唔到人幫手/",
+          "label": "/主要照顧者：搵唔到人幫手/",
+          "sessions": 11,
+          "users": 11,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》照顧計劃/",
+          "label": "/blog/《長者護理常識》照顧計劃/",
+          "sessions": 10,
+          "users": 10,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧事的7個階段/",
+          "label": "/en/blog/照顧事的7個階段/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "label": "/en/從居家安老到院舍安老，全面了解長者照護選擇/",
+          "sessions": 9,
+          "users": 9,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/家居環境改造/",
+          "label": "/blog/家居環境改造/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的自我防護/",
+          "label": "/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧者指南照顧者的身心準備/",
+          "label": "/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/生理變化及應對方法/",
+          "label": "/blog/生理變化及應對方法/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/全新升級/",
+          "label": "/en/全新升級/",
+          "sessions": 8,
+          "users": 8,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/基本生活能力評估/",
+          "label": "/en/基本生活能力評估/",
+          "sessions": 8,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/照顧預防/",
+          "label": "/blog/照顧預防/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/安老院考慮/",
+          "label": "/en/安老院考慮/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/廢用症候群/",
+          "label": "/en/廢用症候群/",
+          "sessions": 7,
+          "users": 7,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?cff-form=10%2F",
+          "label": "/?cff-form=10%2F",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/",
+          "label": "/en/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/心理變化及應對方法/",
+          "label": "/en/blog/心理變化及應對方法/",
+          "sessions": 6,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者壓力-自我照顧/",
+          "label": "/en/blog/照顧者壓力-自我照顧/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的自我防護/",
+          "label": "/en/blog/照顧者指南照顧者的自我防護/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/照顧者指南照顧者的身心準備/",
+          "label": "/en/blog/照顧者指南照顧者的身心準備/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/生理變化及應對方法/",
+          "label": "/en/blog/生理變化及應對方法/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/pricing-plan/",
+          "label": "/en/pricing-plan/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/長者照護選擇/",
+          "label": "/en/長者照護選擇/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/關於我們/",
+          "label": "/關於我們/",
+          "sessions": 6,
+          "users": 6,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/blog/《長者護理常識》老人難溝通點算？/",
+          "label": "/blog/《長者護理常識》老人難溝通點算？/",
+          "sessions": 5,
+          "users": 5,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/?fbclid=IwT01FWASwc65leHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7V-dknoy28hvnzY7BNFHXVHyZllaQXIvATCprhjb-oamLA7efivlx4GAjAww_aem_AXIeYtJsKAx3yplU0IMyLA",
+          "label": "/?fbclid=IwT01FWASwc65leHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7V-dknoy28hvnzY7BNFHXVHyZllaQXIvATCprhjb-oamLA7efivlx4GAjAww_aem_AXIeYtJsKAx3yplU0IMyLA",
+          "sessions": 4,
+          "users": 2,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/download/?team_id=555&type=Blood%20Pressure",
+          "label": "/download/?team_id=555&type=Blood%20Pressure",
+          "sessions": 4,
+          "users": 1,
+          "conversions": 0,
+          "conv_value": 0
+        },
+        {
+          "url": "",
+          "path": "/en/blog/《長者護理常識》照顧計劃/",
+          "label": "/en/blog/《長者護理常識》照顧計劃/",
+          "sessions": 4,
+          "users": 4,
+          "conversions": 0,
+          "conv_value": 0
+        }
+      ]
+    }
+  ]
+}

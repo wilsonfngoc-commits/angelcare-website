@@ -1,0 +1,7 @@
+assessment-phaseA-screens/
+blog-screens/
+backups/
+*.png
+*.jpg
+*.mp4
+.DS_Store

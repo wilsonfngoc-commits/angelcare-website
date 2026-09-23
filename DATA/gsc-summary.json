@@ -1,0 +1,798 @@
+{
+  "_description": "GSC performance data for dashboard.",
+  "snapshots": [
+    {
+      "_updated": "2026-06-30T16:01:43.143Z",
+      "site": "https://angelcare.dnow.hk/",
+      "period": "7d",
+      "clicks": 6,
+      "impressions": 103,
+      "ctr": "5.83%",
+      "avg_position": "19.6",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 4,
+          "position": "1.3"
+        },
+        {
+          "query": "angel care",
+          "clicks": 1,
+          "position": "2.0"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 1,
+          "position": "1.5"
+        },
+        {
+          "query": "angel caregivers",
+          "clicks": 0,
+          "position": "8.0"
+        },
+        {
+          "query": "angelcare app",
+          "clicks": 0,
+          "position": "7.0"
+        },
+        {
+          "query": "angels caregiver",
+          "clicks": 0,
+          "position": "10.0"
+        },
+        {
+          "query": "apps",
+          "clicks": 0,
+          "position": "6.0"
+        },
+        {
+          "query": "中心為本安老服務",
+          "clicks": 0,
+          "position": "42.0"
+        },
+        {
+          "query": "協助長者適應院舍生活",
+          "clicks": 0,
+          "position": "65.8"
+        },
+        {
+          "query": "安老院配對 手續",
+          "clicks": 0,
+          "position": "52.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-07-07T16:40:08.611Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 3,
+      "impressions": 133,
+      "ctr": "2.26%",
+      "avg_position": "20.4",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 3,
+          "position": "1.8"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 0,
+          "position": "2.8"
+        },
+        {
+          "query": "angelcare app",
+          "clicks": 0,
+          "position": "10.0"
+        },
+        {
+          "query": "angelcare soft touch baby bath support () reviews",
+          "clicks": 0,
+          "position": "4.0"
+        },
+        {
+          "query": "anglecare",
+          "clicks": 0,
+          "position": "6.0"
+        },
+        {
+          "query": "apps",
+          "clicks": 0,
+          "position": "6.0"
+        },
+        {
+          "query": "homecare app",
+          "clicks": 0,
+          "position": "2.0"
+        },
+        {
+          "query": "上門照顧老人收費",
+          "clicks": 0,
+          "position": "65.0"
+        },
+        {
+          "query": "入住老人院注意事項",
+          "clicks": 0,
+          "position": "53.0"
+        },
+        {
+          "query": "協助長者適應院舍生活",
+          "clicks": 0,
+          "position": "53.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-07-11T16:07:32.015Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 2,
+      "impressions": 142,
+      "ctr": "1.41%",
+      "avg_position": "14.4",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 2,
+          "position": "2.2"
+        },
+        {
+          "query": "angel care",
+          "clicks": 0,
+          "position": "2.0"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 0,
+          "position": "3.3"
+        },
+        {
+          "query": "angelcare app",
+          "clicks": 0,
+          "position": "10.0"
+        },
+        {
+          "query": "angelcare soft touch baby bath support () reviews",
+          "clicks": 0,
+          "position": "4.0"
+        },
+        {
+          "query": "anglecare",
+          "clicks": 0,
+          "position": "6.0"
+        },
+        {
+          "query": "care angel",
+          "clicks": 0,
+          "position": "2.0"
+        },
+        {
+          "query": "homecare app",
+          "clicks": 0,
+          "position": "2.0"
+        },
+        {
+          "query": "上門照顧老人收費",
+          "clicks": 0,
+          "position": "59.5"
+        },
+        {
+          "query": "協助長者適應院舍生活",
+          "clicks": 0,
+          "position": "52.7"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-07-18T16:04:54.498Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 9,
+      "impressions": 120,
+      "ctr": "7.50%",
+      "avg_position": "27.4",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 8,
+          "position": "1.7"
+        },
+        {
+          "query": "angle care",
+          "clicks": 1,
+          "position": "1.0"
+        },
+        {
+          "query": "angelcare baby bath support () reviews",
+          "clicks": 0,
+          "position": "3.0"
+        },
+        {
+          "query": "協助長者適應院舍生活",
+          "clicks": 0,
+          "position": "54.0"
+        },
+        {
+          "query": "天使治疗诊所",
+          "clicks": 0,
+          "position": "19.0"
+        },
+        {
+          "query": "安老院配對 手續",
+          "clicks": 0,
+          "position": "52.3"
+        },
+        {
+          "query": "安老院配對 服務",
+          "clicks": 0,
+          "position": "42.0"
+        },
+        {
+          "query": "安老院配對 流程",
+          "clicks": 0,
+          "position": "38.0"
+        },
+        {
+          "query": "安耆苑",
+          "clicks": 0,
+          "position": "29.0"
+        },
+        {
+          "query": "居家 安 老",
+          "clicks": 0,
+          "position": "34.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-07-25T16:17:23.327Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 5,
+      "impressions": 124,
+      "ctr": "4.03%",
+      "avg_position": "22.2",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 4,
+          "position": "1.3"
+        },
+        {
+          "query": "angle care",
+          "clicks": 1,
+          "position": "1.0"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 0,
+          "position": "1.7"
+        },
+        {
+          "query": "angelcare baby bath support () reviews",
+          "clicks": 0,
+          "position": "6.0"
+        },
+        {
+          "query": "angelcare soft touch bath support () reviews",
+          "clicks": 0,
+          "position": "6.0"
+        },
+        {
+          "query": "協助長者適應院舍生活",
+          "clicks": 0,
+          "position": "57.5"
+        },
+        {
+          "query": "安老院配對 手續",
+          "clicks": 0,
+          "position": "51.0"
+        },
+        {
+          "query": "安老院配對 服務",
+          "clicks": 0,
+          "position": "57.5"
+        },
+        {
+          "query": "安老院配對 流程",
+          "clicks": 0,
+          "position": "33.0"
+        },
+        {
+          "query": "家天使app",
+          "clicks": 0,
+          "position": "7.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-08-01T16:17:19.031Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 16,
+      "impressions": 117,
+      "ctr": "13.68%",
+      "avg_position": "3.0",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 7,
+          "position": "1.4"
+        },
+        {
+          "query": "angel care",
+          "clicks": 5,
+          "position": "1.5"
+        },
+        {
+          "query": "照顧者app",
+          "clicks": 2,
+          "position": "1.5"
+        },
+        {
+          "query": "angel care services",
+          "clicks": 1,
+          "position": "1.0"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 1,
+          "position": "2.2"
+        },
+        {
+          "query": "angelcare app",
+          "clicks": 0,
+          "position": "3.0"
+        },
+        {
+          "query": "angelcare baby bath support () reviews",
+          "clicks": 0,
+          "position": "6.0"
+        },
+        {
+          "query": "angelcare soft touch bath support () reviews",
+          "clicks": 0,
+          "position": "5.0"
+        },
+        {
+          "query": "care angel",
+          "clicks": 0,
+          "position": "7.0"
+        },
+        {
+          "query": "公司在哪",
+          "clicks": 0,
+          "position": "1.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-08-08T16:17:25.188Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 4,
+      "impressions": 87,
+      "ctr": "4.60%",
+      "avg_position": "7.5",
+      "top_queries": [
+        {
+          "query": "angel care",
+          "clicks": 2,
+          "position": "1.7"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 2,
+          "position": "1.8"
+        },
+        {
+          "query": "angel care for elderly",
+          "clicks": 0,
+          "position": "6.0"
+        },
+        {
+          "query": "angelcare baby bath ring seat () reviews",
+          "clicks": 0,
+          "position": "3.0"
+        },
+        {
+          "query": "angelcare baby bath support () reviews",
+          "clicks": 0,
+          "position": "4.0"
+        },
+        {
+          "query": "angelcate",
+          "clicks": 0,
+          "position": "1.0"
+        },
+        {
+          "query": "天便",
+          "clicks": 0,
+          "position": "12.0"
+        },
+        {
+          "query": "宅天使",
+          "clicks": 0,
+          "position": "1.1"
+        },
+        {
+          "query": "安老院配對 流程",
+          "clicks": 0,
+          "position": "32.7"
+        },
+        {
+          "query": "居家",
+          "clicks": 0,
+          "position": "12.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-08-15T16:17:17.521Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 5,
+      "impressions": 112,
+      "ctr": "4.46%",
+      "avg_position": "7.9",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 2,
+          "position": "1.4"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 1,
+          "position": "1.9"
+        },
+        {
+          "query": "居家安老",
+          "clicks": 1,
+          "position": "32.6"
+        },
+        {
+          "query": "照顧者app",
+          "clicks": 1,
+          "position": "1.9"
+        },
+        {
+          "query": "angel care",
+          "clicks": 0,
+          "position": "2.0"
+        },
+        {
+          "query": "angel caregiver",
+          "clicks": 0,
+          "position": "14.0"
+        },
+        {
+          "query": "disuse syndrome",
+          "clicks": 0,
+          "position": "7.0"
+        },
+        {
+          "query": "disuse syndrome symptoms",
+          "clicks": 0,
+          "position": "1.0"
+        },
+        {
+          "query": "the a-care disuse body",
+          "clicks": 0,
+          "position": "5.8"
+        },
+        {
+          "query": "又要返工又要管理父母覆診同食藥，有冇實際方法可以幫手安排時間同提醒？",
+          "clicks": 0,
+          "position": "11.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-08-22T16:17:18.885Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 8,
+      "impressions": 472,
+      "ctr": "1.69%",
+      "avg_position": "6.0",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 2,
+          "position": "1.5"
+        },
+        {
+          "query": "angel care",
+          "clicks": 1,
+          "position": "2.3"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 1,
+          "position": "3.7"
+        },
+        {
+          "query": "廢用症候群",
+          "clicks": 1,
+          "position": "6.0"
+        },
+        {
+          "query": "照顧者app",
+          "clicks": 1,
+          "position": "2.9"
+        },
+        {
+          "query": "長期臥床併發症",
+          "clicks": 1,
+          "position": "12.0"
+        },
+        {
+          "query": "長期臥床肌肉萎縮",
+          "clicks": 1,
+          "position": "6.5"
+        },
+        {
+          "query": "adl",
+          "clicks": 0,
+          "position": "8.4"
+        },
+        {
+          "query": "adl assessment",
+          "clicks": 0,
+          "position": "12.5"
+        },
+        {
+          "query": "adl functional assessment",
+          "clicks": 0,
+          "position": "4.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-08-29T16:17:27.183Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 1,
+      "impressions": 630,
+      "ctr": "0.16%",
+      "avg_position": "10.7",
+      "top_queries": [
+        {
+          "query": "angelcare",
+          "clicks": 1,
+          "position": "6.3"
+        },
+        {
+          "query": "100人",
+          "clicks": 0,
+          "position": "14.0"
+        },
+        {
+          "query": "adl",
+          "clicks": 0,
+          "position": "8.2"
+        },
+        {
+          "query": "adl assessment",
+          "clicks": 0,
+          "position": "5.9"
+        },
+        {
+          "query": "adl functional assessment",
+          "clicks": 0,
+          "position": "4.0"
+        },
+        {
+          "query": "adl level",
+          "clicks": 0,
+          "position": "7.3"
+        },
+        {
+          "query": "adl nursing",
+          "clicks": 0,
+          "position": "5.0"
+        },
+        {
+          "query": "adl nursing diagnosis",
+          "clicks": 0,
+          "position": "31.0"
+        },
+        {
+          "query": "adl scale",
+          "clicks": 0,
+          "position": "7.0"
+        },
+        {
+          "query": "adl score",
+          "clicks": 0,
+          "position": "18.5"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-05T16:17:54.655Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 8,
+      "impressions": 604,
+      "ctr": "1.32%",
+      "avg_position": "6.1",
+      "top_queries": [
+        {
+          "query": "adl",
+          "clicks": 1,
+          "position": "5.5"
+        },
+        {
+          "query": "adl assessment",
+          "clicks": 1,
+          "position": "3.1"
+        },
+        {
+          "query": "adl scale",
+          "clicks": 1,
+          "position": "4.5"
+        },
+        {
+          "query": "adl-d",
+          "clicks": 1,
+          "position": "7.3"
+        },
+        {
+          "query": "angelcare",
+          "clicks": 1,
+          "position": "3.6"
+        },
+        {
+          "query": "angle care",
+          "clicks": 1,
+          "position": "2.5"
+        },
+        {
+          "query": "居家安老",
+          "clicks": 1,
+          "position": "16.5"
+        },
+        {
+          "query": "長期臥床肌肉萎縮",
+          "clicks": 1,
+          "position": "6.0"
+        },
+        {
+          "query": "85",
+          "clicks": 0,
+          "position": "7.0"
+        },
+        {
+          "query": "adl assessment tool",
+          "clicks": 0,
+          "position": "5.0"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-12T16:17:23.693Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 6,
+      "impressions": 1034,
+      "ctr": "0.58%",
+      "avg_position": "4.8",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 2,
+          "position": "1.6"
+        },
+        {
+          "query": "angel care",
+          "clicks": 1,
+          "position": "2.7"
+        },
+        {
+          "query": "angle care",
+          "clicks": 1,
+          "position": "1.0"
+        },
+        {
+          "query": "居家安老",
+          "clicks": 1,
+          "position": "16.5"
+        },
+        {
+          "query": "自我照顧能力評估表",
+          "clicks": 1,
+          "position": "1.0"
+        },
+        {
+          "query": "9000",
+          "clicks": 0,
+          "position": "4.0"
+        },
+        {
+          "query": "15000以下",
+          "clicks": 0,
+          "position": "3.0"
+        },
+        {
+          "query": "activities of daily living (adl) assessment",
+          "clicks": 0,
+          "position": "1.0"
+        },
+        {
+          "query": "activities of daily living 中文",
+          "clicks": 0,
+          "position": "11.0"
+        },
+        {
+          "query": "adl",
+          "clicks": 0,
+          "position": "6.1"
+        }
+      ]
+    },
+    {
+      "_updated": "2026-09-19T16:17:20.503Z",
+      "site": "https://angelcare.dnow.hk",
+      "period": "7d",
+      "clicks": 5,
+      "impressions": 1069,
+      "ctr": "0.47%",
+      "avg_position": "4.2",
+      "top_queries": [
+        {
+          "query": "宅天使",
+          "clicks": 2,
+          "position": "1.3"
+        },
+        {
+          "query": "adl",
+          "clicks": 1,
+          "position": "6.9"
+        },
+        {
+          "query": "adl assessment tool",
+          "clicks": 1,
+          "position": "4.3"
+        },
+        {
+          "query": "廢用性肌肉萎縮",
+          "clicks": 1,
+          "position": "5.7"
+        },
+        {
+          "query": "6 adl",
+          "clicks": 0,
+          "position": "4.0"
+        },
+        {
+          "query": "activities of daily living (adl) assessment",
+          "clicks": 0,
+          "position": "1.0"
+        },
+        {
+          "query": "activities of daily living 中文",
+          "clicks": 0,
+          "position": "7.0"
+        },
+        {
+          "query": "adl assessment",
+          "clicks": 0,
+          "position": "2.3"
+        },
+        {
+          "query": "adl d",
+          "clicks": 0,
+          "position": "8.0"
+        },
+        {
+          "query": "adl dependent",
+          "clicks": 0,
+          "position": "1.0"
+        }
+      ]
+    }
+  ]
+}

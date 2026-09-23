@@ -1,0 +1,113 @@
+<?php
+/**
+ * Plugin Name: TRP Rank Math Meta (Staging)
+ * Description: Per-language Rank Math SEO titles/descriptions for EN (en_US) vs ZH (zh_Hant) on AngelCare staging.
+ * Author: CTO
+ * Version: 1.3
+ */
+
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+add_filter( 'rank_math/frontend/title', 'ac_trp_seo_title', 99, 1 );
+add_filter( 'rank_math/frontend/description', 'ac_trp_seo_description', 99, 1 );
+
+function ac_trp_is_en() {
+    global $TRP_LANGUAGE;
+    if ( ! empty( $TRP_LANGUAGE ) ) {
+        return $TRP_LANGUAGE === 'en_US';
+    }
+    $path = isset( $_SERVER['REQUEST_URI'] ) ? $_SERVER['REQUEST_URI'] : '';
+    return ( strpos( $path, '/en/' ) === 0 || strpos( $path, '/en' ) === 0 );
+}
+
+function ac_trp_seo_title( $title ) {
+    if ( ! ac_trp_is_en() ) {
+        return $title;
+    }
+
+    if ( is_singular( 'ac_blog' ) ) {
+        $blog_map = array(
+            1266 => 'Elderly Care 101: The Right Amount of Care | AngelCare',
+            1296 => 'Elderly Care 101: Home Environment Safety | AngelCare',
+            1303 => 'Elderly Care 101: Care Prevention | AngelCare',
+            1305 => 'Elderly Care 101: Physiological Changes & Coping | AngelCare',
+            1307 => 'Elderly Care 101: Psychological Changes & Coping | AngelCare',
+        );
+        $blog_id = get_the_ID();
+        if ( isset( $blog_map[ $blog_id ] ) ) {
+            return $blog_map[ $blog_id ];
+        }
+        return 'Elderly Care 101 | AngelCare';
+    }
+
+    $object_id = get_queried_object_id();
+    $map = array(
+        258 => "AngelCare - The Caregiver's App",                          // home 首頁
+        261 => 'Features - AngelCare',                                     // 功能介紹
+        263 => 'Disuse Syndrome - AngelCare',                              // 廢用症候群
+        265 => 'FAQ - AngelCare',                                          // 常見問題
+        478 => 'About Us - AngelCare',                                     // 關於我們 (post)
+        524 => 'Our Story - AngelCare',                                    // 背景故事
+        636 => 'Elder Care Options: Home vs Care Home - AngelCare',        // 從居家安老到院舍安老
+        704 => 'ADL Assessment - AngelCare',                               // 基本生活能力評估
+        718 => 'User Guide - AngelCare',                                   // 教學指南
+        1089 => "What's New - AngelCare",                                  // 全新升級
+        1249 => 'Pricing - AngelCare',                                     // 收費計畫
+        1256 => 'Download AngelCare App - AngelCare',                      // 下載 App
+        1257 => 'Blog - AngelCare',                                        // 文章
+        1272 => 'Elderly Care Options: Home vs Care Home - AngelCare',  // 長者照護選擇 (new master)
+        1273 => 'Ageing at Home: Care Options & Services - AngelCare',   // 居家安老
+        1274 => 'Considering a Care Home: Waiting Time & Fees - AngelCare', // 安老院考慮
+        1275 => 'Assessment Tool: Home vs Care Home - AngelCare',        // 評估工具
+    );
+    if ( isset( $map[ $object_id ] ) ) {
+        return $map[ $object_id ];
+    }
+    return $title;
+}
+
+function ac_trp_seo_description( $desc ) {
+    if ( ! ac_trp_is_en() ) {
+        return $desc;
+    }
+
+    if ( is_singular( 'ac_blog' ) ) {
+        $blog_map = array(
+            1266 => 'How to care for a stroke survivor the right way — supported independence, with practical do/don\'t guides for feeding, toileting, washing and dressing.',
+            1296 => 'Falls in seniors are often caused by thresholds, clutter and poor lighting — home modification principles to create a safe ageing-at-home environment.',
+            1303 => 'Care prevention delays the need for care — eight key points including muscle training, nutrition, cognition and oral health, to prepare for ageing at home.',
+            1305 => 'Brain, eyes, ears, heart and bones decline with age — common physiological changes and coping advice, covering swallowing, falls and chronic disease management.',
+            1307 => 'Seniors often show alternating strong and weak psychological changes — seven coping suggestions (respect, listen, be gentle, accompany) to build trust.',
+        );
+        $blog_id = get_the_ID();
+        if ( isset( $blog_map[ $blog_id ] ) ) {
+            return $blog_map[ $blog_id ];
+        }
+        return 'Elderly care guides for Hong Kong families | AngelCare';
+    }
+
+    $object_id = get_queried_object_id();
+    $map = array(
+        258 => "AngelCare is the all-in-one caregiver's app: medication reminders, health tracking, task delegation and telehealth — helping families care for elderly loved ones at home.",
+        261 => 'Explore AngelCare features: medication management, health monitoring, task delegation, image recognition and more — built to support family caregivers.',
+        263 => 'Disuse syndrome (deconditioning) can progress fast in bedridden seniors. Learn the signs, prevention and how AngelCare helps keep them active.',
+        265 => 'Answers to common questions about AngelCare — how the app works, who it is for, data privacy, and how it supports home caregiving.',
+        478 => 'Learn about AngelCare: our mission, our team, and why we believe home is the best place to age — built by DoctorNow Home professionals.',
+        524 => 'The story behind AngelCare — how DoctorNow Home turned 20,000+ care cases into a free caregiver support app for Hong Kong families.',
+        636 => 'Compare home care vs care home options for elderly loved ones — costs, caregiver options, technology, and how to choose what fits your family.',
+        704 => 'Use the ADL (Activities of Daily Living) assessment to evaluate an elderly person\'s independence level and plan the right level of care.',
+        718 => 'Step-by-step AngelCare user guide: register, create a care recipient profile, invite helpers and family, and start managing care tasks.',
+        1089 => "What's new in AngelCare: AI image recognition, personalised health management and smarter care tools for family caregivers.",
+        1249 => 'AngelCare pricing: in-home nurse assessments, care plans and app plans — transparent HK pricing with health care voucher support.',
+        1256 => 'Download the AngelCare app — the all-in-one home care platform for Hong Kong families caring for elderly loved ones.',
+        1257 => 'Read the AngelCare blog: elderly care guides, home care tips, caregiver support and stories from Hong Kong families.',
+        1272 => 'Compare home care vs care home options for elderly loved ones — costs, caregiver options, technology, and how to choose what fits your family.',
+        1273 => 'Ageing at home guide: subsidised home care services (LHNO), meal delivery, safety bells, equipment rental and the CCSV community care voucher — fees and how to apply.',
+        1274 => 'Considering a residential care home? Subsidised vs private homes, waiting times, the RCSV voucher, and red flags that signal it is time to consider a care home.',
+        1275 => 'Free 10-minute assessment tool: clarify whether ageing at home or residential care fits your elder, with personalised service recommendations and a PDF action plan.',
+    );
+    if ( isset( $map[ $object_id ] ) ) {
+        return $map[ $object_id ];
+    }
+    return $desc;
+}

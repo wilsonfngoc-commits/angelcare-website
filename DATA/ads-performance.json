@@ -1,0 +1,125 @@
+{
+  "_description": "Ads performance history. Weekly snapshots per platform.",
+  "snapshots": [
+    {
+      "_updated": "2026-09-17T16:16:01.333Z",
+      "date": "2026-09-16",
+      "platform": "google-ads",
+      "campaigns": 5,
+      "impressions": 1216,
+      "clicks": 94,
+      "cost": 383.279348,
+      "conversions": 5
+    },
+    {
+      "_updated": "2026-09-17T19:00:10.156Z",
+      "date": "2026-09-16",
+      "platform": "google-ads",
+      "campaigns": 5,
+      "impressions": 1216,
+      "clicks": 94,
+      "cost": 383.279348,
+      "conversions": 5
+    },
+    {
+      "_updated": "2026-09-18T16:16:03.642Z",
+      "date": "2026-09-17",
+      "platform": "google-ads",
+      "campaigns": 5,
+      "impressions": 1461,
+      "clicks": 99,
+      "cost": 433.472443,
+      "conversions": 7
+    },
+    {
+      "_updated": "2026-09-18T19:00:10.320Z",
+      "date": "2026-09-17",
+      "platform": "google-ads",
+      "campaigns": 5,
+      "impressions": 1461,
+      "clicks": 99,
+      "cost": 433.472443,
+      "conversions": 7
+    },
+    {
+      "_updated": "2026-09-19T16:16:02.635Z",
+      "date": "2026-09-18",
+      "platform": "google-ads",
+      "campaigns": 6,
+      "impressions": 1356,
+      "clicks": 97,
+      "cost": 396.754641,
+      "conversions": 12
+    },
+    {
+      "_updated": "2026-09-19T19:00:10.485Z",
+      "date": "2026-09-18",
+      "platform": "google-ads",
+      "campaigns": 6,
+      "impressions": 1356,
+      "clicks": 97,
+      "cost": 396.754641,
+      "conversions": 12
+    },
+    {
+      "_updated": "2026-09-20T16:15:53.738Z",
+      "date": "2026-09-19",
+      "platform": "google-ads",
+      "campaigns": 4,
+      "impressions": 1351,
+      "clicks": 92,
+      "cost": 359.387561,
+      "conversions": 4
+    },
+    {
+      "_updated": "2026-09-20T19:00:10.078Z",
+      "date": "2026-09-19",
+      "platform": "google-ads",
+      "campaigns": 4,
+      "impressions": 1351,
+      "clicks": 92,
+      "cost": 359.387561,
+      "conversions": 4
+    },
+    {
+      "_updated": "2026-09-21T16:15:56.857Z",
+      "date": "2026-09-20",
+      "platform": "google-ads",
+      "campaigns": 6,
+      "impressions": 1284,
+      "clicks": 91,
+      "cost": 369.05078499999996,
+      "conversions": 9
+    },
+    {
+      "_updated": "2026-09-21T19:00:09.753Z",
+      "date": "2026-09-20",
+      "platform": "google-ads",
+      "campaigns": 6,
+      "impressions": 1284,
+      "clicks": 91,
+      "cost": 369.05078499999996,
+      "conversions": 9
+    },
+    {
+      "_updated": "2026-09-22T16:15:58.485Z",
+      "date": "2026-09-21",
+      "platform": "google-ads",
+      "campaigns": 6,
+      "impressions": 1407,
+      "clicks": 91,
+      "cost": 399.359789,
+      "conversions": 3
+    },
+    {
+      "_updated": "2026-09-22T19:00:09.881Z",
+      "date": "2026-09-21",
+      "platform": "google-ads",
+      "campaigns": 6,
+      "impressions": 1407,
+      "clicks": 91,
+      "cost": 399.359789,
+      "conversions": 3
+    }
+  ]
+}

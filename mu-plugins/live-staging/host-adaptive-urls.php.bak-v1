@@ -1,0 +1,19 @@
+<?php
+/**
+ * Host-adaptive home/siteurl for local staging.
+ * Allows viewing via Cloudflare tunnel / public IP without breaking .local access.
+ * Runs after core constant filters (priority 999) so it wins.
+ */
+if (isset($_SERVER["HTTP_HOST"])) {
+    $scheme = (!empty($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] !== "off") ? "https" : "http";
+    add_filter("pre_option_home", function($v) use ($scheme) {
+        return $scheme . "://" . $_SERVER["HTTP_HOST"];
+    }, 999);
+    add_filter("pre_option_siteurl", function($v) use ($scheme) {
+        return $scheme . "://" . $_SERVER["HTTP_HOST"];
+    }, 999);
+    // Allow both http/https variants to be generated consistently
+    add_filter("pre_option_home", function($v) use ($scheme) {
+        return $scheme . "://" . $_SERVER["HTTP_HOST"];
+    }, 999);
+}

@@ -1,0 +1,423 @@
+<?php
+/**
+ * Plugin Name: AC Spacing Fix v1.5 (Staging)
+ * Description:
+ *  1. David Wong quote block fixes on home hero (mobile justify kill, spacing rhythm)
+ *  2. TRP: add img[alt] node accessor so TranslatePress translates image alt attributes
+ *  3. TRP: translate RSS <link> feed titles (blogname + the_title dict lookup)
+ *  4. Button href re-link (option a, Wilson approved 2026-08-05): TRP Free strips the
+ *     <a> wrapper from Elementor buttons, leaving a dead translation-block div.
+ *     This mu-plugin re-attaches the original href + classes + target via JS,
+ *     keyed on the Elementor widget data-id (which survives translation).
+ * Author: CTO
+ * Version: 1.10
+ */
+
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+// ========== 0. TRP: translate img[alt] attributes ==========
+add_filter( 'trp_node_accessors', 'ac_trp_add_alt_accessor', 10, 1 );
+function ac_trp_add_alt_accessor( $accessors ) {
+    if ( ! isset( $accessors['image_alt'] ) ) {
+        $accessors['image_alt'] = array(
+            'selector'  => 'img[alt]',
+            'accessor'  => 'alt',
+            'attribute' => true,
+        );
+    }
+    return $accessors;
+}
+
+// ========== 1. TRP: translate RSS <link> feed titles ==========
+add_action( 'wp_head', 'ac_trp_feed_title_filters', 1 );
+function ac_trp_feed_title_filters() {
+    global $TRP_LANGUAGE;
+    if ( empty( $TRP_LANGUAGE ) || $TRP_LANGUAGE !== 'en_US' ) return;
+    add_filter( 'option_blogname', function( $name ) { return 'AngelCare'; }, 99 );
+    add_filter( 'the_title', function( $title ) {
+        global $wpdb;
+        if ( empty( $title ) ) return $title;
+        $t = trim( wp_strip_all_tags( $title ) );
+        if ( $t === '' ) return $title;
+        if ( ! preg_match( '/[\x{4e00}-\x{9fff}\x{3400}-\x{4dbf}]/u', $t ) ) return $title;
+        $row = $wpdb->get_var( $wpdb->prepare(
+            "SELECT translated FROM {$wpdb->prefix}trp_dictionary_zh_hant_en_us WHERE original = %s AND status = 2 LIMIT 1",
+            $t
+        ) );
+        return $row ? $row : $title;
+    }, 99 );
+}
+
+// ========== 2. Button href re-link (option a) ==========
+// Map: Elementor widget data-id → original {href, class, target}
+function ac_btn_relink_map() {
+    return array(
+        '03e12a2' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '10e0819' => array( 'href' => 'https://angelcare.dnow.hk/en/angelcare-landingpage/', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '19b514e' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=6', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '204d851d' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '28edfa20' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '2c860e0' => array( 'href' => '#', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '315acd2a' => array( 'href' => 'https://easycare.dnow.hk/?page_id=261', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '31e0b516' => array( 'href' => 'https://play.google.com/store/apps/details?id=com.doctornow.easycare', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '353e11e6' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '3a99b8c' => array( 'href' => 'https://angelcare.dnow.hk/en/%e8%83%8c%e6%99%af%e6%95%85%e4%ba%8b/', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '3bcb022' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=9', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '3ce76101' => array( 'href' => 'https://play.google.com/store/apps/details?id=com.doctornow.easycare', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '5326fbd' => array( 'href' => 'https://play.google.com/store/apps/details?id=com.doctornow.easycare', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '58e4875e' => array( 'href' => 'https://apps.apple.com/hk/app/%E5%AE%85%E5%A4%A9%E4%BD%BF-angelcare/id6473672676?l=en-GB', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '671fe5ce' => array( 'href' => 'https://play.google.com/store/apps/details?id=com.doctornow.easycare', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '77434c9' => array( 'href' => '#', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '7a361cd' => array( 'href' => 'https://angelcare.dnow.hk/en/download', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        '8fbbca4' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=8', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        '9dd9402' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=10', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        'd80fcbc' => array( 'href' => 'https://angelcare.dnow.hk/en/%e5%be%9e%e5%b1%85%e5%ae%b6%e5%ae%89%e8%80%81%e5%88%b0%e9%99%a2%e8%88%8d%e5%ae%89%e8%80%81%ef%bc%8c%e5%85%a8%e9%9d%a2%e4%ba%86%e8%a7%a3%e9%95%b7%e8%80%85%e7%85%a7%e8%ad%b7%e9%81%b8%e6%93%87/', 'class' => 'elementor-button elementor-button-link elementor-size-sm elementor-animation-float', 'target' => '_blank' ),
+        'da78fb7' => array( 'href' => 'https://angelcare.dnow.hk/?cff-form=7', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),
+        'e4f9c22' => array( 'href' => '#', 'class' => 'elementor-button elementor-button-link elementor-size-sm', 'target' => '' ),    );
+}
+
+add_action( 'wp_footer', 'ac_btn_relink_js', 99 );
+function ac_btn_relink_js() {
+    global $TRP_LANGUAGE;
+    if ( empty( $TRP_LANGUAGE ) || $TRP_LANGUAGE !== 'en_US' ) return;
+    $map = ac_btn_relink_map();
+    if ( empty( $map ) ) return;
+    ?>
+<script id="ac-btn-relink">
+(function () {
+    var MAP = <?php echo json_encode( $map, JSON_UNESCAPED_SLASHES ); ?>;
+    var MARK = 'data-ac-relinked';
+    function relink() {
+        document.querySelectorAll('.elementor-widget-button .elementor-button-wrapper.translation-block').forEach(function (wrapper) {
+            // Never process twice (TRP dynamic translator may re-create wrappers)
+            if (wrapper.getAttribute(MARK)) return;
+            var widget = wrapper.closest('.elementor-widget-button');
+            if (!widget) return;
+            var id = widget.getAttribute('data-id');
+            if (!id || !MAP[id]) return;
+            if (wrapper.querySelector('a[href]')) return;
+            // Skip empty wrappers (avoids dead <a></a> in race conditions)
+            var text = (wrapper.textContent || '').replace(/\s+/g, ' ').trim();
+            if (!text) { wrapper.setAttribute(MARK, '1'); return; }
+            var info = MAP[id];
+            var a = document.createElement('a');
+            a.href = info.href;
+            if (info.class) a.className = info.class;
+            if (info.target) a.target = info.target;
+            if (info.target === '_blank') a.rel = 'noopener noreferrer';
+            // Rebuild full Elementor button structure (icon + content-wrapper + text)
+            var wrap = document.createElement('span');
+            wrap.className = 'elementor-button-content-wrapper';
+            var txt = document.createElement('span');
+            txt.className = 'elementor-button-text';
+            txt.textContent = text;
+            wrap.appendChild(txt);
+            a.appendChild(wrap);
+            wrapper.textContent = '';
+            wrapper.classList.remove('translation-block');
+            wrapper.appendChild(a);
+            wrapper.setAttribute(MARK, '1');
+        });
+    }
+
+
+    function boot() {
+        relink();
+        // TRP dynamic translator + Elementor re-render can re-wrap text at any time.
+        // Watch the DOM and re-link anything new, debounced.
+        var timer = null;
+        var observer = new MutationObserver(function () {
+            if (timer) clearTimeout(timer);
+            timer = setTimeout(relink, 150);
+        });
+        observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', boot);
+    } else {
+        boot();
+    }
+})();
+</script>
+    <?php
+}
+
+
+// ========== 3. CSS (spacing + fallback button visual) ==========
+add_action( 'wp_head', 'ac_spacing_fix_css', 99 );
+
+function ac_spacing_fix_css() {
+    echo '<style id="ac-spacing-fix">' . "\n";
+
+    // ========== 1. Kill mobile justify on David Wong quote (widget 78193198) ==========
+    echo '@media (max-width: 767px) {' . "\n";
+    echo '  .elementor-element-78193198,'
+       . '.elementor-element-78193198 .elementor-widget-container,'
+       . '.elementor-element-78193198 .wp-block-group,'
+       . '.elementor-element-78193198 .wp-block-group p,'
+       . '.elementor-element-78193198 p { text-align: left !important; }' . "\n";
+    echo '}' . "\n";
+
+    echo '.elementor-element-78193198 .wp-block-group p,'
+       . '.elementor-element-78193198 .wp-block-group,'
+       . '.elementor-element-78193198 .elementor-widget-container { text-align: left !important; }' . "\n";
+    echo '.elementor-element-78193198 .wp-block-group { justify-content: flex-start !important; align-items: flex-start !important; }' . "\n";
+
+    // ========== 2. Normalize vertical spacing in David Wong block ==========
+    echo '.elementor-element-891a295 .elementor-icon-box-title { margin-bottom: 4px !important; }' . "\n";
+    echo '.elementor-element-891a295 { margin-bottom: 24px !important; }' . "\n";
+    echo '.elementor-element-78193198 .wp-block-group { margin: 0 !important; padding: 0 !important; }' . "\n";
+    echo '.elementor-element-78193198 { margin-bottom: 16px !important; }' . "\n";
+    echo '.elementor-element-3a99b8c .elementor-widget-container { margin: 0 !important; }' . "\n";
+
+    // ========== 3. Fallback button look (only for buttons JS hasn't re-linked) ==========
+    echo '.elementor-widget-button .elementor-button-wrapper.translation-block {'
+       . 'display: inline-block; padding: 15px 40px; border-radius: 30px;'
+       . 'background-color: #40B4B4; color: #FFFFFF; font-family: Roboto, sans-serif;'
+       . 'font-size: 20px; font-weight: 600; line-height: 1.5; text-align: center;'
+       . 'cursor: pointer; transition: all 0.3s; }' . "\n";
+    echo '.elementor-widget-button .elementor-button-wrapper.translation-block:hover {'
+       . 'background-color: #359a9a; }' . "\n";
+
+
+    // ========== 10. Nav menu fixes (Wilson 2026-08-05) ==========
+    // 10a. (v1.9) 7561b1b RE-ENABLED per Wilson spec 2026-08-06: desktop homepage needs the
+    //      top-left hamburger AND the menu bar below the hero - both. Do not hide either.
+    //      (Was display:none in v1.7/v1.8; kept commented for history.)
+
+    // 10b. Force explicit horizontal nav item spacing (desktop nav 36261f8 + mobile nav c5741a7)
+    //      so items can never concatenate regardless of Elementor CSS variable state.
+    echo '.elementor-element-36261f8 .elementor-nav-menu--main .elementor-nav-menu > li,'
+       . '.elementor-element-c5741a7 .elementor-nav-menu--main .elementor-nav-menu > li {'
+       . 'margin-left: 0 !important; margin-right: 0 !important; }' . "\n";
+    echo '.elementor-element-36261f8 .elementor-nav-menu--main .elementor-nav-menu > li > a,'
+       . '.elementor-element-c5741a7 .elementor-nav-menu--main .elementor-nav-menu > li > a {'
+       . 'margin-right: 0 !important; margin-left: 0 !important; }' . "\n";
+    echo '.elementor-element-36261f8 .elementor-nav-menu--main .elementor-nav-menu,'
+       . '.elementor-element-c5741a7 .elementor-nav-menu--main .elementor-nav-menu {'
+       . 'display: flex !important; flex-wrap: wrap !important; align-items: center; gap: 30px !important; }' . "\n";
+    // Ensure the toggle is hidden on desktop for the dropdown-mobile navs
+    echo '@media (min-width: 768px) {' . "\n";
+    echo '  .elementor-element-36261f8 .elementor-menu-toggle,'
+       . '.elementor-element-c5741a7 .elementor-menu-toggle { display: none !important; }' . "\n";
+    echo '  .elementor-element-36261f8 .elementor-nav-menu--main,'
+       . '.elementor-element-c5741a7 .elementor-nav-menu--main { display: block !important; }' . "\n";
+    echo '}' . "\n";
+
+
+    // ========== 11. Language toggle (EN/中) + desktop nav visibility (v1.8) ==========
+    // 11a. (v1.9) REMOVED the v1.8 pinned-nav rule per Wilson spec: desktop homepage keeps the
+    //      menu bar BELOW the hero section in normal flow (hamburger top-left is widget 7561b1b).
+    // 11b. Hide the old TRP shortcode language switcher (mobile header widget on main page)
+    echo '.elementor-element-trp-ls-widget { display: none !important; }' . "\n";
+    // 11c. New EN/中 toggle styles (desktop nav + mobile drawer)
+    echo '.ac-ls-item { display: flex; align-items: center; gap: 4px; margin: 0 6px; }' . "\n";
+    echo '.ac-ls-item .ac-ls-link { display: inline-flex; align-items: center; justify-content: center;'
+       . 'min-width: 30px; padding: 4px 11px; border-radius: 14px; font-size: 13px; font-weight: 700;'
+       . 'color: #143852; border: 1.5px solid #40B4B4; background: #fff; text-decoration: none; line-height: 1.4;'
+       . 'transition: all .2s; }' . "\n";
+    echo '.ac-ls-item .ac-ls-link:hover { background: #e6f6f6; }' . "\n";
+    echo '.ac-ls-item .ac-ls-link.ac-ls-active { background: #40B4B4; color: #fff; border-color: #40B4B4; }' . "\n";
+    echo '.ac-ls-item .ac-ls-sep { color: #c9c9c9; font-size: 12px; }' . "\n";
+    // Mobile drawer variant
+    echo '.elementor-nav-menu--dropdown .ac-ls-item { padding: 10px 14px; border-top: 1px solid #ececec; margin-top: 6px; }' . "\n";
+
+    echo '</style>' . "\n";
+}
+
+
+// ========== 12. EN/中 toggle — replaces TRP floating + header switchers (v1.8) ==========
+
+// 12a. Suppress the TRP floating bottom language switcher entirely (all pages)
+add_filter( 'trp_floater_ls_html_v2', function () { return ''; }, 999 );
+
+// 12b. Build toggle URLs + inject EN/中 into nav menus
+add_action( 'wp_footer', 'ac_lang_toggle_inject', 120 );
+function ac_lang_toggle_inject() {
+    if ( ! class_exists( 'TRP_Translate_Press' ) ) return;
+    global $TRP_LANGUAGE;
+    $current_lang = ! empty( $TRP_LANGUAGE ) ? $TRP_LANGUAGE : 'zh_Hant';
+    try {
+        $trp    = TRP_Translate_Press::get_trp_instance();
+        $conv   = $trp->get_component( 'url_converter' );
+        $cur    = $conv->cur_page_url();
+        $en_url = str_replace( '#TRPLINKPROCESSED', '', $conv->get_url_for_language( 'en_US', $cur ) );
+        $zh_url = str_replace( '#TRPLINKPROCESSED', '', $conv->get_url_for_language( 'zh_Hant', $cur ) );
+    } catch ( Throwable $e ) {
+        return;
+    }
+    $data = array(
+        'en'  => esc_url( $en_url ),
+        'zh'  => esc_url( $zh_url ),
+        'cur' => $current_lang,
+    );
+    ?>
+<script id="ac-lang-toggle">
+(function () {
+    var D = <?php echo json_encode( $data ); ?>;
+    var MARK = 'data-ac-ls-ready';
+    function buildItem() {
+        var zhActive = ( D.cur !== 'en_US' ) ? ' ac-ls-active' : '';
+        var enActive = ( D.cur === 'en_US' ) ? ' ac-ls-active' : '';
+        var li = document.createElement('li');
+        li.className = 'menu-item ac-ls-item';
+        li.setAttribute( MARK, '1' );
+        li.setAttribute( 'data-no-translation', '' );
+        li.innerHTML =
+            '<a class="ac-ls-link ac-ls-zh' + zhActive + '" href="' + D.zh + '" data-no-translation>中</a>' +
+            '<span class="ac-ls-sep" data-no-translation>/</span>' +
+            '<a class="ac-ls-link ac-ls-en' + enActive + '" href="' + D.en + '" data-no-translation>EN</a>';
+        return li;
+    }
+    // Target navs: main desktop nav (36261f8), main mobile drawer (c5741a7),
+    // inner desktop nav + drawer (7ccfb07a)
+    // v1.9: menu-2-7561b1b = desktop homepage hamburger drawer (re-enabled widget)
+    var TARGETS = [ 'menu-1-36261f8', 'menu-2-c5741a7', 'menu-1-7ccfb07a', 'menu-2-7ccfb07a', 'menu-2-7561b1b' ];
+    function inject() {
+        TARGETS.forEach( function ( id ) {
+            var ul = document.getElementById( id );
+            if ( ! ul ) return;
+            if ( ul.querySelector( '.ac-ls-item' ) ) return;
+            ul.appendChild( buildItem() );
+        } );
+    }
+    function boot() {
+        inject();
+        var timer = null;
+        var obs = new MutationObserver( function () {
+            if ( timer ) clearTimeout( timer );
+            timer = setTimeout( inject, 150 );
+        } );
+        obs.observe( document.documentElement, { childList: true, subtree: true } );
+    }
+    if ( document.readyState === 'loading' ) {
+        document.addEventListener( 'DOMContentLoaded', boot );
+    } else {
+        boot();
+    }
+})();
+</script>
+    <?php
+}
+
+
+// ========== 13. Carousel arrows outside frame (全新升級 template 1087) ==========
+add_action( 'wp_head', 'ac_carousel_arrows_css', 120 );
+function ac_carousel_arrows_css() {
+    // Only inject on the 全新升級 page (or anywhere the widget renders — harmless)
+    ?>
+<style id="ac-carousel-arrows">
+    /* Scope to the image-carousel widget on the 全新升級 template */
+    .elementor-element-4cd441d .elementor-image-carousel-wrapper.swiper {
+        position: relative;
+        padding: 0 0 0 0;
+    }
+
+    /* Arrows: outside the frame, vertically centered, teal circle + white chevron */
+    .elementor-element-4cd441d .elementor-swiper-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 46px;
+        height: 46px;
+        background: #40B4B4;               /* accent teal */
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+        transition: background 0.2s ease, transform 0.2s ease;
+        z-index: 5;
+    }
+    .elementor-element-4cd441d .elementor-swiper-button svg {
+        width: 20px;
+        height: 20px;
+        fill: #ffffff;                     /* white chevron */
+    }
+    .elementor-element-4cd441d .elementor-swiper-button:hover {
+        background: #2E8B8B;               /* darker teal hover */
+        transform: translateY(-50%) scale(1.06);
+    }
+
+    /* Place prev/next OUTSIDE the image frame, flanking it */
+    .elementor-element-4cd441d .elementor-swiper-button-prev {
+        left: -58px;
+    }
+    .elementor-element-4cd441d .elementor-swiper-button-next {
+        right: -58px;
+    }
+
+    /* Mobile: arrows at the image frame edges (inside frame, clearly visible) */
+    @media (max-width: 767px) {
+        .elementor-element-4cd441d .elementor-swiper-button-prev { left: 8px; }
+        .elementor-element-4cd441d .elementor-swiper-button-next { right: 8px; }
+        .elementor-element-4cd441d .elementor-swiper-button {
+            width: 38px;
+            height: 38px;
+        }
+        .elementor-element-4cd441d .elementor-swiper-button svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+</style>
+    <?php
+}
+
+// ========== 14. Pricing page: center 服務流程 + FAQ content (zoom-out fix) ==========
+add_action( 'wp_head', 'ac_pricing_center_css', 121 );
+function ac_pricing_center_css() {
+    ?>
+<style id="ac-pricing-center">
+    /* Container 23f2d028 (服務流程 + 收費常見問題): constrain + center content so it
+       doesn't hug the left edge at small zoom levels. */
+    .elementor-element-23f2d028 > .e-con-inner {
+        max-width: 900px !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+    /* Center the content widgets inside 23f2d028 by capping their width */
+    .elementor-element-23f2d028 .elementor-element.elementor-widget-text-editor,
+    .elementor-element-23f2d028 .elementor-element.elementor-widget-heading,
+    .elementor-element-23f2d028 .elementor-element.elementor-widget-toggle {
+        max-width: 860px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+    }
+</style>
+    <?php
+}
+
+// ========== 15. Footer: single-line layout polish (template 152, site-wide) ==========
+add_action( 'wp_head', 'ac_footer_css', 122 );
+function ac_footer_css() {
+    ?>
+<style id="ac-footer-line">
+    /* Footer (container 52157e27): ensure all 3 items align on one line (desktop),
+       and wrap gracefully + center on mobile */
+    .elementor-element-52157e27.e-con-boxed > .e-con-inner {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .elementor-element-52157e27 .elementor-widget {
+        align-self: center;
+    }
+    /* Mobile: center the wrapped items */
+    @media (max-width: 767px) {
+        .elementor-element-52157e27.e-con-boxed > .e-con-inner {
+            justify-content: center;
+            gap: 6px 16px;
+        }
+        .elementor-element-52157e27 .elementor-widget {
+            max-width: 100%;
+        }
+        .elementor-element-52157e27 .elementor-widget-text-editor,
+        .elementor-element-52157e27 .elementor-widget-heading {
+            margin: 0 !important;
+        }
+    }
+</style>
+    <?php
+}
