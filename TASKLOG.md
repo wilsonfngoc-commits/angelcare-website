@@ -28,3 +28,15 @@
 - **Category cleanup mirror:** deleted junk term "Select 日常照顧" (17); reassigned 1310 生理變化→日常照顧 (was 醫療照護), 1318/1319→日常照顧. Final: 日常照顧 9, 行動復健 1, 居家安全 1, 醫療照護 0.
 - **Caches:** _elementor_element_cache (5 rows) + Redis + WPSC supercache purged.
 - **Verify (cache-bust ?nb=<ts>):** 4/4 prod URLs 200, correct H1/chip, hero present, FAQ ×5, video present, tables (06 需求→做法→案例 ×5 rows, 09 對照表), 0 ac-staging refs. Browser 390px: 0 overflow, 0 broken images, video/table fit. All media 200.
+
+## 2026-09-23 — CFF orphan removal + drift protocol + prod↔staging 兩項同步（STAGING，未 deploy）
+
+- **CFF 垃圾行刪除（staging 704/708）**：`[CP_CALCULATED_FIELDS id="6"]` orphan shortcode widget（plugin 已不在、form 表不存在）從 _elementor_data + post_content 移除。備份 `~/backups/elementor-cff-704-708-2026-09-23.json`。**教訓：update_post_meta 會 unslash，Elementor JSON 必用 `$wpdb->update` raw 寫入（8/25 同款教訓重犯）；首次寫壞 708 JSON 約 10 分鐘，已從備份還原並用正確 escaping 重做，render 驗證通過。**
+- **Drift-check 制度化（Wilson mandate）**：`~/scripts/wp-drift-check.py`（rendered headings + marker + REST modified radar）；AC/DNH/DN Apps 改 staging 或 deploy 前必跑。AGENTS.md 已記。
+- **Version control**：angelcare / doctornow / doctornow-apps 三 project git init + baseline（含 mu-plugins mirror）。
+- **漂移發現 + Wilson 裁決 → 已同步 staging**：
+  1. 7階段文章 (ac_blog 1318)：prod 標題為準 → staging post_title 改「《照顧者指南》照顧事的7個階段：你正處於哪一個？」。render 驗證 old=0 new=5 ✓
+  2. 關於我們 (478)：留言區不要 → staging comment_status/ping_status=closed，對齊 prod。內容其實一致（兩邊 rendered content md5 相同 0d2098ec、長度 808=808；早前 1063/815 字數差包括 comment form + strip，非內文漂移）。
+- **關於我們 定位答复**：id 478 舊 post，冇入 menu，但在 post-sitemap（Google/E-E-A-T 用）；prod 2026-08-03 有人後台 save 過但內容無變。
+- **待 Wilson 表決**：staging blog_public noindex 開關。
+- **Prod 待部署 batch**：trust-ladder A/B/C + CFF 移除（prod ADL 垃圾行仍在）+ MARKETING-LOG 更新。
