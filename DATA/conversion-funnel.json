@@ -2,13 +2,13 @@
   "_description": "Conversion funnel summary by platform.",
   "snapshots": [
     {
-      "_updated": "2026-09-21T16:15:21.363Z",
+      "_updated": "2026-09-24T16:15:24.640Z",
       "period": "last_7_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 820,
+          "count": 734,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -30,13 +30,13 @@
       ]
     },
     {
-      "_updated": "2026-09-21T16:15:22.833Z",
+      "_updated": "2026-09-24T16:15:25.836Z",
       "period": "last_30_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 2750,
+          "count": 3000,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -58,13 +58,13 @@
       ]
     },
     {
-      "_updated": "2026-09-21T16:15:24.043Z",
+      "_updated": "2026-09-24T16:15:26.981Z",
       "period": "last_90_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 6491,
+          "count": 6743,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -86,13 +86,13 @@
       ]
     },
     {
-      "_updated": "2026-09-21T19:10:21.609Z",
+      "_updated": "2026-09-24T19:10:35.582Z",
       "period": "last_7_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 827,
+          "count": 749,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -114,13 +114,13 @@
       ]
     },
     {
-      "_updated": "2026-09-21T19:10:22.770Z",
+      "_updated": "2026-09-24T19:10:36.820Z",
       "period": "last_30_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 2757,
+          "count": 3015,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -142,13 +142,13 @@
       ]
     },
     {
-      "_updated": "2026-09-21T19:10:24.486Z",
+      "_updated": "2026-09-24T19:10:39.941Z",
       "period": "last_90_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 6498,
+          "count": 6758,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -170,13 +170,13 @@
       ]
     },
     {
-      "_updated": "2026-09-22T16:15:22.446Z",
+      "_updated": "2026-09-25T16:15:21.980Z",
       "period": "last_7_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 779,
+          "count": 745,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -198,13 +198,13 @@
       ]
     },
     {
-      "_updated": "2026-09-22T16:15:23.693Z",
+      "_updated": "2026-09-25T16:15:23.956Z",
       "period": "last_30_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 2845,
+          "count": 3092,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -226,13 +226,13 @@
       ]
     },
     {
-      "_updated": "2026-09-22T16:15:25.118Z",
+      "_updated": "2026-09-25T16:15:26.171Z",
       "period": "last_90_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 6578,
+          "count": 6856,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -254,13 +254,13 @@
       ]
     },
     {
-      "_updated": "2026-09-22T19:10:22.682Z",
+      "_updated": "2026-09-25T19:10:22.619Z",
       "period": "last_7_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 802,
+          "count": 761,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -282,13 +282,13 @@
       ]
     },
     {
-      "_updated": "2026-09-22T19:10:24.042Z",
+      "_updated": "2026-09-25T19:10:23.909Z",
       "period": "last_30_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 2868,
+          "count": 3108,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
@@ -310,13 +310,13 @@
       ]
     },
     {
-      "_updated": "2026-09-22T19:10:25.537Z",
+      "_updated": "2026-09-25T19:10:25.773Z",
       "period": "last_90_days",
       "platform": "all",
       "stages": [
         {
           "label": "GA4 Sessions",
-          "count": 6601,
+          "count": 6872,
           "cost": 0,
           "drop_off_pct": 0,
           "note": "GA4 session_start events"
