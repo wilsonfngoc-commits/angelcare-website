@@ -1,0 +1,297 @@
+gowa_whatsapp | aldinokemal2104/go-whatsapp-web-multidevice:latest | Up 7 days | 127.0.0.1:8102->3000/tcp
+whatsapp_api | node:20-bookworm | Up 7 days | 0.0.0.0:8098->3000/tcp
+angelcare-redis | redis:7-alpine | Up 7 days | 6379/tcp
+angelcare_admin_api | node:20.19.5-bullseye | Exited (255) 6 months ago | 0.0.0.0:8101->3000/tcp
+angelcare_admin | nginx | Exited (255) 6 months ago | 0.0.0.0:8100->80/tcp
+angelcare_doctor | nginx:alpine | Exited (255) 6 months ago | 0.0.0.0:8099->80/tcp
+dockerjitsimeetstable9220_jvb_1 | jitsi/jvb:stable-9220 | Exited (0) 4 months ago | 
+dockerjitsimeetstable9220_jicofo_1 | jitsi/jicofo:stable-9220 | Exited (0) 4 months ago | 
+dockerjitsimeetstable9220_web_1 | jitsi/web:stable-9220 | Exited (0) 4 months ago | 
+dockerjitsimeetstable9220_prosody_1 | jitsi/prosody:stable-9220 | Exited (0) 4 months ago | 
+whatsapp_api_old | node:16.19.1 | Exited (0) 5 weeks ago | 
+doctornowhome.com_php8 | tangramor/nginx-php8-fpm | Exited (255) 15 months ago | 443/tcp, 9000/tcp, 0.0.0.0:8097->80/tcp
+angelcare_wordpress | tangramor/nginx-php8-fpm | Up 7 days | 443/tcp, 9000/tcp, 0.0.0.0:8096->80/tcp
+angelcare_label_system | angelcare_label_system:latest | Up 7 days | 22/tcp, 0.0.0.0:8095->8000/tcp
+funny_goodall | bd548b586b31 | Exited (1) 17 months ago | 
+suspicious_johnson | 652e2fffd805 | Exited (1) 17 months ago | 
+distracted_kapitsa | a6a855142499 | Exited (1) 17 months ago | 
+keen_cerf | 53c053fae276 | Exited (1) 17 months ago | 
+practical_keldysh | 602eb6fb314b | Exited (127) 17 months ago | 
+focused_dubinsky | 602eb6fb314b | Exited (100) 17 months ago | 
+hbbs | rustdesk/rustdesk-server:latest | Up 7 days | 
+hbbr | rustdesk/rustdesk-server:latest | Up 7 days | 
+rocketchat_prod_bot | node:16.19.1 | Up 7 days | 
+angelcare_wordpress_slow | haomaoguai/php7.4.9 | Up 7 days | 9000/tcp, 0.0.0.0:8094->80/tcp
+doctornowhome.com | haomaoguai/php7.4.9 | Up 7 days | 9000/tcp, 0.0.0.0:8093->80/tcp
+easycare_subsystem_dev | tangramor/nginx-php8-fpm | Up 7 days | 443/tcp, 9000/tcp, 0.0.0.0:8091->80/tcp
+easycare_dev | haomaoguai/php7.4.9 | Up 7 days | 9000/tcp, 0.0.0.0:8090->80/tcp
+cms.clinicnow.hk | haomaoguai/php7.4.9 | Exited (255) 2 years ago | 9000/tcp, 0.0.0.0:8089->80/tcp
+rocketchat_dev_bot | node:16.19.1 | Up 7 days | 
+relaxed_taussig | rocketchat/hubot-rocketchat | Exited (130) 2 years ago | 
+ipa-server | ipaserver_web | Up 7 days | 0.0.0.0:9008->8080/tcp
+staging.cliniquedelight.com | haomaoguai/php7.4.9 | Exited (255) 2 years ago | 9000/tcp, 0.0.0.0:8088->80/tcp
+homewp-dev | haomaoguai/php7.4.9 | Up 7 days | 9000/tcp, 0.0.0.0:8087->80/tcp
+redis | redis:6.2.5 | Up 7 days | 0.0.0.0:6379->6379/tcp
+easycare_subsystem | tangramor/nginx-php8-fpm | Up 7 days | 443/tcp, 9000/tcp, 0.0.0.0:8086->80/tcp
+sleepy_brattain | ec91a67ff8f3 | Exited (100) 3 years ago | 
+elated_chebyshev | 3e24b9e13ce1 | Exited (100) 3 years ago | 
+nostalgic_nightingale | 3e24b9e13ce1 | Exited (2) 3 years ago | 
+festive_edison | 3e24b9e13ce1 | Exited (2) 3 years ago | 
+tender_hypatia | 3e24b9e13ce1 | Exited (2) 3 years ago | 
+romantic_feynman | 284346c13d2d | Exited (2) 3 years ago | 
+heuristic_proskuriakova | 9c775eb12490 | Exited (2) 3 years ago | 
+record.slimbeauty.com | haomaoguai/php7.4.9 | Exited (255) 2 years ago | 9000/tcp, 0.0.0.0:8085->80/tcp
+chatify | tangramor/nginx-php8-fpm | Exited (255) 2 years ago | 443/tcp, 9000/tcp, 0.0.0.0:8084->80/tcp
+chat-cliniquedelight | rocketchat/rocket.chat:4.1.2 | Exited (137) 3 years ago | 
+cdchatcliniquedelightcom_mongo-init-replica_1 | mongo:4.0 | Exited (0) 3 years ago | 
+cdchatcliniquedelightcom_mongo_1 | mongo:4.0 | Exited (0) 3 years ago | 
+survey-cms | haomaoguai/php7.4.9:latest | Exited (255) 3 years ago | 9000/tcp, 0.0.0.0:8083->80/tcp
+hrm | haomaoguai/php7.4.9:latest | Exited (255) 22 months ago | 9000/tcp, 0.0.0.0:8285->80/tcp
+cms2.0 | 13326499309/php7.4:v1 | Exited (255) 3 years ago | 9000/tcp, 0.0.0.0:8284->80/tcp
+nostalgic_austin | 493c405ebbc0 | Exited (2) 3 years ago | 
+confident_bardeen | 6d10170ca10a | Exited (2) 3 years ago | 
+gallant_morse | 2dbbc4b6bc57 | Exited (100) 3 years ago | 
+priceless_heyrovsky | 88f5664e16b0 | Exited (100) 3 years ago | 
+happy_bhaskara | 2a998196229b | Exited (100) 3 years ago | 
+unruffled_jepsen | 9738cbecf0ed | Exited (100) 3 years ago | 
+angry_dirac | a92fbb38b8ad | Exited (100) 3 years ago | 
+priceless_allen | 43f6a23071f1 | Exited (100) 3 years ago | 
+vibrant_hypatia | 43f6a23071f1 | Exited (100) 3 years ago | 
+priceless_montalcini | 258f7d949796 | Exited (100) 3 years ago | 
+amazing_morse | 258f7d949796 | Exited (100) 3 years ago | 
+pensive_rubin | 2e5a3bb9ac42 | Exited (100) 3 years ago | 
+suspicious_tharp | 2e5a3bb9ac42 | Exited (100) 3 years ago | 
+hopeful_mendel | 2e5a3bb9ac42 | Exited (100) 3 years ago | 
+lucid_sanderson | 9b3d3e892b60 | Exited (2) 3 years ago | 
+dreamy_brahmagupta | 9b3d3e892b60 | Exited (2) 3 years ago | 
+xenodochial_vaughan | 97af1e2bc64f | Exited (2) 3 years ago | 
+boring_albattani | 97af1e2bc64f | Exited (2) 3 years ago | 
+wizardly_williams | 97af1e2bc64f | Exited (2) 3 years ago | 
+kind_almeida | 97af1e2bc64f | Exited (2) 3 years ago | 
+keen_sanderson | 97af1e2bc64f | Exited (2) 3 years ago | 
+flamboyant_hamilton | 97af1e2bc64f | Exited (2) 3 years ago | 
+cranky_cohen | 97af1e2bc64f | Exited (2) 3 years ago | 
+hopeful_wilson | 97af1e2bc64f | Exited (2) 3 years ago | 
+boring_morse | 97af1e2bc64f | Exited (2) 3 years ago | 
+hungry_tereshkova | 97af1e2bc64f | Exited (2) 3 years ago | 
+cms2 | haomaoguai/php7.4.9:latest | Up 7 days | 9000/tcp, 0.0.0.0:8283->80/tcp
+rocketchat_mongo-init-replica_1 | mongo:4.0 | Exited (0) 2 years ago | 
+chat-dev | rocketchat/rocket.chat:4.1.2 | Exited (137) 4 months ago | 
+rocketchat_mongo_1 | mongo:4.0 | Exited (100) 4 months ago | 
+cms | haomaoguai/php7.4.9:latest | Up 7 days | 9000/tcp, 0.0.0.0:8082->80/tcp
+easycare | haomaoguai/php7.4.9:latest | Up 7 days | 9000/tcp, 0.0.0.0:8081->80/tcp
+dnow-schedule | dnow/php-nginx:latest | Up 7 days | 9000/tcp, 0.0.0.0:13070->80/tcp
+dnow-master | nginx | Up 7 days | 0.0.0.0:13040->80/tcp
+dnow-homepage | nginx | Up 7 days | 0.0.0.0:13090->80/tcp
+dnow-push | dnow/php-nginx:latest | Up 7 days | 9000/tcp, 0.0.0.0:13060->80/tcp
+dnow-socket | keymetrics/pm2:latest-stretch | Up 7 days | 80/tcp, 443/tcp, 43554/tcp, 0.0.0.0:2566->2566/tcp, 0.0.0.0:13050->3000/tcp
+dnow-admin | dnow/php-nginx:latest | Up 7 days | 9000/tcp, 0.0.0.0:13030->80/tcp
+dnow-api | dnow/php-nginx:latest | Up 7 days | 9000/tcp, 0.0.0.0:13010->80/tcp
+dnow-card-cms | node:8 | Up 7 days | 0.0.0.0:13100->8080/tcp
+dnow-portal | dnow/php-nginx:latest | Up 7 days | 9000/tcp, 0.0.0.0:13020->80/tcp
+jovial_hawking | node | Exited (0) 6 years ago | 
+determined_lichterman | node | Exited (0) 6 years ago | 
+elastic_chebyshev | node | Exited (0) 6 years ago | 
+hopeful_euclid | node | Exited (0) 7 years ago | 
+serene_ishizaka | node | Exited (0) 7 years ago | 
+mystifying_mendeleev | node | Exited (0) 7 years ago | 
+inspiring_mclaren | node | Exited (0) 7 years ago | 
+suspicious_hugle | node | Exited (0) 7 years ago | 
+jolly_torvalds | node | Exited (0) 7 years ago | 
+heuristic_johnson | node | Exited (0) 7 years ago | 
+adoring_wu | node | Exited (0) 7 years ago | 
+practical_dhawan | node | Exited (0) 7 years ago | 
+laughing_fermi | node | Exited (0) 7 years ago | 
+festive_poitras | node | Exited (0) 7 years ago | 
+vigilant_elbakyan | node | Exited (0) 7 years ago | 
+adoring_dirac | node | Exited (0) 7 years ago | 
+relaxed_turing | node | Exited (0) 7 years ago | 
+nervous_merkle | node | Exited (0) 7 years ago | 
+competent_lovelace | node | Exited (0) 7 years ago | 
+stoic_proskuriakova | node | Exited (0) 7 years ago | 
+loving_mcclintock | node | Exited (0) 7 years ago | 
+stupefied_montalcini | node | Exited (0) 7 years ago | 
+zen_golick | node | Exited (0) 7 years ago | 
+elastic_gates | node | Exited (0) 7 years ago | 
+distracted_murdock | node | Exited (0) 7 years ago | 
+inspiring_ramanujan | node | Exited (0) 7 years ago | 
+tender_johnson | node | Exited (0) 7 years ago | 
+boring_lumiere | node | Exited (0) 7 years ago | 
+happy_nobel | node | Exited (0) 7 years ago | 
+elegant_austin | node | Exited (0) 7 years ago | 
+dnow-card-staff | dnow-card:latest | Up 7 days | 9000/tcp, 0.0.0.0:13110->80/tcp
+sharp_chebyshev | node | Exited (0) 7 years ago | 
+nostalgic_shtern | node | Exited (0) 7 years ago | 
+priceless_jennings | node | Exited (0) 7 years ago | 
+vibrant_hugle | node | Exited (0) 7 years ago | 
+quizzical_banach | node | Exited (0) 7 years ago | 
+hardcore_nightingale | node | Exited (0) 7 years ago | 
+clever_northcutt | node | Exited (0) 7 years ago | 
+wizardly_heyrovsky | node | Exited (0) 7 years ago | 
+modest_beaver | node | Exited (0) 7 years ago | 
+festive_buck | node | Exited (0) 7 years ago | 
+clever_franklin | node | Exited (0) 7 years ago | 
+inspiring_bardeen | node | Exited (0) 7 years ago | 
+gifted_stonebraker | node | Exited (0) 7 years ago | 
+happy_nightingale | node | Exited (0) 7 years ago | 
+affectionate_lamport | node | Exited (0) 7 years ago | 
+festive_galileo | node | Exited (0) 7 years ago | 
+gifted_swanson | node | Exited (0) 7 years ago | 
+inspiring_feistel | node | Exited (0) 7 years ago | 
+peaceful_burnell | node | Exited (0) 7 years ago | 
+epic_kapitsa | node | Exited (0) 7 years ago | 
+pedantic_nobel | node | Exited (0) 7 years ago | 
+keen_morse | node | Exited (0) 7 years ago | 
+xenodochial_pascal | node | Exited (0) 7 years ago | 
+ecstatic_snyder | node | Exited (0) 7 years ago | 
+gracious_jepsen | node | Exited (0) 7 years ago | 
+heuristic_burnell | node | Exited (0) 7 years ago | 
+awesome_benz | node | Exited (0) 7 years ago | 
+nifty_brown | node | Exited (0) 7 years ago | 
+gallant_franklin | node | Exited (0) 7 years ago | 
+youthful_lalande | node | Exited (0) 7 years ago | 
+thirsty_shockley | node | Exited (0) 7 years ago | 
+flamboyant_antonelli | node | Exited (0) 7 years ago | 
+silly_sinoussi | node | Exited (0) 7 years ago | 
+cranky_thompson | node | Exited (0) 7 years ago | 
+affectionate_ride | node | Exited (0) 7 years ago | 
+ecstatic_hawking | node | Exited (0) 7 years ago | 
+priceless_hopper | node | Exited (0) 7 years ago | 
+elastic_archimedes | node | Exited (0) 7 years ago | 
+gracious_goldwasser | node | Exited (0) 7 years ago | 
+ecstatic_perlman | node | Exited (0) 7 years ago | 
+serene_murdock | node | Exited (0) 7 years ago | 
+pensive_williamson | node | Exited (0) 7 years ago | 
+laughing_northcutt | node | Exited (0) 7 years ago | 
+cranky_ptolemy | node | Exited (0) 7 years ago | 
+upbeat_kalam | node | Exited (0) 7 years ago | 
+friendly_kepler | node | Exited (0) 7 years ago | 
+jovial_knuth | node | Exited (0) 7 years ago | 
+friendly_lewin | node | Exited (0) 7 years ago | 
+elastic_morse | node | Exited (0) 7 years ago | 
+xenodochial_fermi | node | Exited (0) 7 years ago | 
+xenodochial_mcclintock | node | Exited (0) 7 years ago | 
+brave_hoover | node | Exited (0) 7 years ago | 
+focused_stallman | node | Exited (0) 7 years ago | 
+sad_borg | node | Exited (0) 7 years ago | 
+confident_newton | node | Exited (0) 7 years ago | 
+sharp_kowalevski | node | Exited (0) 7 years ago | 
+heuristic_brattain | node | Exited (0) 7 years ago | 
+friendly_lamarr | node | Exited (0) 7 years ago | 
+sad_haibt | node | Exited (0) 7 years ago | 
+thirsty_snyder | node | Exited (0) 7 years ago | 
+practical_engelbart | node | Exited (0) 7 years ago | 
+relaxed_mcnulty | node | Exited (0) 7 years ago | 
+nervous_dewdney | node | Exited (0) 7 years ago | 
+kind_mestorf | node | Exited (0) 7 years ago | 
+cocky_tu | node | Exited (0) 7 years ago | 
+elated_franklin | node | Exited (0) 7 years ago | 
+stupefied_lehmann | node | Exited (0) 7 years ago | 
+upbeat_ardinghelli | node | Exited (0) 7 years ago | 
+dazzling_meitner | node | Exited (0) 7 years ago | 
+agitated_proskuriakova | node | Exited (0) 7 years ago | 
+nifty_haibt | node | Exited (0) 7 years ago | 
+quizzical_rosalind | node | Exited (0) 7 years ago | 
+stoic_wiles | node | Exited (0) 7 years ago | 
+gallant_grothendieck | node | Exited (0) 7 years ago | 
+zen_roentgen | node | Exited (0) 7 years ago | 
+xenodochial_chatelet | node | Exited (0) 7 years ago | 
+upbeat_hamilton | node | Exited (0) 7 years ago | 
+vibrant_euler | node | Exited (0) 7 years ago | 
+dnow-card | dnow-card:latest | Up 7 days | 9000/tcp, 0.0.0.0:13080->80/tcp
+serene_jones | node | Exited (0) 7 years ago | 
+vibrant_mccarthy | node | Exited (0) 7 years ago | 
+practical_tharp | node | Exited (0) 7 years ago | 
+nervous_nightingale | node | Exited (0) 7 years ago | 
+clever_mclean | node | Exited (0) 7 years ago | 
+stoic_albattani | node | Exited (0) 7 years ago | 
+vigilant_mcnulty | node | Exited (0) 7 years ago | 
+wizardly_northcutt | node | Exited (0) 7 years ago | 
+angry_kalam | node | Exited (0) 7 years ago | 
+gifted_mirzakhani | node | Exited (0) 7 years ago | 
+hardcore_pasteur | node | Exited (0) 7 years ago | 
+festive_engelbart | node | Exited (0) 7 years ago | 
+gallant_edison | node | Exited (0) 7 years ago | 
+practical_payne | node | Exited (0) 7 years ago | 
+youthful_roentgen | node | Exited (0) 7 years ago | 
+jovial_tereshkova | node | Exited (0) 7 years ago | 
+adoring_gates | node | Exited (0) 7 years ago | 
+trusting_burnell | node | Exited (0) 7 years ago | 
+serene_mcclintock | node | Exited (0) 7 years ago | 
+naughty_shtern | node | Exited (0) 7 years ago | 
+naughty_zhukovsky | node | Exited (0) 7 years ago | 
+sharp_hawking | node | Exited (1) 7 years ago | 
+boring_torvalds | node | Exited (0) 7 years ago | 
+dazzling_perlman | node | Exited (0) 7 years ago | 
+pensive_raman | node | Exited (1) 7 years ago | 
+sad_kirch | node | Exited (0) 7 years ago | 
+compassionate_yonath | node | Exited (0) 7 years ago | 
+vigilant_bhaskara | node | Exited (1) 7 years ago | 
+tender_davinci | node | Exited (0) 7 years ago | 
+ecstatic_ardinghelli | node | Exited (0) 7 years ago | 
+upbeat_burnell | node | Exited (1) 7 years ago | 
+recursing_chebyshev | node | Exited (0) 7 years ago | 
+adoring_banach | node | Exited (0) 7 years ago | 
+objective_minsky | node | Exited (0) 7 years ago | 
+friendly_yalow | node | Exited (0) 7 years ago | 
+compassionate_cocks | node | Exited (0) 7 years ago | 
+quirky_goldstine | node | Exited (0) 7 years ago | 
+amazing_liskov | node | Exited (0) 7 years ago | 
+flamboyant_banzai | node | Exited (0) 7 years ago | 
+pedantic_williamson | node | Exited (0) 7 years ago | 
+keen_fermi | node | Exited (0) 7 years ago | 
+focused_wilson | node | Exited (0) 7 years ago | 
+trusting_hawking | node | Exited (0) 7 years ago | 
+nostalgic_pare | node | Exited (0) 7 years ago | 
+goofy_swirles | node | Exited (0) 7 years ago | 
+vigorous_poitras | node | Exited (0) 7 years ago | 
+epic_gauss | node | Exited (0) 7 years ago | 
+adoring_antonelli | node | Exited (0) 7 years ago | 
+pensive_driscoll | node | Exited (0) 7 years ago | 
+awesome_blackburn | node | Exited (0) 7 years ago | 
+dazzling_hamilton | node | Exited (0) 7 years ago | 
+wonderful_babbage | node | Exited (0) 7 years ago | 
+determined_bartik | node | Exited (0) 7 years ago | 
+modest_kapitsa | node | Exited (0) 7 years ago | 
+musing_spence | node | Exited (0) 7 years ago | 
+nervous_sammet | node | Exited (0) 7 years ago | 
+ecstatic_raman | node | Exited (0) 7 years ago | 
+xenodochial_wu | node | Exited (0) 7 years ago | 
+wizardly_tharp | node | Exited (0) 7 years ago | 
+infallible_bhabha | node | Exited (0) 7 years ago | 
+epic_lederberg | node | Exited (0) 7 years ago | 
+kind_elbakyan | node | Exited (0) 7 years ago | 
+determined_napier | node | Exited (0) 7 years ago | 
+condescending_bohr | node | Exited (0) 7 years ago | 
+sad_cohen | node | Exited (0) 7 years ago | 
+youthful_brahmagupta | node | Exited (0) 7 years ago | 
+hardcore_ride | node | Exited (0) 7 years ago | 
+silly_leakey | node | Exited (0) 7 years ago | 
+agitated_boyd | node | Exited (0) 7 years ago | 
+friendly_saha | node | Exited (0) 7 years ago | 
+confident_blackwell | node | Exited (0) 7 years ago | 
+confident_lalande | node | Exited (0) 7 years ago | 
+dreamy_ritchie | node | Exited (0) 7 years ago | 
+infallible_allen | node | Exited (0) 7 years ago | 
+determined_hugle | node | Exited (0) 7 years ago | 
+nervous_grothendieck | node | Exited (0) 7 years ago | 
+clever_clarke | node | Exited (0) 7 years ago | 
+quirky_agnesi | node | Exited (0) 7 years ago | 
+clever_curie | node | Exited (0) 7 years ago | 
+loving_taussig | node | Exited (0) 7 years ago | 
+quizzical_lovelace | node | Exited (0) 7 years ago | 
+gracious_dhawan | node | Exited (0) 7 years ago | 
+amazing_booth | node | Exited (0) 7 years ago | 
+youthful_montalcini | node | Exited (1) 7 years ago | 
+hopeful_kalam | node | Exited (0) 7 years ago | 
+loving_sinoussi | node | Exited (1) 7 years ago | 
+naughty_elion | node | Exited (0) 7 years ago | 
+upbeat_cocks | node | Exited (2) 7 years ago | 
+nervous_booth | node | Exited (0) 7 years ago | 
+sleepy_goldstine | node | Exited (2) 7 years ago | 
+nostalgic_mendeleev | node | Exited (2) 7 years ago | 
+nervous_bell | node | Exited (2) 7 years ago | 
+vigilant_mahavira | node | Exited (0) 7 years ago | 
+optimistic_khorana | keymetrics/pm2:latest-stretch | Exited (0) 7 years ago | 
+
+["/data/angelcare_wordpress:/var/www/html"] {"80/tcp":[{"HostIp":"","HostPort":"8096"}]} ["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","PHPIZE_DEPS=autoconf \t\tdpkg-dev dpkg \t\tfile \t\tg++ \t\tgcc \t\tlibc-dev \t\tmake \t\tpkgconf \t\tre2c","PHP_INI_DIR=/usr/local/etc/php","PHP_CFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64","PHP_CPPFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64","PHP_LDFLAGS=-Wl,-O1 -pie","GPG_KEYS=39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC","PHP_VERSION=8.2.3","PHP_URL=https://www.php.net/distributions/php-8.2.3.tar.xz","PHP_ASC_URL=https://www.php.net/distributions/php-8.2.3.tar.xz.asc","PHP_SHA256=b9b566686e351125d67568a33291650eb8dfa26614d205d70d82e6e92613d457","TZ=Asia/Shanghai","COMPOSERMIRROR=","PHP_MODULE_DEPS=gcc make libc-dev rabbitmq-c-dev zlib-dev libmemcached-dev cyrus-sasl-dev libpng-dev libxml2-dev krb5-dev curl-dev icu-dev libzip-dev openldap-dev imap-dev postgresql-dev","NGINX_VERSION=1.23.3","NJS_VERSION=0.7.10","PKG_RELEASE=1","fpm_conf=/usr/local/etc/php-fpm.d/www.conf","php_vars=/usr/local/etc/php/conf.d/docker-vars.ini","NPMMIRROR="]

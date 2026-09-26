@@ -1,0 +1,36 @@
+# Angel Care local staging — mirrors production (nginx-php8-fpm, PHP 8.2, MariaDB 10.11)
+services:
+  wordpress:
+    image: wordpress:6.6.2-php8.2-apache
+    container_name: angelcare_wp_local
+    ports:
+      - "8090:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: REDACTED
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_CONFIG_EXTRA: |
+        define('DISABLE_WP_CRON', true);
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+      - ./init:/var/www/html/init
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: mariadb:10.11
+    container_name: angelcare_db_local
+    environment:
+      MYSQL_ROOT_PASSWORD: REDACTED
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: REDACTED
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db-dumps:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+
+volumes:
+  db_data:
