@@ -1,0 +1,567 @@
+{
+  "_description": "Marketing action log — append-only, one entry per action. Channels: google-ads | meta | website-tracking | website-content | seo | content. ETL: loaded into brandops.marketing_actions by etl-load-json-to-db.sh. linked_results filled later from performance data.",
+  "brand": "angel-care",
+  "actions": [
+    {
+      "id": "AC-2026-08-11-01",
+      "date": "2026-08-11",
+      "channel": "meta",
+      "action": "conversion-tracking-fix",
+      "description": "Meta Pixel 1003655972074979 installed on prod angelcare.dnow.hk (site change executed by CTO via ac-meta-pixel.php mu-plugin; staging-first, Wilson approved 2026-08-11). PageView all pages, Lead on WhatsApp/tel clicks, CompleteRegistration on wizard email submit. Fixes '0 conversions' root cause (a): no pixel installed. Fix 2 (define conversion events in Events Manager) pending — blocked on token ads_management scope, path A (UI) or B (token regen) awaiting Wilson.",
+      "status": "done",
+      "linked_results": "pending",
+      "brand": "angel-care",
+      "action_type": "meta_pixel_staged",
+      "entity": "mu-plugin ac-meta-pixel.php v1.0 (staging 8092) — Meta pixel 1003655972074979 install",
+      "before": "No Meta pixel on angelcare.dnow.hk; 0 conversions in Meta (pixel never installed)",
+      "after": "ac-meta-pixel.php staged: PageView all pages, Lead on wa.me/tel clicks, CompleteRegistration on wizard submit (staging only, prod HELD per WORDPRESS.md §13)",
+      "reason": "CBO Meta audit act_367479981: 0 conversions because no pixel on site. Fields completed during 2026-08-18 ETL repair (original entry had only date+channel).",
+      "logged_by": "cbo"
+    },
+    {
+      "date": "2026-08-18",
+      "brand": "angel-care",
+      "channel": "website-tracking",
+      "action_type": "gclid_beacon_client_deployed",
+      "entity": "mu-plugin wp-content/mu-plugins/ac-gclid-beacon.php v1.0 (prod angelcare.dnow.hk, wp_footer) — gclid beacon client",
+      "before": "no gclid beacon client on angelcare.dnow.hk (sitewide WA links carried preset text only)",
+      "after": "ac-gclid-beacon.php active: reads ?gclid=, POSTs → beacon.hkdrnow.com at DOMContentLoaded (2s AbortController, 1 retry, localStorage cache), prepends [😇MM-NNN] to text param of all WA links, brand auto-detected by hostname (angelcare.dnow.hk → angel-care), fail-open. Verified live on home/EN/blog/pricing/功能介紹; caches flushed + CF purged.",
+      "reason": "Offline-conversion loop (blog-utm-whatsapp-strategy.md §5.1a item 4): extend gclid attribution to Angel Care landing pages. Wilson GO 2026-08-18 (CBO relay). Follows ac-meta-pixel.php mu-plugin pattern.",
+      "linked_results": "pending"
+    },
+    {
+      "id": "AC-2026-08-19-01",
+      "date": "2026-08-19",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "blog_card_images_staged",
+      "entity": "4 ac_blog posts (1296, 1303, 1305, 1307) on staging (ac-staging.hkdrnow.com)",
+      "before": "Cards showed solid-orange placeholder images",
+      "after": "Video screencap frames set as featured images (_thumbnail_id) for all 4 blog cards on /blog/ listing",
+      "reason": "Wilson requested video-frame art instead of orange placeholder images for blog cards",
+      "linked_results": "pending",
+      "logged_by": "librarian"
+    },
+    {
+      "id": "AC-2026-08-19-02",
+      "date": "2026-08-19",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "pricing_ai_protection_staged",
+      "entity": "/pricing-plan/ and /en/pricing-plan/ on staging",
+      "before": "FAQ answer dodged figures; HK9 維生指數 not marked as coming soon; no date line",
+      "after": "Date line added (價格最後更新：2026年8月), FAQ answer now explicit with figures, HK9 marked 即將推出/coming soon",
+      "reason": "AEO audit found AI-ambiguous pricing. Wilson approved AI-hallucination protection.",
+      "linked_results": "pending",
+      "logged_by": "librarian"
+    },
+    {
+      "id": "AC-2026-08-19-03",
+      "date": "2026-08-19",
+      "brand": "angel-care",
+      "channel": "seo",
+      "action_type": "sitemap_fixed",
+      "entity": "ac_blog custom post type XML sitemap (prod + staging)",
+      "before": "ac_blog posts not in sitemap_index.xml — Rank Math sitemap option never set for CPT",
+      "after": "pt_ac_blog_sitemap: on set in Rank Math options, sitemap cache cleared. All 5 blog posts now in sitemap.",
+      "reason": "Blog posts were invisible to search engines via sitemap",
+      "linked_results": "pending",
+      "logged_by": "librarian"
+    },
+    {
+      "id": "AC-2026-08-19-04",
+      "date": "2026-08-19",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "blog_posts_created_staging",
+      "entity": "4 ac_blog posts on staging (ac-staging.hkdrnow.com)",
+      "before": "Only 1 blog post (恰到好處的照顧之道) existed on staging",
+      "after": "4 new posts published: 家居環境改造, 照顧預防, 生理變化及應對方法, 心理變化及應對方法. EN versions via TRP dict. All with H2 sections, highlight boxes, boxed FAQs, video embeds, per-post CTAs (DNH 護士上門評估 + UTM), Rank Math meta.",
+      "reason": "Wilson provided 4 blog folders with GDrive content. Blog section build-out.",
+      "linked_results": "pending — prod deploy pending Wilson GO + bilingual image decision",
+      "logged_by": "librarian"
+    },
+    {
+      "timestamp": "2026-08-23T23:05:30",
+      "action": "blog_publish",
+      "actor": "CBO",
+      "description": "Published 2 new ac_blog posts to prod (angelcare.dnow.hk): 照顧事的7個階段 (/blog/照顧事的7個階段/) + 照顧者壓力-自我照顧 (/blog/照顧者壓力-自我照顧/). Content from HKCSS Compassionate Community research. Styled: watercolor feature images (brand spec), H2 2.75em / H3 1.25em spacing hierarchy, teal #2E8B8D H3s, WhatsApp CTA, cross-links to post 840. Deployed via staging 8092 WXR export → prod import (post IDs 1318/1319 match staging).",
+      "channels": [
+        "organic_blog"
+      ],
+      "urls": [
+        "https://angelcare.dnow.hk/blog/照顧事的7個階段/",
+        "https://angelcare.dnow.hk/blog/照顧者壓力-自我照顧/"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "action_type": "sitemap_fixed",
+      "channel": "seo",
+      "details": "Rank Math sitemap fixed to include EN /en/ pages. Created trp-rankmath-sitemap.php mu-plugin. Deployed to prod + staging. All bilingual sitemaps verified.",
+      "logged_by": "librarian"
+    },
+    {
+      "date": "2026-08-24",
+      "action_type": "feature_images_replaced",
+      "channel": "website-content",
+      "details": "Brand-style feature images replaced on AngelCare staging. Pending Wilson approval for prod deploy.",
+      "logged_by": "librarian"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "openseo_rank_export",
+      "channel": "automated",
+      "details": "OpenSEO rank snapshot exported: 12 kw tracked, 3 ranking (0 at #1, 1 top-3), 11 with AI Overview. Run completed.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "meta_token_rotated",
+      "channel": "meta",
+      "details": "Meta long-lived token regenerated 08-25 (ads_management granted, verified via /me/permissions). Updated .env + openclaw.json META_ADS_ACCESS_TOKEN (MCP active after next gateway restart). AC-Lead + AC-CompleteRegistration custom conversions (pixel 1003655972074979) NOT created — API rejects event-rule format (v16-v21, 'Param rule must be a valid remarketing rule'); URL rules work but don't match pixel-fired Lead/CompleteRegistration events. Test conversion AC-Lead-TEST (wa.me URL rule, id 1681800072905438) left for UI delete (API delete blocked, code 10). Pixel (installed 08-11) standard events remain directly selectable in campaign setup.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "custom_conversion_deleted",
+      "channel": "meta",
+      "details": "AC-Lead-TEST custom conversion (id 1681800072905438, wa.me URL rule on AngelCare website pixel 1003655972074979) deleted by Wilson via Events Manager UI. Was inactive, never fired. AngelCare lead tracking remains via pixel standard events (Lead/CompleteRegistration), directly selectable in campaign setup — no custom conversions needed.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "blog_posts_deployed",
+      "channel": "content",
+      "details": "4 new 長者護理常識 blog posts deployed to prod angelcare.dnow.hk: 06 老人難溝通點算？/ 07 照顧者的身心準備 / 08 照顧者的自我防護 / 09 照顧計劃. Content from Wilson's GDrive (public folder links, downloaded via embeddedfolderview), CTO built staging-first (template-parity, Rank Math meta+keywords, per-post UTM CTAs → 護士上門 service page: blog-communication / blog-caregiver-prep / blog-back-care / blog-care-plan), Wilson GO 23:54 → prod deploy verified 4/4 (HTTP 200, 28/28 media, 0 staging refs, browser-checked). Videos self-hosted H.264 (1.5-2.7MB) wrapped in VIDEO-SWAP blocks — to be replaced with YouTube embeds when colleagues upload (Wilson: colleagues handle YouTube). Category cleanup mirrored on prod (junk tabs deleted, 生理變化→日常照顧). Blog 06 was initially parked then added on Wilson request.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "download_page_fixed",
+      "channel": "website-content",
+      "details": "/download iOS link fixed (itunes.apple.com → apps.apple.com/hk/app/...), download page parity deployed (smart-button version with UA detection matching staging). Root cause: UA-swap JS was wired to staging page ID only, never ran on prod. Prod deploy verified live. Also fixed junk category tabs (12/15/16) on prod blog listing.",
+      "logged_by": "librarian"
+    },
+    {
+      "date": "2026-08-28",
+      "action_type": "blog_posts_deployed",
+      "channel": "content",
+      "details": "4 長者護理常識 blog posts (06 老人難溝通點算？/ 07 照顧者的身心準備 / 08 照顧者的自我防護 / 09 照顧計劃) deployed to prod angelcare.dnow.hk. Content from Wilson's GDrive (public folder links). CTO built staging-first, Wilson approved deploy, prod verified live. Videos self-hosted (swap to YouTube embeds when colleagues deliver links).",
+      "logged_by": "librarian"
+    },
+    {
+      "date": "2026-08-29",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "page_retired_and_redirect_added",
+      "entity": "Page 636 從居家安老到院舍安老 → retired to draft, 301 redirect mu-plugin ac-636-redirect.php deployed to both envs",
+      "before": "Page 636 published, rendering via elementor_library template 638",
+      "after": "Page 636 draft (kept for rollback), 301 → /長者照護選擇/ hub (prod ID 1392)",
+      "reason": "AC Option A (REPLACE) — Wilson-approved. Content duplication resolved: 636's topic now covered by 3 new hub pages (1392 長者照護選擇, 1390 居家安老, 1391 安老院考慮). 301 preserves backlinks.",
+      "linked_results": "pending"
+    },
+    {
+      "date": "2026-08-29",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "hub_pages_deployed_to_prod",
+      "entity": "3 new hub pages: 長者照護選擇 (ID 1392), 居家安老 (ID 1390), 安老院考慮 (ID 1391)",
+      "before": "Pages existed only on AC staging (IDs 1272/1273/1274) — never deployed to prod",
+      "after": "All 3 pages live on angelcare.dnow.hk, verified HTTP 200 with content markers matching staging",
+      "reason": "Two-way merge from staging → prod. Part of AC IA restructure: hub page + 2 spoke pages replacing old 636 single page.",
+      "linked_results": "pending"
+    },
+    {
+      "date": "2026-08-29",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "homepage_cta_updated",
+      "entity": "Homepage CTA button linking to old page 636 → updated to link to new 長者照護選擇 hub (elementor_library template 248)",
+      "before": "Homepage CTA pointed to /從居家安老到院舍安老/ (page 636)",
+      "after": "Homepage CTA points to /長者照護選擇/ (prod ID 1392)",
+      "reason": "Consistency with page migration — old CTA would have been redirected anyway, but updating directly prevents dead link via redirect.",
+      "linked_results": "pending"
+    },
+    {
+      "date": "2026-08-31",
+      "action_type": "openseo_rank_export",
+      "channel": "automated",
+      "details": "OpenSEO rank snapshot exported: 12 kw tracked, 4 ranking (0 at #1, 2 top-3), 12 with AI Overview. Run completed.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-09-01",
+      "action_type": "customer_truth_memo_system",
+      "channel": "content",
+      "details": "Customer Truth weekly memo system LIVE (Isenberg marketing-engineer pattern): wati-customer-language.py → what-is-the-market-telling-us-<date>.md. AC pillars tracked: paid-services 43 hits (top pillar overall — pricing/assessment language), home-care-information 6. First memo 2026-09-01. Cron Mon 08:50 HKT.",
+      "logged_by": "CBO"
+    },
+    {
+      "id": "AC-2026-09-01-01",
+      "date": "2026-09-01",
+      "brand": "angel-care",
+      "channel": "website-tracking",
+      "action_type": "wa_mapping_launch",
+      "entity": "ac-wa-fab.php mu-plugin (server-side FAB) + wa_page_mapping — 5 AC pages live with per-page WhatsApp presets",
+      "before": "AngelCare had ZERO WhatsApp CTA mechanism on ALL pages (14 pages, 11 with no WA link, no floating button)",
+      "after": "Option B mu-plugin deployed: / → 我想了解AngelCare, /pricing-plan/ → 年費計劃, /全新升級/ → 付費服務, /功能介紹/ → 功能介紹, /常見問題/ → 我有關於AngelCare的問題. FAB + per-page preset + UTM all live. Browser-verified by CTO (camofox).",
+      "reason": "COVERAGE-AUDIT-2026-09-01 Batch ③ — Wilson approved Option B (light server-side FAB, no new plugin dependency). CTO implemented + CBO browser-verified.",
+      "linked_results": "pending",
+      "logged_by": "librarian (EOD gap-sweep, coding-cto session b3eef619)"
+    },
+    {
+      "id": "AC-2026-09-02-01",
+      "date": "2026-09-02",
+      "timestamp": "2026-09-02T14:35:00+08:00",
+      "brand": "angel-care",
+      "channel": "website-tracking",
+      "action_type": "outbound_utm_rewrite",
+      "entity": "ac-outbound-utm.php mu-plugin (the_content filter) + WPSC page cache purge",
+      "before": "AC blog inline content links to doctornowhome.com carried NO utm (only ac-blog.php default CTA had utm) — cross-site clicks to DNH lost GA4 utm attribution",
+      "after": "mu-plugin deployed prod: any doctornowhome.com link in the_content lacking utm_source gets utm_source=angelcare&utm_medium=content&utm_campaign=blog appended; preserves existing params/fragments, skips already-tagged links (0 double-tag). Post 1318 (照顧事的7個階段) 4 inline links tagged; all 11 posts audited (only 1318 had gaps). WPSC stale cache (Sep 1 22:52, pre-deploy) purged after finding 2-layer cache (Redis + WPSC page cache). Plain curl 3/3 = 4 utm'd inline links. E2E: AC blog → DNH → [R-AC] on WA links (referrer fallback + utm both verified).",
+      "reason": "Cross-site attribution AC→DNH (Wilson GO 13:34, Step B rollout): blog content clicks to DNH now carry utm so GA4 + WATI [R-AC] attribution clean; complements DNH R-block (DN-MLOG-2026-09-02-002)",
+      "linked_results": "pending",
+      "logged_by": "CBO",
+      "actions_required_wilson": [
+        "24-48h observe: AC→DNH referrals tagged [R-AC] in WATI + GA4 utm"
+      ],
+      "relay_protocol": "CTO deployed mu-plugin + purged WPSC cache; CBO verified server-side (cache-busted) + flagged stale cache + re-verified plain curl post-purge"
+    },
+    {
+      "date": "2026-09-03",
+      "timestamp": "2026-09-03T09:13:46+08:00",
+      "brand": "AC",
+      "channel": "site",
+      "action_type": "deploy_llms_txt",
+      "entity": "webroot /llms.txt (live: https://angelcare.dnow.hk/llms.txt)",
+      "after": "# AngelCare 宅天使\n> 香港長者居家照顧資訊與服務平台 — 為照顧者提供專業支援、生活實用指南及長者照顧服務。\n\n## Pages\n- [主頁](https://angelcare.dnow.hk/):AngelCare 宅天使 — 照顧者專用 APP\n- [功能介紹](https://angelcare.dnow.hk/功能介紹/):APP 功能總覽\n- [居家安老資訊文章](https://angelcare.dnow.hk/blog/):照顧貼士與居家安老知識文章\n- [長者照護選擇指南](.../從居家安老到院舍安老，全面了解長者照護選擇/):居家安老 vs 院舍安老 — 幫家庭作知情決定\n- [廢用症候群專題](.../廢用症候群/):原因、症狀與預防方法全解析\n- [基本生活能力(ADL)評估](.../基本生活能力評估/):長者自理能力(巴氏量表)評估工具\n- [全新升級 — 付費服務](.../全新升級/):年費加值服務 — 醫生諮詢、健康數據同步\n- [收費計畫](https://angelcare.dnow.hk/pricing-plan/):年費方案,部分服務可使用醫療券\n- [常見問題](.../常見問題/):APP 使用與服務 FAQ\n- [下載 App](https://angelcare.dnow.hk/download/):下載 AngelCare 宅天使 App\n\n## 重要資訊\n- 宅天使 AngelCare 係照顧者專用長者居家照顧 app,專注日常照顧與資訊(非醫療診治)\n- 與老友宅醫 DoctorNow 屬同一集團:醫療服務(上門診症、護理)由 DoctorNow 提供\n- 平台立場:支持居家安老,但唔反對院舍 — 幫每個家庭按實際情況作決定\n- 網站提供繁中及英文版本(所有頁面均有 /en/ 對應版)\n\n## 最後更新 - 2026-09-03\n## Sitemap - https://angelcare.dnow.hk/sitemap_index.xml",
+      "reason": "AI-search readiness baseline. Per Wilson approval 2026-09-03 08:34 + CBO analysis of Nico | AI Ranking AI SEO video. 3-brand push approved.",
+      "linked_results": "verified",
+      "logged_by": "CBO",
+      "log_id": "AC-20260903-02",
+      "verify_evidence": {
+        "http_status": "200",
+        "content_type": "text/plain; charset=utf-8",
+        "before": "404 (file did not exist)",
+        "after": "live, byte-identical to draft",
+        "deploy_method": "webroot static file (nginx-direct, no WPSC/Redis cache interaction)"
+      },
+      "cto_hand_off_ref": "sessions_send to coding-cto 2026-09-03 09:04 HKT, sign-off 09:30 HKT",
+      "framework_sop": "~/projects/_shared/_frameworks/_best-practices/llms-txt-deployment.md",
+      "workflow_automation_addendum": {
+        "added_timestamp": "2026-09-03T11:19:40+08:00",
+        "automation_trigger": "Wilson approval 2026-09-03 10:20 HKT — monthly report llms.txt audit",
+        "cron_id": "f71c1f88",
+        "cron_schedule": "1st of month 09:00 HKT",
+        "next_run": "2026-10-01 09:00 HKT",
+        "framework_spec": "~/projects/_shared/_frameworks/_dashboard/seo-monthly-full-report-spec.md",
+        "framework_wf5_section": "~/projects/_shared/_frameworks/WORKFLOW-5-PLATFORM-INTELLIGENCE.md (llms.txt Audit section)",
+        "workflow_sop": "~/projects/_shared/_frameworks/_best-practices/llms-txt-deployment.md (trigger table + monthly cadence added)",
+        "audit_targets_count": 3,
+        "tools_added": 0,
+        "estimated_overhead_per_run_minutes": 5,
+        "snapshot_storage": "~/projects/_shared/_frameworks/_dashboard/llms-txt-snapshots/"
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "timestamp": "2026-09-03T11:19:40+08:00",
+      "brand": "AC",
+      "channel": "workflow",
+      "action_type": "add_llms_txt_audit_to_monthly_cron",
+      "entity": "f71c1f88 seo-monthly-full-report cron (step 8 added)",
+      "after": "Cron payload: 4685 → 6553 chars (+1868). Step 8 = llms.txt monthly audit per spec. toolsAllow unchanged (17 tools, exec + read only). Schedule unchanged: 0 9 1 * * Asia/Hong_Kong. Next run: 2026-10-01 09:00 HKT.",
+      "reason": "Wilson approval 2026-09-03 10:20 HKT — 人手 monthly check + audit on report. CBO drafted 3 framework files; CTO integrated cron spec + executed. No new tools, no schedule change.",
+      "linked_results": "verified",
+      "logged_by": "CBO",
+      "log_id": "AC-WF5-2026-09-03-002",
+      "extends": "AC-20260903-02",
+      "verify_evidence": {
+        "cron_id": "f71c1f88",
+        "payload_size_before": 4685,
+        "payload_size_after": 6553,
+        "payload_delta": "+1868",
+        "tools_allow_unchanged": true,
+        "schedule_unchanged": "0 9 1 * * Asia/Hong_Kong",
+        "next_run": "2026-10-01 09:00 HKT",
+        "deploy_timestamp": "2026-09-03T11:20:00+08:00"
+      },
+      "cto_hand_off_ref": "sessions_send to coding-cto 11:16 HKT, sign-off 11:17 HKT, DONE 11:20 HKT",
+      "framework_files_patched": [
+        "~/projects/_shared/_frameworks/_best-practices/llms-txt-deployment.md (trigger table + monthly cadence added)",
+        "~/projects/_shared/_frameworks/_dashboard/seo-monthly-full-report-spec.md (new file, 3404 bytes)",
+        "~/projects/_shared/_frameworks/WORKFLOW-5-PLATFORM-INTELLIGENCE.md (llms.txt Audit section added)"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "timestamp": "2026-09-04T12:10:00+08:00",
+      "brand": "AC",
+      "channel": "workflow",
+      "action_type": "phase5_prod_gate_doc_corrected",
+      "entity": "ac-phase5-prod-gate-recommendation-2026-09-04.md (spec doc)",
+      "after": "CTO verify (beacon.js:47 + DB codes) → 2 material corrections applied: (1) BRAND_CODE_PREFIX['angel-care']='AC' ALREADY LIVE since 9/2 23:07 (codes AC-09-048..055 ASCII since 9/2 23:44; 😇 = unused fallback; prod+staging share beacon.hkdrnow.com backend) — removed prefix-flip from scope; (2) real prod gap = organic untracked frontend-only (prod angelcare.dnow.hk has beacon client but NO assign-organic; staging HAS option-b v1.1). Option 2 (prefix flip) = NO-OP removed. Approval request AP-20260904-01 [P1] opened by CTO (thread 1545278853319237752), framed Option 1 (mu-plugin ac-gclid-beacon.php legacy → option-b v1.1 swap + cache flush + smoke verify, ~15-20 min ETA) vs Option 3 (hold). Rollback = 30 sec backup restore.",
+      "reason": "Phase 5 spec doc mis-stated prod beacon state (assumed 😇 pending flip). CTO curl+DB verification corrected scope before Wilson P1 gate. Doc updated to match verified state.",
+      "linked_results": "pending",
+      "logged_by": "CBO",
+      "log_id": "AC-2026-09-04-001",
+      "approval_ref": "AP-20260904-01 (P1, thread 1545278853319237752, awaiting Wilson Option 1 vs Option 3)",
+      "phase4_status": "PASS — staging 5/5 click test, counter monotonic gap=0, 5 unique gclid (AC-09-051..055), matches DB",
+      "verify_evidence": {
+        "beacon_js_line": "BRAND_CODE_PREFIX['angel-care'] = 'AC' at beacon.js:47",
+        "live_since": "2026-09-02 23:07 restart",
+        "db_codes": "AC-09-048..055, all ASCII, since 9/2 23:44",
+        "prod_has_assign_organic": false,
+        "staging_has_assign_organic": true,
+        "option_2_status": "NO-OP removed",
+        "rollback_sec": 30
+      },
+      "actions_required_wilson": [
+        "Reply APPROVE/REJECT on AP-20260904-01: Option 1 (full hotfix) or Option 3 (hold)"
+      ],
+      "relay_protocol": "CTO relay 12:0x HKT → CBO corrected spec doc + logged"
+    },
+    {
+      "id": "AC-2026-09-04-002",
+      "date": "2026-09-04",
+      "timestamp": "2026-09-04T11:54:42+08:00",
+      "brand": "AC",
+      "channel": "workflow",
+      "action_type": "phase5_prod_deploy_go",
+      "entity": "Angel Care Beacon Phase 5 prod deploy — Option 1 full hotfix (mu-plugin option-b swap)",
+      "before": "AC prod angelcare.dnow.hk running legacy gclid-only beacon (ac-gclid-beacon.php with `if (!gclid) return;` gate). ASCII format AC-09-NNN already live in backend (BRAND_CODE_PREFIX['angel-care']='AC' since 9/2 23:07, codes AC-09-048..055 confirmed). Real gap = organic traffic untracked (prod has beacon client but NO assign-organic; staging HAS option-b v1.1).",
+      "after": "Wilson explicit GO Option 1 at 11:52:35 HKT (message_id 1545280393262141540, #marketing channel). Forwarded to CTO via sessions_send runId 10e6ee42-bb50-495d-a77a-6fb5c0649dc8 (delivery=pending announce, sessionKey agent:coding-cto:main). CTO execution plan per AC-2026-09-04-001 verify_evidence + Phase 5 recommendation doc: (1) backup current ac-gclid-beacon.php, (2) apply option-b hotfix remove gclid gate, (3) confirm ASCII format already live (no-op), (4) systemctl restart beacon, (5) smoke verify curl POST + curl prod + cache flush. ETA 15-20 min. Phase 6 daily cron 06:35 HKT tomorrow auto-monitors.",
+      "reason": "Phase 4 staging 5/5 click test PASS (counter monotonic gap=0, codes AC-09-051..055, idempotency confirmed). 8/8 gate criteria met per Phase 5 recommendation doc. CBO recommendation Option 1 (full hotfix) accepted by Wilson. Closes AC organic attribution loop (CTO 21:30 estimate: ~50+ organic daily visitors currently untracked).",
+      "linked_results": "pending",
+      "logged_by": "CBO",
+      "log_id": "AC-2026-09-04-002",
+      "approval_ref": "Wilson explicit P1 GO (message_id 1545280393262141540) — direct GO in #marketing, no separate #approvals thread needed (Wilson IS the P1 approver)",
+      "phase4_evidence": {
+        "codes_burned": [
+          "AC-09-051",
+          "AC-09-052",
+          "AC-09-053",
+          "AC-09-054",
+          "AC-09-055"
+        ],
+        "gclid_unique": 5,
+        "monotonic_gap": 0,
+        "staging_soak_hours": 37,
+        "ascii_format_verified": true,
+        "wati_screenshot_confirmed": true,
+        "report_path": "~/projects/angel-care/specs/ac-phase4-staging-health-report-2026-09-04.md"
+      },
+      "phase5_recommendation": {
+        "option": "Option 1 (full hotfix)",
+        "eta_min": 20,
+        "rollback_sec": 30,
+        "fail_open_preserved": true,
+        "doc_path": "~/projects/angel-care/specs/ac-phase5-prod-gate-recommendation-2026-09-04.md"
+      },
+      "actions_required_wilson": [],
+      "relay_protocol": "CBO 11:52 HKT → sessions_send CTO (runId 10e6ee42) → CTO ack + execute → CBO log entry → Phase 6 cron 06:35 tomorrow verify",
+      "next_checkpoints": [
+        "CTO ack receipt of GO (expected ~1 min)",
+        "CTO smoke verify done (expected T+15-20 min)",
+        "Phase 6 cron 06:35 HKT 2026-09-05: verify AC counter increment + format clean + no dup spike"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "timestamp": "2026-09-04T12:05:00+08:00",
+      "brand": "AC",
+      "channel": "workflow",
+      "action_type": "phase5_prod_deploy_done",
+      "entity": "ac-gclid-beacon.php prod mu-plugin (option-b v1.1) + beacon.js prefix (already live)",
+      "after": "Option 1 deployed + verified 12:02 HKT. Prod mu-plugin ac-gclid-beacon.php legacy (3810B) → option-b v1.1 all-click (4909B, staging byte match), both prod containers. beacon.js prefix edit SKIPPED (already 'AC' 9/2 23:07, DB AC-09-048..057). beacon.service restart SKIPPED (no backend change). WP Super Cache + Elementor CSS flushed. Smoke: assign-organic present on clean prod page (no cache buster) ✅; POST / → AC-09-056 ✅; POST /assign-organic → AC-09-057 ✅; php syntax clean ✅; counter 55→57 monotonic gap=0. Backup /tmp/ac-gclid-beacon.php.bak-prod-20260904_1158 (rollback 30 sec).",
+      "reason": "Wilson APPROVE AP-20260904-01 (Option 1, 11:52) — close AC organic untracked gap (prod frontend lacked assign-organic). Phase 4 staging 37h soak + 5/5 click test PASS + Phase 6 cron monitoring in place.",
+      "linked_results": "verified",
+      "logged_by": "CBO",
+      "log_id": "AC-2026-09-04-003",
+      "extends": "AC-2026-09-04-001",
+      "approval_ref": "AP-20260904-01 P1 APPROVE (Wilson, 2026-09-04 11:52, thread 1545278853319237752)",
+      "verify_evidence": {
+        "phase6_health": "angel-care status=NORMAL, last_seq_month=57, monotonic_gap=0, dup_rate=0.404, organic=23/57 (7d), last_click 2026-09-04T03:58:54Z",
+        "counter_before_after": "55 → 57 (CTO smoke POST / + /assign-organic)",
+        "assign_organic_on_prod": true,
+        "backend_untouched": true,
+        "backup": "/tmp/ac-gclid-beacon.php.bak-prod-20260904_1158",
+        "deploy_done_ts": "2026-09-04T12:02:00+08:00"
+      },
+      "actions_required_wilson": [],
+      "relay_protocol": "CTO DONE 12:02 → CBO phase6-health.js verify 12:03 NORMAL → log AC-2026-09-04-002"
+    },
+    {
+      "date": "2026-09-05",
+      "timestamp": "2026-09-05T08:57:00+08:00",
+      "brand": "AC",
+      "channel": "meta-ads",
+      "action_type": "meta-pixel-unified-prod",
+      "entity": "mu-plugin ac-meta-pixel.php v2 (prod)",
+      "after": "pixelId 1003655972074979 → 4144712838891867 (BM canonical); Lead/CompleteRegistration carry eventID 'ac_<ts>_<rand>'; old pixel retained for history. Verified: rendered fbq init + headless single Lead fire. Ticket AP-20260905-02.",
+      "reason": "One-BM one-pixel design across DNH/AC/dnacpr so Meta can track landing-page + WA-click Lead conversions per brand; enables later adset optimize=Lead.",
+      "linked_results": "pending",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-05-00028",
+      "actions_required_wilson": [
+        "Domain verify dnow.hk in BM UI",
+        "GTM UI fix for DNH Lead double-fire (separate)"
+      ],
+      "relay_protocol": "#marketing"
+    },
+    {
+      "date": "2026-09-07",
+      "action_type": "openseo_rank_export",
+      "channel": "automated",
+      "details": "OpenSEO rank snapshot exported: 12 kw tracked, 4 ranking (0 at #1, 2 top-3), 12 with AI Overview. Run completed.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-09-14",
+      "action_type": "openseo_rank_export",
+      "channel": "automated",
+      "details": "OpenSEO rank snapshot exported: 12 kw tracked, 3 ranking (0 at #1, 2 top-3), 12 with AI Overview. Run completed.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-09-23",
+      "timestamp": "2026-09-23T14:22:00+08:00",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "privacy_policy_tc_draft_delivered",
+      "entity": "AngelCare 私隱政策繁中草稿 v1.0 — copy/privacy-policy-TC-draft-20260923.md（交 CTO 轉 Natalie 審閱，未上網站）",
+      "after": "12 sections + editor notes delivered per Natalie 13:57 instruction: collection channels (form/WhatsApp clicks), GA4 + Meta Pixel cookies disclosure w/ opt-out routes, third-party recipients (Meta/Google/WATI/hosting/legal), retention (24mo enquiries / GA4 14mo, bracketed for review), Cap 486 rights (access/correction/opt-out direct marketing/deletion), contact via existing CS channels only (no real names, email bracketed), medical disclaimer + emergency 999 line. Supersedes unpublished simplified draft (WP id 3) pending Natalie approval → staging-first → prod.",
+      "reason": "Compliance gap: AC prod 行緊付費醫療/健康廣告但無已發佈私隱政策；Natalie 決定出繁體正式版先審後上。",
+      "linked_results": "pending — Natalie 審閱 → staging 驗證 → Natalie/Wilson 批 → prod",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-23-001",
+      "actions_required_wilson": [
+        "Natalie 審閱並填寫 5 個【】位（生效日期／App 私隱安排／查詢電郵／按鈕名稱／保留期）"
+      ],
+      "relay_protocol": "CTO 收 Natalie 批示 → 返 CBO 修稿 → staging 建頁 → 批後 prod"
+    },
+    {
+      "date": "2026-09-23",
+      "timestamp": "2026-09-23T15:12:00+08:00",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "privacy_policy_review_routed",
+      "entity": "AC-MLOG-2026-09-23-001（私隱政策 v1.0）— 審批路由狀態更新",
+      "after": "審閱改經 #approvals  thread AP-20260923-01 交 david（P2，CTO 15:09 同步）；CBO freeze 繼續等批示 → v1.1 修稿 → staging-first → 批後 prod（舊簡體 draft id 3 由 CTO 上線時歸檔）。本檔 python json.load 機械驗證因部機 exec broker 超載交 CTO 排隊（最遲聽朝 08:00 ETL 前）。",
+      "reason": "Status append per 001（append-only 規則：唔改舊 entry）；確保 dashboard/ETL 見到準確審批路由。",
+      "linked_results": "pending — 等 david 審閱（AP-20260923-01）",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-23-002",
+      "actions_required_wilson": [
+        "david 喺 #approvals AP-20260923-01 審閱 v1.0 ＋填寫 5 個【】位（生效日期／App 私隱安排／查詢電郵／按鈕名稱／保留期）"
+      ],
+      "relay_protocol": "CTO 收 david 批示 → 返 CBO 修稿 v1.1 → staging 建頁 → 批後 prod"
+    },
+    {
+      "date": "2026-09-23",
+      "timestamp": "2026-09-23T18:06:00+08:00",
+      "brand": "AC",
+      "channel": "approval-relay",
+      "action_type": "privacy_policy_approval_reassigned",
+      "entity": "AP-20260923-01 / privacy-policy-TC-draft-20260923.md",
+      "after": "Wilson 17:49 #approvals 批示：TC 稿 approval 改由 natalie + Hin（兩人均 full P1，protocol 2026-09-18 生效），唔使再等 david 輪。CTO 已上傳 GDrive（file id 14dR_Y48d81VNjA6nbQDyw8KhSgAwZrwW）並貼返 #approvals。CBO 18:06 喺 #natalie（channel 1552113175338680392，msg 1552259823729508372/1552259826342436875）relay 新批示＋5 個【】決定清單，請佢哋喺 thread AP-20260923-01 覆 APPROVE＋決定點答案。",
+      "reason": "Wilson 最終批示改审批路由（natalie→natalie+Hin）；本 entry 取代 002 嘅 david 路由",
+      "linked_results": "pending — 等 natalie + Hin 喺 AP-20260923-01 覆 APPROVE＋5 個【】位答案；收到後 CBO 修稿 v1.1 → staging 建頁＋screenshot → Wilson/Hin 確認 → prod",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-23-003",
+      "actions_required_wilson": [
+        "（唔使 — Wilson 已改指令）natalie + Hin 需喺 #approvals AP-20260923-01 覆 APPROVE＋5 個【】決定點：生效日期／App 私隱安排／查詢電郵／按鈕名稱／24+14 個月保留期"
+      ],
+      "relay_protocol": "natalie+Hin APPROVE →（經 CTO transcribe 或 thread 直接）→ CBO 出 v1.1 → CTO staging 建頁 → screenshot 俾 Wilson/Hin 批 → prod"
+    },
+    {
+      "date": "2026-09-23",
+      "timestamp": "2026-09-23T18:12:00+08:00",
+      "brand": "AC",
+      "channel": "approval-relay",
+      "action_type": "privacy_policy_approval_thread_fallback",
+      "entity": "AP-20260923-01 / #natalie",
+      "after": "CTO 提醒：佢 #approvals session 目錄見唔到 AP-20260923-01 thread session（可能未有人覆所以未建 session）。CBO 18:11 喺 #natalie 補發免 block 指引（msg 1552260923735932970）：natalie/Hin 可直接喺 #natalie 覆 APPROVE＋5 個【】決定點，CBO 負責 transcribe 入 thread 補正式記錄，批核唔會因 thread 搵唔到而卡住。",
+      "reason": "CTO 風險提示（thread session 未見）— 防止批核被 thread 存在性 block",
+      "linked_results": "pending — 等 natalie + Hin 覆（#natalie 或 thread 任何一路）",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-23-004"
+    },
+    {
+      "date": "2026-09-23",
+      "timestamp": "2026-09-23T18:17:00+08:00",
+      "brand": "AC",
+      "channel": "approval-relay",
+      "action_type": "privacy_policy_approval_nudge",
+      "entity": "#natalie (channel 1552113175338680392)",
+      "after": "Wilson 20:05「Continue」批准 follow-up。CBO 於 #natalie post gentle nudge（msg 1552262656109580366）：提醒natalie+Hin批核已過3個鐘，並提出彈性批法「APPROVE（主體OK）＋列明pending位」— 未定嘅【】位可保留佔位，staging照起，上線前才補，避免今晚因個別位定唔到而阻塞。",
+      "reason": "Wilson批示continue；防止approval因『全部位要一次過定案』而無限等待",
+      "linked_results": "pending — 等natalie+Hin回覆（正式或彈性批法均可）",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-23-005"
+    },
+    {
+      "date": "2026-09-24",
+      "timestamp": "2026-09-24T09:13:14+08:00",
+      "brand": "AC",
+      "channel": "discord-dm",
+      "action_type": "approval_followup_dm_sent",
+      "entity": "AP-20260923-01 (AC 私隱政策 v1.0 批核)",
+      "after": "Wilson 09:07 批准 direct DM 追批 → CBO DM #natalie channel (msg 1552488047982157847): 要求 APPROVE（主體 OK）+ 5 個【】位決定（未定者可 pending，彈性批法照 9/23 方案）；批後流程 v1.1→staging→spot-verify→Wilson/Hin GO 先上 prod",
+      "reason": "批核過夜未覆；Wilson 批准不再等經渠道回，直接 DM natalie + Hin",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-24-001",
+      "actions_required_wilson": []
+    },
+    {
+      "date": "2026-09-24",
+      "timestamp": "2026-09-24T09:36:05+08:00",
+      "brand": "AC",
+      "channel": "discord-dm",
+      "action_type": "approval_followup_dm_sent",
+      "entity": "AP-20260923-01 (AC 私隱政策 v1.0 批核) — Hin 補發",
+      "after": "Wilson 09:34 指出 09:13 DM 漏咗 Hin（Hin 專屬 channel 名 #david）→ 同一條批覆請求補發 DM #david (channel 1552113099044298792, msg 1552493795797377078)，內容連 natalie msg id 交叉引用。而家 natalie + Hin 兩邊均已 DM。",
+      "reason": "09:13 批次只送 #natalie；Wilson 指示補 DM Hin",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-24-002",
+      "actions_required_wilson": []
+    },
+    {
+      "date": "2026-09-26",
+      "timestamp": "2026-09-26T14:26:00+08:00",
+      "brand": "AC",
+      "channel": "content",
+      "action_type": "crosslink_proposal_anchor_finalized",
+      "entity": "AC×DNH 双向 cross-link 提案 (AP-20260926-01, Trello card IcbrhXfN) — anchor 定稿 + 提案派发",
+      "after": "提案全文已 post #angelcare (msg 1553288239295496202)。Wilson 14:20-14:23 確認：bridge topic OK／舊文5篇 outbound OK／anchor 方案 OK（bridge 3 anchor 原樣；舊文5條用 context 自然變體，清單見卡 comment 6ab765a1b1a0b0a0698e270e）。UTM 交由 ac-outbound-utm plugin server-side 自動補，手動唔加。已派 CTO 開 #content-approval thread（1552931005361426442）俾 @natalie @hin 最終內容審批。",
+      "reason": "DNH H2 trust ladder 轉換端需求：AC 基礎照顧內容 → DNH 晚期照顧指南雙向路徑；建立 AC→DNH 流入基線（上線48小時後 GA4 查 session_source=angelcare）",
+      "linked_results": "pending",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-26-001",
+      "actions_required_wilson": []
+    },
+    {
+      "date": "2026-09-26",
+      "timestamp": "2026-09-26T15:12:00+08:00",
+      "brand": "AC",
+      "channel": "content",
+      "action_type": "approval_thread_opened_with_bot_ping",
+      "entity": "AP-20260926-01 — #content-approval thread 1553293133369053185（CTO 14:32 開；bot 真 ping 15:10 補）",
+      "after": "CTO 開好 public thread（內含 14:28 派單全文＋第一條回覆附 Trello 卡 IcbrhXfN link，reply 1553293413045248052）。因 CTO Discord 身份非 bot，@natalie @hin 純文字唔觸發通知 → CBO bot session 15:10 補真 mention ping（msg 1553302625783517204），要求 thread 內覆 APPROVE/REJECT。狀態：等 natalie／Hin 決定。",
+      "reason": "APPROVAL_PROTOCOL 中央審批門：內容審批 thread 落 #content-approval；approver 通知缺口用 bot 身份修補",
+      "linked_results": "pending",
+      "logged_by": "CBO",
+      "log_id": "AC-MLOG-2026-09-26-002",
+      "actions_required_wilson": []
+    },
+    {
+      "date": "2026-09-28",
+      "action_type": "openseo_rank_export",
+      "channel": "automated",
+      "details": "OpenSEO rank snapshot exported: 12 kw tracked, 4 ranking (1 at #1, 3 top-3), 12 with AI Overview. Run completed.",
+      "logged_by": "CBO"
+    }
+  ],
+  "last_updated": "2026-09-26T15:12:00+08:00"
+}

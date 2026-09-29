@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>審批文件 — AC × DNH 雙向 Cross-link（AP-20260926-01）</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; @bottom-center { content: "AP-20260926-01 ｜ 第 " counter(page) " / " counter(pages) " 頁"; font-size: 8pt; color: #888; font-family: "Noto Sans CJK TC","Noto Sans TC",sans-serif; } }
+  * { box-sizing: border-box; }
+  body { font-family: "Noto Sans CJK TC","Noto Sans TC",sans-serif; color: #1a1a1a; font-size: 10.5pt; line-height: 1.55; }
+  .cover { text-align: left; border-bottom: 3px solid #00A3E0; padding-bottom: 14px; margin-bottom: 18px; }
+  .kicker { color: #00A3E0; font-weight: 700; letter-spacing: 2px; font-size: 9pt; }
+  h1 { font-size: 17pt; margin: 6px 0 2px; }
+  .sub { color: #555; font-size: 9.5pt; }
+  h2 { font-size: 12.5pt; color: #0b5345; border-left: 4px solid #00A3E0; padding-left: 8px; margin: 20px 0 8px; }
+  table { border-collapse: collapse; width: 100%; font-size: 9.3pt; margin: 6px 0; }
+  th { background: #eaf5fb; color: #134b63; text-align: left; }
+  th, td { border: 1px solid #c9d6dd; padding: 5px 7px; vertical-align: top; }
+  .ok { color: #1a7f37; font-weight: 700; }
+  .warn { color: #b35900; }
+  .meta { background: #f6f8fa; border: 1px solid #dde3e8; border-radius: 6px; padding: 10px 12px; font-size: 9.5pt; }
+  .ask { background: #fff8e6; border: 1px solid #e6c96b; border-radius: 6px; padding: 10px 12px; }
+  ul { margin: 4px 0 4px 18px; padding: 0; }
+  li { margin: 3px 0; }
+  .sign { margin-top: 14px; }
+  .sign td { height: 44px; }
+  .small { font-size: 8.8pt; color: #555; }
+  .pagenum { display: none; }
+  code { background: #f2f4f6; padding: 0 3px; border-radius: 3px; font-size: 9pt; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="kicker">DNG GROUP ｜ 內容審批文件（AC 內容邊）</div>
+  <h1>AC × DNH 雙向 Cross-link — 審批包</h1>
+  <div class="sub">AP-20260926-01 ｜ P2 ｜ 產出：CTO（site ops）｜ 2026-09-26 17:4x HKT ｜ 語言：繁中為主</div>
+</div>
+
+<div class="meta">
+  <b>批核狀態（本包存檔版）</b>：Hin 2026-09-26 16:18 喺 thread 覆「APPROVE ✅」（含「邊個寫我冇所謂，最緊要有人做嘢」）＝AC 內容邊已批。Natalie 失聯（Wilson：用 #natalie 當 paper trail，呢包即係 paper trail）。Wilson 16:18 拍「批」＝8671 回鏈 site-ops 邊 GO。<br>
+  <b>審批對象</b>：本包記錄「AC 內容邊」＝ ① AC 舊文 5 篇各加 1 條 outbound link（定稿 anchor）② bridge 新文（約 800 字）嘅 topic ＋ 3 個 anchor。DNH 8671 回鏈 3 條屬 site ops 邊，由 Wilson 喺 thread 另行表態。<br>
+  <b>審批鏈</b>：Hin／Natalie（AC 內容批核權，現有機制）→ 決定字樣落 <b>#content-approval thread「AP-20260926-01」</b>（一句 APPROVE／REJECT／HOLD 即計）。<br>
+  <b>相關檔案</b>：Trello 卡 <code>IcbrhXfN/36</code>（連一頁紙＋anchor 定稿 comment）｜outline <code>~/projects/doctornow/articles/ac-crosslink-outline-20260926-v1.md</code>｜規範 Playbooks #6
+</div>
+
+<h2>1. 背景（一段）</h2>
+<p>DNH《照顧晚期家人指南》（post 8671）2026-09-23 已上 prod、GSC 已索引。Angel Care 站目前冇任何連結去呢篇文，「AC→DNH 流入」KPI 無基線。本單建立雙向 cross-link：AC→DNH 8 條（bridge 3＋舊文 5）、DNH 8671→AC 回鏈 3 條。Wilson 已喺 9-26 14:20–14:23 親口確認 bridge topic、舊文 5 篇加 outbound、anchor 方案（定稿落卡 #36 comment）；本包供 Hin／Natalie 作最終內容審批。</p>
+
+<h2>2. 批准嘅改動清單</h2>
+<h3>2a. AC 舊文 5 篇 — 各加 1 條 outbound（anchor 定稿，Wilson 已批）</h3>
+<table>
+  <tr><th style="width:30%">AC 舊文</th><th style="width:38%">定稿 anchor（超連結文字）</th><th>目標 URL</th></tr>
+  <tr><td>《照顧者指南》照顧事的7個階段</td><td>當照顧進入新階段，睇照顧晚期家人完整指南</td><td>doctornowhome.com/caregiver-guide-late-stage/</td></tr>
+  <tr><td>《照顧者指南》照顧者壓力—自我照顧指南</td><td>了解 DNH 專業團隊可以點樣分擔照顧工作</td><td>同上（同一頁）</td></tr>
+  <tr><td>《長者護理常識》生理變化及應對方法</td><td>病情轉變時的應對及症狀管理—照顧者指南</td><td>同上（同一頁）</td></tr>
+  <tr><td>《長者護理常識》心理變化及應對方法</td><td>晚期家人的情緒支援與照顧者溝通支援</td><td>同上（同一頁）</td></tr>
+  <tr><td>《長者護理常識》家居環境改造</td><td>了解 DNH 團隊點樣協助評估家居照顧</td><td>同上（同一頁）</td></tr>
+</table>
+<ul>
+  <li>插入位置：各文結尾相關段落（context 自然變體，5 條唔同款，避免 link farm 觀感）。</li>
+  <li>UTM 紀律：舊文 5 條<b>一律唔手動加 UTM</b> — 由 ac-outbound-utm plugin 自動補 <code>utm_source=angelcare&amp;utm_medium=content&amp;utm_campaign=blog</code>；手動加會遮罩 plugin。</li>
+  <li>純加入式改動：原文內容零改動，只 append 一段/一句連結。</li>
+</ul>
+
+<h3>2b. Bridge 新文（約 800 字，AC 語氣：warm／practical／non-alarmist）</h3>
+<table>
+  <tr><th style="width:34%">定稿 anchor（原樣不改）</th><th>目標 URL</th><th>UTM（顯式）</th></tr>
+  <tr><td>照顧晚期家人完整指南</td><td>doctornowhome.com/caregiver-guide-late-stage/</td><td rowspan="3">utm_source=angelcare；utm_medium=content；<b>utm_campaign=blog-bridge</b></td></tr>
+  <tr><td>紓緩治療專業團隊</td><td>doctornowhome.com/紓緩治療/</td></tr>
+  <tr><td>上門醫生服務（軟 CTA）</td><td>doctornowhome.com/西醫上門/</td></tr>
+</table>
+<p class="small">大綱見 caregiver-guide package §AC Cross-link 建議；撰寫經 AC 內容鏈（Hin／Natalie 對 final draft 有否醫療表述問題把關）先上 staging。</p>
+
+<h2>3. 目標 URL 全部經實測（2026-09-26）</h2>
+<table>
+  <tr><th>URL</th><th style="width:12%">狀態</th><th style="width:34%">備註</th></tr>
+  <tr><td>/caregiver-guide-late-stage/</td><td class="ok">200</td><td>post 8671，GSC indexed</td></tr>
+  <tr><td>/紓緩治療/</td><td class="ok">200</td><td>正體中文 slug</td></tr>
+  <tr><td>/西醫上門/</td><td class="ok">200</td><td>正體中文 slug</td></tr>
+  <tr><td>/在家離世臨終服務【安辭在家、善終服務】/</td><td class="ok">200</td><td>備用（本包未用）</td></tr>
+  <tr><td class="warn">/palliative-care/、/how-it-works/、/end-of-life-planning/</td><td class="warn">404</td><td>舊 English slug — 已全數淘汰唔再用</td></tr>
+</table>
+<p class="small">覆核：CBO curl batch 13:40–13:50＋CTO 獨立 14:02 實測；AC 舊文 5 篇 slug 經 ac_blog REST 逐篇核對。全部 13 條 inbound URL 200。</p>
+
+<h2>4. 執行與 rollback（批准後）</h2>
+<ul>
+  <li>Phase 1：AC bridge 文＋舊文 5 link → staging 渲染覆核 → prod → curl 覆核（見 plugin UTM 落地）。</li>
+  <li>Phase 2：8671 回鏈 3 條（site ops 邊，Wilson 16:18 thread「批」＋Hin 16:18 APPROVE 已落地）：<br>
+  §症狀管理 → angelcare.dnow.hk/blog/生理變化及應對方法/（200）<br>
+  §日常安排·環境調整 → angelcare.dnow.hk/blog/家居環境改造/（200）<br>
+  §情緒支援 → angelcare.dnow.hk/blog/照顧者壓力-自我照顧/（200）</li>
+  <li>Phase 3：上線 48 小時後 GA4 查 <code>session_source=angelcare</code> 建基線，回填 #17 KPI 表。</li>
+  <li><b>Rollback</b>：全部加式改動 — 移除新 link／下架 bridge 文即還原；每步改動前有 DB／檔案備份。</li>
+</ul>
+
+<h2>5. 請 Hin／Natalie 重點睇呢三樣</h2>
+<ul>
+  <li>① 舊文 5 條 anchor 喺各文結尾語境得唔得、會唔會令讀者觉得突兀；</li>
+  <li>② bridge 文 topic 同「非醫療承諾」界線（warm／non-alarmist，唔使 promise 服務效果）；</li>
+  <li>③ 出街语气係咪啱 Angel Care brand tone。</li>
+</ul>
+
+<h2>6. 批核欄</h2>
+<table class="sign">
+  <tr><th style="width:22%">審批人</th><th style="width:26%">決定（APPROVE／REJECT／HOLD）</th><th style="width:26%">日期／時間</th><th>備註（縮 scope 请注明邊條）</th></tr>
+  <tr><td>Hin</td><td></td><td></td><td></td></tr>
+  <tr><td>Natalie</td><td></td><td></td><td></td></tr>
+</table>
+<p class="small">決定字樣請落 #content-approval「AP-20260926-01」thread（原文一句即計，方便存檔核數）。P2：thread 開咗 7 日無字樣 → default DENY escalate。</p>
+
+</body>
+</html>

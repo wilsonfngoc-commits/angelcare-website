@@ -1164,6 +1164,304 @@
           }
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-28T08:13:10+08:00",
+      "runId": "b8836338-c9ed-4445-af75-e60d05692a92",
+      "runStatus": "completed",
+      "runError": "3 keyword(s) could not be checked",
+      "trackerId": "4964ef94-fbd1-4ca0-9864-a1e59ceef2c7",
+      "domain": "angelcare.dnow.hk",
+      "keywords": [
+        {
+          "keyword": "壓瘡預防",
+          "desktop": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "scholarly_articles",
+              "related_searches",
+              "images"
+            ]
+          },
+          "mobile": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "images",
+              "people_also_ask",
+              "scholarly_articles"
+            ]
+          }
+        },
+        {
+          "keyword": "外傭照顧老人技巧",
+          "desktop": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "video",
+              "people_also_ask",
+              "related_searches"
+            ]
+          },
+          "mobile": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_search",
+              "people_also_ask"
+            ]
+          }
+        },
+        {
+          "keyword": "家居安全",
+          "desktop": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "video",
+              "people_also_ask",
+              "related_searches"
+            ]
+          },
+          "mobile": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "images",
+              "people_also_ask"
+            ]
+          }
+        },
+        {
+          "keyword": "居家安老",
+          "desktop": {
+            "position": 24,
+            "url": "https://angelcare.dnow.hk/%E5%B1%85%E5%AE%B6%E5%AE%89%E8%80%81/",
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "related_searches"
+            ]
+          },
+          "mobile": {
+            "position": 22,
+            "url": "https://angelcare.dnow.hk/%E5%B1%85%E5%AE%B6%E5%AE%89%E8%80%81/",
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_search",
+              "people_also_ask",
+              "video"
+            ]
+          }
+        },
+        {
+          "keyword": "廢用症候群係咩",
+          "desktop": {
+            "position": 2,
+            "url": "https://angelcare.dnow.hk/%E5%BB%A2%E7%94%A8%E7%97%87%E5%80%99%E7%BE%A4/",
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "related_searches"
+            ]
+          },
+          "mobile": {
+            "position": 2,
+            "url": "https://angelcare.dnow.hk/%E5%BB%A2%E7%94%A8%E7%97%87%E5%80%99%E7%BE%A4/",
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_search",
+              "people_also_ask"
+            ]
+          }
+        },
+        {
+          "keyword": "照顧者支援",
+          "desktop": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "scholarly_articles"
+            ]
+          },
+          "mobile": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_search",
+              "people_also_ask",
+              "scholarly_articles"
+            ]
+          }
+        },
+        {
+          "keyword": "照顧長者",
+          "desktop": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "related_searches"
+            ]
+          },
+          "mobile": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_search",
+              "local_pack",
+              "people_also_ask",
+              "video"
+            ]
+          }
+        },
+        {
+          "keyword": "維生指數自訂",
+          "desktop": {
+            "position": 1,
+            "url": "https://angelcare.dnow.hk/blog/%E7%85%A7%E9%A1%A7%E9%A0%90%E9%98%B2/",
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "images"
+            ]
+          },
+          "mobile": {
+            "position": 3,
+            "url": "https://angelcare.dnow.hk/pricing-plan/",
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_search"
+            ]
+          }
+        },
+        {
+          "keyword": "血氧幾多先正常",
+          "desktop": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "images"
+            ]
+          },
+          "mobile": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "people_also_search"
+            ]
+          }
+        },
+        {
+          "keyword": "護士上門評估",
+          "desktop": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "related_searches"
+            ]
+          },
+          "mobile": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "people_also_search",
+              "people_also_ask"
+            ]
+          }
+        },
+        {
+          "keyword": "長者監測 app",
+          "desktop": {
+            "position": 4,
+            "url": "https://angelcare.dnow.hk/",
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "video",
+              "people_also_ask",
+              "related_searches"
+            ]
+          },
+          "mobile": {
+            "position": 2,
+            "url": "https://angelcare.dnow.hk/",
+            "serpFeatures": [
+              "ai_overview",
+              "organic",
+              "app",
+              "people_also_search",
+              "video",
+              "people_also_ask"
+            ]
+          }
+        },
+        {
+          "keyword": "點樣幫長者翻身",
+          "desktop": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "video",
+              "organic",
+              "people_also_ask",
+              "related_searches"
+            ]
+          },
+          "mobile": {
+            "position": null,
+            "url": null,
+            "serpFeatures": [
+              "ai_overview",
+              "video",
+              "short_videos",
+              "people_also_search",
+              "organic",
+              "people_also_ask"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

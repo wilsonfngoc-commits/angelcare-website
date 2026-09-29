@@ -1,30 +1,30 @@
 {
-  "_checked": "2026-09-25T19:10:46.329Z",
+  "_checked": "2026-09-28T19:10:45.399Z",
   "count": 4,
   "alerts": [
     {
       "level": "warning",
       "brand": "angel-care",
       "category": "wasted_spend",
-      "message": "帖子：「【人在海外，最怕深夜響起的香港來電…】」 spent $3194.88 with 0 conversions (last_30_days)"
+      "message": "帖子：「【人在海外，最怕深夜響起的香港來電…】」 spent $3545.46 with 0 conversions (last_30_days)"
     },
     {
       "level": "warning",
       "brand": "angel-care",
       "category": "wasted_spend",
-      "message": "帖子：「 🤯【諗下：你有多久，無安安靜靜、食一碗熱辣辣嘅雲吞麵？】」 spent $3050.86 with 0 conversions (last_30_days)"
+      "message": "帖子：「 🤯【諗下：你有多久，無安安靜靜、食一碗熱辣辣嘅雲吞麵？】」 spent $3003.75 with 0 conversions (last_30_days)"
     },
     {
       "level": "warning",
       "brand": "angel-care",
       "category": "wasted_spend",
-      "message": "DNH-M1 MM片 在家離世 WA Lead (LAL) spent $2017.21 with 0 conversions (last_30_days)"
+      "message": "DNH-M1 MM片 在家離世 WA Lead (LAL) spent $2319.35 with 0 conversions (last_30_days)"
     },
     {
       "level": "warning",
       "brand": "angel-care",
       "category": "wasted_spend",
-      "message": "DNH-M2 紓緩治療 WA Lead (LAL) spent $816.16 with 0 conversions (last_30_days)"
+      "message": "DNH-M2 紓緩治療 WA Lead (LAL) spent $937.41 with 0 conversions (last_30_days)"
     }
   ]
 }

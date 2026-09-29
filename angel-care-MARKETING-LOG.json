@@ -1,0 +1,140 @@
+{
+  "_description": "Marketing action log — append-only, one entry per action. Channels: google-ads | meta | website-tracking | website-content | seo | content. ETL: loaded into brandops.marketing_actions by etl-load-json-to-db.sh. linked_results filled later from performance data.",
+  "brand": "angel-care",
+  "actions": [
+    {
+      "id": "AC-2026-08-11-01",
+      "date": "2026-08-11",
+      "channel": "meta",
+      "action": "conversion-tracking-fix",
+      "description": "Meta Pixel 1003655972074979 installed on prod angelcare.dnow.hk (site change executed by CTO via ac-meta-pixel.php mu-plugin; staging-first, Wilson approved 2026-08-11). PageView all pages, Lead on WhatsApp/tel clicks, CompleteRegistration on wizard email submit. Fixes '0 conversions' root cause (a): no pixel installed. Fix 2 (define conversion events in Events Manager) pending — blocked on token ads_management scope, path A (UI) or B (token regen) awaiting Wilson.",
+      "status": "done",
+      "linked_results": "pending",
+      "brand": "angel-care",
+      "action_type": "meta_pixel_staged",
+      "entity": "mu-plugin ac-meta-pixel.php v1.0 (staging 8092) — Meta pixel 1003655972074979 install",
+      "before": "No Meta pixel on angelcare.dnow.hk; 0 conversions in Meta (pixel never installed)",
+      "after": "ac-meta-pixel.php staged: PageView all pages, Lead on wa.me/tel clicks, CompleteRegistration on wizard submit (staging only, prod HELD per WORDPRESS.md §13)",
+      "reason": "CBO Meta audit act_367479981: 0 conversions because no pixel on site. Fields completed during 2026-08-18 ETL repair (original entry had only date+channel).",
+      "logged_by": "cbo"
+    },
+    {
+      "date": "2026-08-18",
+      "brand": "angel-care",
+      "channel": "website-tracking",
+      "action_type": "gclid_beacon_client_deployed",
+      "entity": "mu-plugin wp-content/mu-plugins/ac-gclid-beacon.php v1.0 (prod angelcare.dnow.hk, wp_footer) — gclid beacon client",
+      "before": "no gclid beacon client on angelcare.dnow.hk (sitewide WA links carried preset text only)",
+      "after": "ac-gclid-beacon.php active: reads ?gclid=, POSTs → beacon.hkdrnow.com at DOMContentLoaded (2s AbortController, 1 retry, localStorage cache), prepends [😇MM-NNN] to text param of all WA links, brand auto-detected by hostname (angelcare.dnow.hk → angel-care), fail-open. Verified live on home/EN/blog/pricing/功能介紹; caches flushed + CF purged.",
+      "reason": "Offline-conversion loop (blog-utm-whatsapp-strategy.md §5.1a item 4): extend gclid attribution to Angel Care landing pages. Wilson GO 2026-08-18 (CBO relay). Follows ac-meta-pixel.php mu-plugin pattern.",
+      "linked_results": "pending"
+    },
+    {
+      "id": "AC-2026-08-19-01",
+      "date": "2026-08-19",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "blog_card_images_staged",
+      "entity": "4 ac_blog posts (1296, 1303, 1305, 1307) on staging (ac-staging.hkdrnow.com)",
+      "before": "Cards showed solid-orange placeholder images",
+      "after": "Video screencap frames set as featured images (_thumbnail_id) for all 4 blog cards on /blog/ listing",
+      "reason": "Wilson requested video-frame art instead of orange placeholder images for blog cards",
+      "linked_results": "pending",
+      "logged_by": "librarian"
+    },
+    {
+      "id": "AC-2026-08-19-02",
+      "date": "2026-08-19",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "pricing_ai_protection_staged",
+      "entity": "/pricing-plan/ and /en/pricing-plan/ on staging",
+      "before": "FAQ answer dodged figures; HK9 維生指數 not marked as coming soon; no date line",
+      "after": "Date line added (價格最後更新：2026年8月), FAQ answer now explicit with figures, HK9 marked 即將推出/coming soon",
+      "reason": "AEO audit found AI-ambiguous pricing. Wilson approved AI-hallucination protection.",
+      "linked_results": "pending",
+      "logged_by": "librarian"
+    },
+    {
+      "id": "AC-2026-08-19-03",
+      "date": "2026-08-19",
+      "brand": "angel-care",
+      "channel": "seo",
+      "action_type": "sitemap_fixed",
+      "entity": "ac_blog custom post type XML sitemap (prod + staging)",
+      "before": "ac_blog posts not in sitemap_index.xml — Rank Math sitemap option never set for CPT",
+      "after": "pt_ac_blog_sitemap: on set in Rank Math options, sitemap cache cleared. All 5 blog posts now in sitemap.",
+      "reason": "Blog posts were invisible to search engines via sitemap",
+      "linked_results": "pending",
+      "logged_by": "librarian"
+    },
+    {
+      "id": "AC-2026-08-19-04",
+      "date": "2026-08-19",
+      "brand": "angel-care",
+      "channel": "website-content",
+      "action_type": "blog_posts_created_staging",
+      "entity": "4 ac_blog posts on staging (ac-staging.hkdrnow.com)",
+      "before": "Only 1 blog post (恰到好處的照顧之道) existed on staging",
+      "after": "4 new posts published: 家居環境改造, 照顧預防, 生理變化及應對方法, 心理變化及應對方法. EN versions via TRP dict. All with H2 sections, highlight boxes, boxed FAQs, video embeds, per-post CTAs (DNH 護士上門評估 + UTM), Rank Math meta.",
+      "reason": "Wilson provided 4 blog folders with GDrive content. Blog section build-out.",
+      "linked_results": "pending — prod deploy pending Wilson GO + bilingual image decision",
+      "logged_by": "librarian"
+    },
+    {
+      "timestamp": "2026-08-23T23:05:30",
+      "action": "blog_publish",
+      "actor": "CBO",
+      "description": "Published 2 new ac_blog posts to prod (angelcare.dnow.hk): 照顧事的7個階段 (/blog/照顧事的7個階段/) + 照顧者壓力-自我照顧 (/blog/照顧者壓力-自我照顧/). Content from HKCSS Compassionate Community research. Styled: watercolor feature images (brand spec), H2 2.75em / H3 1.25em spacing hierarchy, teal #2E8B8D H3s, WhatsApp CTA, cross-links to post 840. Deployed via staging 8092 WXR export → prod import (post IDs 1318/1319 match staging).",
+      "channels": [
+        "organic_blog"
+      ],
+      "urls": [
+        "https://angelcare.dnow.hk/blog/照顧事的7個階段/",
+        "https://angelcare.dnow.hk/blog/照顧者壓力-自我照顧/"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "action_type": "sitemap_fixed",
+      "channel": "seo",
+      "details": "Rank Math sitemap fixed to include EN /en/ pages. Created trp-rankmath-sitemap.php mu-plugin. Deployed to prod + staging. All bilingual sitemaps verified.",
+      "logged_by": "librarian"
+    },
+    {
+      "date": "2026-08-24",
+      "action_type": "feature_images_replaced",
+      "channel": "website-content",
+      "details": "Brand-style feature images replaced on AngelCare staging. Pending Wilson approval for prod deploy.",
+      "logged_by": "librarian"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "openseo_rank_export",
+      "channel": "automated",
+      "details": "OpenSEO rank snapshot exported: 12 kw tracked, 3 ranking (0 at #1, 1 top-3), 11 with AI Overview. Run completed.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "meta_token_rotated",
+      "channel": "meta",
+      "details": "Meta long-lived token regenerated 08-25 (ads_management granted, verified via /me/permissions). Updated .env + openclaw.json META_ADS_ACCESS_TOKEN (MCP active after next gateway restart). AC-Lead + AC-CompleteRegistration custom conversions (pixel 1003655972074979) NOT created — API rejects event-rule format (v16-v21, 'Param rule must be a valid remarketing rule'); URL rules work but don't match pixel-fired Lead/CompleteRegistration events. Test conversion AC-Lead-TEST (wa.me URL rule, id 1681800072905438) left for UI delete (API delete blocked, code 10). Pixel (installed 08-11) standard events remain directly selectable in campaign setup.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "custom_conversion_deleted",
+      "channel": "meta",
+      "details": "AC-Lead-TEST custom conversion (id 1681800072905438, wa.me URL rule on AngelCare website pixel 1003655972074979) deleted by Wilson via Events Manager UI. Was inactive, never fired. AngelCare lead tracking remains via pixel standard events (Lead/CompleteRegistration), directly selectable in campaign setup — no custom conversions needed.",
+      "logged_by": "CBO"
+    },
+    {
+      "date": "2026-08-25",
+      "action_type": "blog_posts_deployed",
+      "channel": "content",
+      "details": "4 new 長者護理常識 blog posts deployed to prod angelcare.dnow.hk: 06 老人難溝通點算？/ 07 照顧者的身心準備 / 08 照顧者的自我防護 / 09 照顧計劃. Content from Wilson's GDrive (public folder links, downloaded via embeddedfolderview), CTO built staging-first (template-parity, Rank Math meta+keywords, per-post UTM CTAs → 護士上門 service page: blog-communication / blog-caregiver-prep / blog-back-care / blog-care-plan), Wilson GO 23:54 → prod deploy verified 4/4 (HTTP 200, 28/28 media, 0 staging refs, browser-checked). Videos self-hosted H.264 (1.5-2.7MB) wrapped in VIDEO-SWAP blocks — to be replaced with YouTube embeds when colleagues upload (Wilson: colleagues handle YouTube). Category cleanup mirrored on prod (junk tabs deleted, 生理變化→日常照顧). Blog 06 was initially parked then added on Wilson request.",
+      "logged_by": "CBO"
+    }
+  ]
+}
